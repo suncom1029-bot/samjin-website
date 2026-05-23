@@ -5,15 +5,13 @@ WORKDIR /var/www/html
 ENV APACHE_DOCUMENT_ROOT=/var/www/html
 ENV PORT=80
 
-# Copy source files
+# Copy source files first
 COPY . /var/www/html/
 
-# Copy entrypoint script
+# Copy entrypoint script and make it executable
 COPY docker-entrypoint.sh /usr/local/bin/
-RUN chmod +x /usr/local/bin/docker-entrypoint.sh
-
-# Set proper permissions
-RUN chown -R www-data:www-data /var/www/html
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh && \
+    chown -R www-data:www-data /var/www/html
 
 EXPOSE 80
 
