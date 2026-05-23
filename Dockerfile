@@ -1,18 +1,16 @@
-FROM php:8.2-apache
+FROM php:8.2-cli
 
 WORKDIR /var/www/html
 
-ENV APACHE_DOCUMENT_ROOT=/var/www/html
 ENV PORT=80
 
-# Copy source files first
+# Copy source files
 COPY . /var/www/html/
 
-# Copy entrypoint script and make it executable
-COPY docker-entrypoint.sh /usr/local/bin/
-RUN chmod +x /usr/local/bin/docker-entrypoint.sh && \
-    chown -R www-data:www-data /var/www/html
+# Create a simple startup script
+RUN echo '#!/bin/sh\nport=${PORT:-80}\necho "Starting PHP server on port $port"\nphp -S 0.0.0.0:$port' > /usr/local/bin/start-server.sh && \
+    chmod +x /usr/local/bin/start-server.sh
 
 EXPOSE 80
 
-ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
+CMD ["/usr/local/bin/start-server.sh"]
