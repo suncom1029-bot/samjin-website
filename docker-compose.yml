@@ -10,6 +10,7 @@ services:
       - ./:/var/www/html
     environment:
       - APACHE_DOCUMENT_ROOT=/var/www/html
+      - PORT=80
     command: >
       sh -c "a2enmod rewrite &&
              apache2ctl -D FOREGROUND"
