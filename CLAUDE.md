@@ -13,7 +13,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Quick Start
 
 ```bash
-# Docker 시작 (포트 8080)
+# Docker 시작 (포트 8080 → 컨테이너 내부 80)
 cd /Users/suncom/Project/samjin-new
 docker compose up -d
 
@@ -26,6 +26,15 @@ docker compose down
 # 로그 확인
 docker logs samjin_dev
 ```
+
+## Deployment
+
+**Repository**: https://github.com/suncom1029-bot/samjin-website  
+**Live Site**: Railway.app (auto-deploys on `git push` to main)
+
+- Changes to main branch → GitHub webhook triggers Railway redeploy (2-3 min)
+- **Critical**: Dockerfile contains `EXPOSE 80` and `ENV PORT=80` — do not remove. Railway uses these to detect the service port.
+- Local: run on `localhost:8080` (docker-compose port mapping). Production: Railway generates public domain.
 
 ## Project Structure
 
@@ -55,6 +64,11 @@ samjin-new/
 
 ## Architecture
 
+### Docker & Port Mapping
+- **docker-compose.yml**: `8080:80` (host:container) — local dev on port 8080
+- **Dockerfile**: `EXPOSE 80` + `ENV PORT=80` — tells Railway which port to expose (do not change)
+- **Why**: Railway auto-detects service port from Dockerfile; without explicit PORT env var, it can't generate public domain
+
 ### PHP 템플릿 구조
 - `index.php` — 메인 페이지 (include 사용)
 - `includes/` — 모듈식 컴포넌트 (header, footer, data)
@@ -78,6 +92,16 @@ samjin-new/
 --secondary-blue: #0891df (포인트)
 --dark-bg: #0f172a (진한 배경)
 ```
+
+## Workflow: Development → Production
+
+1. **Local Testing**
+   - Run `docker compose up -d`, edit files, refresh `localhost:8080`
+   - Check all sections render correctly across responsive breakpoints
+2. **Push to GitHub**
+   - `git add`, `git commit`, `git push origin main`
+   - Railway auto-detects and redeploys (2-3 min)
+   - Verify at Railway-generated public domain
 
 ## Common Tasks
 
