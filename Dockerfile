@@ -5,14 +5,16 @@ WORKDIR /var/www/html
 ENV APACHE_DOCUMENT_ROOT=/var/www/html
 ENV PORT=80
 
-RUN a2enmod rewrite && \
-    a2enmod headers && \
-    a2enmod deflate
-
+# Copy source files
 COPY . /var/www/html/
 
+# Copy entrypoint script
+COPY docker-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+
+# Set proper permissions
 RUN chown -R www-data:www-data /var/www/html
 
 EXPOSE 80
 
-CMD ["apache2-foreground"]
+ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
