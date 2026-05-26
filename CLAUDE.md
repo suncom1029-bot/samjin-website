@@ -13,8 +13,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Quick Start
 
 ```bash
+# 초기 설정: Git hooks 설치 (1회만)
+bash scripts/install-hooks.sh
+
 # Docker 시작 (포트 8080 → 컨테이너 내부 80)
-cd /Users/suncom/Project/samjin-new
 docker compose up -d
 
 # 브라우저 열기
@@ -25,6 +27,23 @@ docker compose down
 
 # 로그 확인
 docker logs samjin_dev
+```
+
+## Git Hooks (CLAUDE.md 자동 관리)
+
+**Pre-commit Hook**: PHP, JS, CSS 파일이 변경될 때 CLAUDE.md 업데이트를 상기합니다.
+
+```bash
+# 초기 설정 (클론 후 1회만 실행)
+bash scripts/install-hooks.sh
+
+# 이제부터 중요 파일 변경 시 자동으로 확인
+git commit -m "feat: Add new feature"  # ← hook이 CLAUDE.md 검증
+```
+
+**강제 진행** (hook 무시):
+```bash
+git commit --no-verify
 ```
 
 ## Deployment
