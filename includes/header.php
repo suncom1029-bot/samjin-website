@@ -4,8 +4,8 @@
   <div class="flex items-center justify-between px-6 lg:px-12 h-20 max-w-7xl mx-auto">
     <!-- Logo -->
     <div class="flex-shrink-0 -mt-2">
-      <a href="#" class="block">
-        <img src="assets/img/h1.jpg" alt="SAMJIN L&D" class="h-[83px] w-auto">
+      <a href="/" class="block">
+        <img src="/assets/img/h1.jpg" alt="SAMJIN L&D" class="h-[83px] w-auto">
       </a>
     </div>
 
@@ -13,11 +13,11 @@
     <nav class="hidden md:flex items-center gap-8">
       <div class="group relative">
         <button class="text-slate-900 font-semibold text-lg hover:text-emerald-500 transition pb-1">
-          회사소개
+          SAMJIN
           <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-emerald-500 group-hover:w-full transition-all duration-300"></span>
         </button>
         <div class="absolute left-0 mt-0 w-40 bg-white rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pt-2">
-          <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">CEO 인사말</a>
+          <a href="/company/greeting.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">CEO 인사말</a>
           <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">회사개요</a>
           <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">회사연혁</a>
           <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">조직도</a>
@@ -98,7 +98,7 @@
 
   <!-- Mobile Navigation -->
   <nav id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-200">
-    <a href="#" class="block px-6 py-3 text-lg text-slate-700 hover:bg-slate-50">회사소개</a>
+    <a href="#" class="block px-6 py-3 text-lg text-slate-700 hover:bg-slate-50">SAMJIN</a>
     <a href="#" class="block px-6 py-3 text-lg text-slate-700 hover:bg-slate-50">경영관리</a>
     <a href="#" class="block px-6 py-3 text-lg text-slate-700 hover:bg-slate-50">제품소개</a>
     <a href="#" class="block px-6 py-3 text-lg text-slate-700 hover:bg-slate-50">투자정보</a>

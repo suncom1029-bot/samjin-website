@@ -5,7 +5,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
       <!-- Company Info -->
       <div>
-        <img src="assets/img/footer_logo.png" alt="SAMJIN L&D" class="h-10 md:h-12 w-auto mb-6">
+        <img src="/assets/img/footer_logo.png" alt="SAMJIN L&D" class="h-10 md:h-12 w-auto mb-6">
         <div class="space-y-2 text-sm text-gray-300">
           <p class="font-semibold">경기도 화성시 동탄기흥로 64-17</p>
           <p>(주)삼진엘앤디</p>
@@ -26,7 +26,7 @@
           <div>
             <p class="font-semibold text-emerald-400 mb-2">회사</p>
             <ul class="space-y-1 text-gray-300">
-              <li><a href="#" class="hover:text-emerald-400 transition">CEO 인사말</a></li>
+              <li><a href="/company/greeting.php" class="hover:text-emerald-400 transition">CEO 인사말</a></li>
               <li><a href="#" class="hover:text-emerald-400 transition">회사개요</a></li>
               <li><a href="#" class="hover:text-emerald-400 transition">회사연혁</a></li>
               <li><a href="#" class="hover:text-emerald-400 transition">조직도</a></li>
