@@ -42,6 +42,8 @@ docker logs samjin_dev
 samjin-new/
 ├── docker-compose.yml         # PHP 8.2-Apache 컨테이너
 ├── index.php                  # 메인 랜딩페이지 (9개 섹션)
+├── company/
+│   └── greeting.php           # CEO 인사말 페이지 (서브페이지)
 ├── includes/
 │   ├── header.php            # Sticky 헤더 + GNB (text-lg)
 │   ├── footer.php            # 푸터 + 사이트맵
@@ -57,10 +59,12 @@ samjin-new/
 | 파일 | 역할 |
 |------|------|
 | `index.php` | 랜딩페이지 전체 (Hero, Stats, About, Products, News, CTA, Footer) |
-| `includes/header.php` | GNB 네비게이션, 로고(h1.jpg) |
+| `company/greeting.php` | CEO 인사말 페이지 (배너, 메시지, 비전 카드) |
+| `includes/header.php` | Sticky 네비게이션, 로고, 드롭다운 메뉴 (GNB) |
+| `includes/footer.php` | 푸터 콘텐츠, 빠른 링크, 회사 정보 |
 | `includes/mock-data.php` | 뉴스, 제품, 통계, CTA 배너 목업 데이터 |
-| `assets/css/custom.css` | 색상 시스템, 컴포넌트 스타일 (stat-card, product-card, etc) |
-| `assets/js/main.js` | 슬라이더 초기화, 카운터 애니메이션, 스크롤 이벤트 |
+| `assets/css/custom.css` | 색상 시스템, 컴포넌트 스타일 (stat-card, product-card, feature-card, etc) |
+| `assets/js/main.js` | 슬라이더 초기화, 카운터 애니메이션, 스크롤 이벤트, 모바일 메뉴 |
 
 ## Architecture
 
@@ -93,6 +97,26 @@ samjin-new/
 --dark-bg: #0f172a (진한 배경)
 ```
 
+## Sub-page Development (중요)
+
+서브페이지(`company/greeting.php` 등)를 추가할 때는 **asset 경로를 반드시 절대경로로 사용**하세요:
+
+```html
+<!-- ❌ 잘못된 경로 (relative) — 서브페이지에서 깨짐 -->
+<script src="assets/js/main.js"></script>
+<link rel="stylesheet" href="assets/css/custom.css">
+
+<!-- ✅ 올바른 경로 (absolute) -->
+<script src="/assets/js/main.js"></script>
+<link rel="stylesheet" href="/assets/css/custom.css">
+<img src="/assets/img/h1.jpg">
+```
+
+**Why**: 상대경로는 현재 파일의 디렉토리를 기준으로 해석됩니다. `company/greeting.php`에서 `assets/js/main.js`로 요청하면 `company/assets/js/main.js`를 찾아 404가 발생합니다.
+
+- `index.php` (루트) — 상대경로 가능
+- `company/greeting.php` (서브폴더) — 반드시 절대경로 사용
+
 ## Workflow: Development → Production
 
 1. **Local Testing**
@@ -105,10 +129,18 @@ samjin-new/
 
 ## Common Tasks
 
-### 섹션 추가
+### 메인 페이지 섹션 추가
 1. `index.php`에 새 섹션 HTML 추가
 2. `mock-data.php`에 데이터 배열 정의
 3. `custom.css`에 필요한 스타일 추가
+
+### 서브페이지 추가
+1. `company/` 또는 새 디렉토리에 `.php` 파일 생성
+2. `<?php include '../includes/header.php'; ?>` — 헤더 포함
+3. 콘텐츠 작성
+4. `<?php include '../includes/footer.php'; ?>` — 푸터 포함
+5. **중요**: 모든 asset 경로는 절대경로 사용 (`/assets/...`)
+6. `header.php`와 `footer.php`의 GNB/사이트맵에 링크 추가
 
 ### 이미지 변경
 - **About Us**: `index.php` line ~95 이미지 URL 변경
@@ -118,11 +150,14 @@ samjin-new/
 ### 네비게이션 수정
 - `includes/header.php` — GNB 메뉴 항목 (현재 text-lg)
 - 드롭다운 서브메뉴 (현재 text-base)
+- 새 서브페이지 추가 시 `header.php`, `footer.php` 두 곳 모두 링크 추가
 
 ## Notes
 
 - **Docker**: PHP 8.2-Apache, rewrite 모듈 활성화
+- **Sub-pages**: `company/` 등의 서브페이지는 includes를 상대경로로 참조 (`../includes/header.php`), 다른 assets는 절대경로로 참조 (`/assets/...`)
 - **No Backend**: 백엔드는 나중에 개발 예정 (현재 목업만 사용)
 - **Mock Data**: `includes/mock-data.php`에서 PHP 배열로 관리
 - **Responsive**: Tailwind 기본 브레이크포인트 사용 (sm/md/lg/xl)
 - **Images**: 로컬 이미지 + Unsplash CDN 혼합 사용
+- **Tailwind CDN**: 빌드 과정 없음 (CDN 직접 로드). 커스텀 클래스는 `custom.css`에서 정의
