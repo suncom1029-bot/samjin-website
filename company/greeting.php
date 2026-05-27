@@ -48,7 +48,7 @@
 
         <p class="text-lg leading-relaxed font-light">
           우리는 신소재에 관심을 가지고, 인공지능을 배우며,
-          전 세계 4개 나라에서 더 나은 기술을 찾고 있습니다.
+          전 세계 여러나라에서 더 나은 기술을 찾고 있습니다.
         </p>
 
         <p class="text-lg leading-relaxed font-light">
