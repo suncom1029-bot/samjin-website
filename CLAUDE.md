@@ -62,7 +62,14 @@ samjin-new/
 ├── docker-compose.yml         # PHP 8.2-Apache 컨테이너
 ├── index.php                  # 메인 랜딩페이지 (9개 섹션)
 ├── company/
-│   └── greeting.php           # CEO 인사말 페이지 (서브페이지)
+│   ├── greeting.php           # CEO 인사말 페이지 (4섹션)
+│   ├── overview.php           # 회사개요 페이지 (7섹션)
+│   ├── history.php            # 회사연혁 페이지 (4시대 타임라인)
+│   └── facilities.php         # 사업장 페이지 (4개국 거점)
+├── management/                # 경영관리 페이지들 (미개발)
+├── products/                  # 제품소개 페이지들 (미개발)
+├── support/                   # 고객지원 페이지들 (미개발)
+├── recruit/                   # 채용정보 페이지들 (미개발)
 ├── includes/
 │   ├── header.php            # Sticky 헤더 + GNB (text-lg)
 │   ├── footer.php            # 푸터 + 사이트맵

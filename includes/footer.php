@@ -28,8 +28,9 @@
             <ul class="space-y-1 text-gray-300">
               <li><a href="/company/greeting.php" class="hover:text-emerald-400 transition">CEO 인사말</a></li>
               <li><a href="/company/overview.php" class="hover:text-emerald-400 transition">회사개요</a></li>
-              <li><a href="#" class="hover:text-emerald-400 transition">회사연혁</a></li>
+              <li><a href="/company/history.php" class="hover:text-emerald-400 transition">회사연혁</a></li>
               <li><a href="#" class="hover:text-emerald-400 transition">조직도</a></li>
+              <li><a href="/company/facilities.php" class="hover:text-emerald-400 transition">사업장</a></li>
             </ul>
           </div>
           <div>
