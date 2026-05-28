@@ -18,7 +18,7 @@
         </button>
         <div class="absolute left-0 mt-0 w-40 bg-white rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pt-2">
           <a href="/company/greeting.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">CEO 인사말</a>
-          <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">회사개요</a>
+          <a href="/company/overview.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">회사개요</a>
           <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">회사연혁</a>
           <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">조직도</a>
           <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">사업장</a>
