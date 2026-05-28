@@ -89,15 +89,15 @@ function initializeCounters() {
           const numValue = parseInt(finalValue.replace(/,/g, ''));
           const currentValue = Math.floor(numValue * progress);
 
-          // Format with thousand separators
-          const formattedValue = currentValue.toLocaleString('ko-KR');
+          // 설립연도(1987)는 천단위 표기 없음, 나머지는 천단위 표기
+          const formattedValue = numValue === 1987 ? currentValue.toString() : currentValue.toLocaleString('ko-KR');
           target.textContent = formattedValue + (finalValue.includes('+') ? '+' : '');
 
           if (progress < 1) {
             requestAnimationFrame(updateCounter);
           } else {
             const finalNumValue = parseInt(finalValue.replace(/,/g, ''));
-            const formattedFinalValue = finalNumValue.toLocaleString('ko-KR');
+            const formattedFinalValue = finalNumValue === 1987 ? finalNumValue.toString() : finalNumValue.toLocaleString('ko-KR');
             target.textContent = formattedFinalValue + (finalValue.includes('+') ? '+' : '');
             target.dataset.counted = 'true';
           }
