@@ -238,9 +238,9 @@
             const finalValue = value.dataset.count;
             const numValue = parseInt(finalValue);
 
-            // 1987(설립연도)은 카운팅하지 않고 바로 표시
+            // 1987(설립연도)은 카운팅하지 않고 바로 표시 (천단위 표기 없음)
             if (numValue === 1987) {
-              value.textContent = finalValue;
+              value.textContent = numValue.toString();
               value.dataset.animated = 'true';
               return;
             }
