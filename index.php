@@ -26,54 +26,34 @@
   <section class="hero-section relative">
     <div class="swiper hero-swiper h-full">
       <div class="swiper-wrapper">
-        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1513828583688-c52646db42da?w=1200&h=800&fit=crop');">
+        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1581091226825-c6a89e7e4d31?w=1200&h=800&fit=crop');">
           <div class="hero-content">
-            <h2 class="hero-title">GLOBAL MANUFACTURING<br>EXCELLENCE</h2>
-            <p class="hero-subtitle">세상을 바꾸는 새로운 기술, 삼진엘앤디</p>
-            <div class="flex flex-col sm:flex-row gap-4">
-              <a href="#about" class="btn-primary">회사소개</a>
-              <a href="#products" class="btn-secondary">제품 보기</a>
-            </div>
+            <h2 class="hero-title">세상을 바꾸는 기술,<br>삼진엘앤디</h2>
+            <p class="hero-subtitle">1987년부터 38년, 정밀금형에서 AI 배터리 부품까지</p>
           </div>
         </div>
-        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&h=800&fit=crop');">
+        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=800&fit=crop');">
           <div class="hero-content">
-            <h2 class="hero-title">정밀금형<br>기술의 리더</h2>
-            <p class="hero-subtitle">혁신과 품질의 1987년부터의 여정</p>
-            <div class="flex flex-col sm:flex-row gap-4">
-              <a href="#products" class="btn-primary">제품소개</a>
-              <a href="#about" class="btn-secondary">더 알아보기</a>
-            </div>
+            <h2 class="hero-title">ESS·UPS 배터리 부품<br>국내 선도 기업</h2>
+            <p class="hero-subtitle">삼성SDI 핵심 파트너, 북미 AI 데이터센터 전력 인프라 공급</p>
           </div>
         </div>
-        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=800&fit=crop');">
+        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1565043589221-1a3460e06afa?w=1200&h=800&fit=crop');">
           <div class="hero-content">
-            <h2 class="hero-title">15개 이상<br>글로벌 시장 진출</h2>
-            <p class="hero-subtitle">세계 무대에서의 도전과 성장</p>
-            <div class="flex flex-col sm:flex-row gap-4">
-              <a href="#contact" class="btn-primary">문의하기</a>
-              <a href="#services" class="btn-secondary">더 알아보기</a>
-            </div>
+            <h2 class="hero-title">4개국 글로벌 제조 거점<br>800명 임직원</h2>
+            <p class="hero-subtitle">한국·미국·멕시코·베트남, 세계 시장과 함께 성장</p>
           </div>
         </div>
-        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop');">
+        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1200&h=800&fit=crop');">
           <div class="hero-content">
-            <h2 class="hero-title">첨단 기술로<br>미래를 선도합니다</h2>
-            <p class="hero-subtitle">Display, 2차전지, 금형 등 다양한 솔루션</p>
-            <div class="flex flex-col sm:flex-row gap-4">
-              <a href="#products" class="btn-primary">전체 제품</a>
-              <a href="#about" class="btn-secondary">기업정보</a>
-            </div>
+            <h2 class="hero-title">도광판부터<br>AI 비전 검사까지</h2>
+            <p class="hero-subtitle">Roll Stamp 기술 특허, 정밀 광학 부품 글로벌 공급</p>
           </div>
         </div>
-        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=800&fit=crop');">
+        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1559056199-641a0ac8b3f7?w=1200&h=800&fit=crop');">
           <div class="hero-content">
-            <h2 class="hero-title">고객 만족<br>No.1 기업</h2>
-            <p class="hero-subtitle">믿을 수 있는 파트너, 삼진엘앤디</p>
-            <div class="flex flex-col sm:flex-row gap-4">
-              <a href="#contact" class="btn-primary">연락처</a>
-              <a href="#news" class="btn-secondary">뉴스센터</a>
-            </div>
+            <h2 class="hero-title">Pride in Quality<br>& Technology</h2>
+            <p class="hero-subtitle">현대자동차 SQ·IATF16949 인증, 뿌리기술 명가 대통령상</p>
           </div>
         </div>
       </div>
@@ -117,7 +97,7 @@
     <div class="max-w-7xl mx-auto px-6 lg:px-12">
       <div class="mb-16">
         <h2 class="text-4xl font-bold mb-4">HIGHLIGHTS</h2>
-        <p class="text-gray-500 text-lg">37년의 신뢰와 기술로 만들어진 성장의 기록</p>
+        <p class="text-gray-500 text-lg">38년 정밀 제조 기술로 써 내려간 삼진엘앤디의 성장</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <?php foreach ($stats as $stat): ?>
@@ -241,38 +221,54 @@
   <script src="assets/js/main.js"></script>
 
   <script>
-    // Initialize counters for stats
+    // Initialize synchronized counters for stats
     document.addEventListener('DOMContentLoaded', function() {
       const statCards = document.querySelectorAll('.stat-card');
+      const totalStats = statCards.length;
+      let visibleCount = 0;
+      let animationStarted = false;
+
+      function startAllCounters() {
+        const duration = 2000;
+        const startTime = Date.now();
+
+        statCards.forEach(card => {
+          const value = card.querySelector('[data-count]');
+          if (value && !value.dataset.animated) {
+            const finalValue = value.dataset.count;
+            const numValue = parseInt(finalValue);
+
+            const updateCounter = () => {
+              const elapsed = Date.now() - startTime;
+              const progress = Math.min(elapsed / duration, 1);
+              const currentValue = Math.floor(numValue * progress);
+              value.textContent = currentValue + (finalValue.includes('+') ? '+' : '');
+
+              if (progress < 1) {
+                requestAnimationFrame(updateCounter);
+              } else {
+                value.textContent = finalValue;
+                value.dataset.animated = 'true';
+              }
+            };
+
+            updateCounter();
+          }
+        });
+      }
 
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
-            const value = entry.target.querySelector('[data-count]');
-            if (value && !value.dataset.animated) {
-              const finalValue = value.dataset.count;
-              const numValue = parseInt(finalValue);
-              const duration = 2000;
-              const startTime = Date.now();
-
-              const updateCounter = () => {
-                const elapsed = Date.now() - startTime;
-                const progress = Math.min(elapsed / duration, 1);
-                const currentValue = Math.floor(numValue * progress);
-                value.textContent = currentValue + (finalValue.includes('+') ? '+' : '');
-
-                if (progress < 1) {
-                  requestAnimationFrame(updateCounter);
-                } else {
-                  value.textContent = finalValue;
-                  value.dataset.animated = 'true';
-                }
-              };
-
-              updateCounter();
-            }
+            visibleCount++;
           }
         });
+
+        if (visibleCount >= totalStats && !animationStarted) {
+          animationStarted = true;
+          startAllCounters();
+          observer.disconnect();
+        }
       }, { threshold: 0.5 });
 
       statCards.forEach(card => observer.observe(card));
