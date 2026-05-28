@@ -65,8 +65,8 @@ samjin-new/
 │   ├── greeting.php           # CEO 인사말 페이지 (4섹션)
 │   ├── overview.php           # 회사개요 페이지 (7섹션)
 │   ├── history.php            # 회사연혁 페이지 (4시대 타임라인)
-│   ├── organization.php       # 조직도 페이지 (CEO + 7개 부서 구조)
-│   └── facilities.php         # 사업장 페이지 (4개국 거점 + 사진 카드 갤러리)
+│   ├── organization.php       # 조직도 페이지 (organization-chart.png 원본 이미지)
+│   └── facilities.php         # 사업장 페이지 (facilities-network.png 원본 이미지)
 ├── management/
 │   ├── philosophy.php         # 경영이념 및 비전 페이지 (설립이념 3가지 + 2026 비전)
 │   ├── competency.php         # 핵심역량 및 기술 페이지 (5가지 기술 + 특허 + 인증)

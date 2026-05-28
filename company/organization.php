@@ -37,112 +37,16 @@
   </section>
 
   <!-- 조직도 -->
-  <section class="section-lg bg-white relative overflow-hidden">
-    <!-- 배경 dot pattern -->
-    <div class="absolute inset-0 opacity-5" style="background-image: radial-gradient(circle, #0891df 1px, transparent 1px); background-size: 20px 20px;"></div>
-
-    <div class="relative max-w-5xl mx-auto px-6 lg:px-12">
-      <div class="mb-16 text-center">
+  <section class="section-lg bg-white">
+    <div class="max-w-6xl mx-auto px-6 lg:px-12">
+      <div class="mb-12 text-center">
         <h2 class="text-4xl font-bold mb-4">조직 구조</h2>
-        <p class="text-gray-500 text-lg">7개 부서로 구성된 효율적인 조직</p>
+        <p class="text-gray-500 text-lg">투명하고 효율적인 조직으로 글로벌 시장을 선도합니다</p>
       </div>
 
-      <!-- CEO -->
-      <div class="flex flex-col items-center mb-12">
-        <div class="bg-gradient-to-b from-emerald-100 to-emerald-50 rounded-full w-24 h-24 flex items-center justify-center border-4 border-emerald-500 shadow-lg mb-4">
-          <p class="text-4xl">👤</p>
-        </div>
-        <h3 class="text-2xl font-bold text-slate-900">대표이사</h3>
-        <p class="text-emerald-600 font-semibold">CEO</p>
-      </div>
-
-      <!-- CEO에서 부서로 연결선 (Desktop) -->
-      <div class="hidden md:block relative mb-12 h-8">
-        <div class="absolute left-1/2 top-0 w-1 h-full bg-emerald-400 transform -translate-x-1/2"></div>
-        <div class="absolute left-0 right-0 top-full h-1 bg-emerald-400"></div>
-      </div>
-
-      <!-- CEO에서 부서로 연결선 (Mobile) -->
-      <div class="md:hidden mb-8 h-6 flex justify-center">
-        <div class="w-1 h-full bg-emerald-400"></div>
-      </div>
-
-      <!-- 7개 부서 -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <!-- 경영지원실 -->
-        <div class="flex flex-col items-center">
-          <!-- Desktop: 연결선 -->
-          <div class="hidden md:block absolute -top-8 w-1 h-8 bg-emerald-400" style="left: calc(12.5% + 80px)"></div>
-          <div class="bg-white rounded-lg border-2 border-emerald-400 p-6 text-center shadow-md hover:shadow-lg transition w-full">
-            <p class="text-3xl mb-3">🤝</p>
-            <h4 class="text-lg font-bold text-slate-900 mb-2">경영지원실</h4>
-            <p class="text-sm text-emerald-600 font-semibold mb-2">Management Support Team</p>
-            <p class="text-xs text-gray-600">인사·재무·총무</p>
-          </div>
-        </div>
-
-        <!-- 구매팀 -->
-        <div class="flex flex-col items-center">
-          <div class="hidden md:block absolute -top-8 w-1 h-8 bg-emerald-400" style="left: calc(37.5% + 80px)"></div>
-          <div class="bg-white rounded-lg border-2 border-blue-400 p-6 text-center shadow-md hover:shadow-lg transition w-full">
-            <p class="text-3xl mb-3">🛒</p>
-            <h4 class="text-lg font-bold text-slate-900 mb-2">구매팀</h4>
-            <p class="text-sm text-blue-600 font-semibold mb-2">Purchase Team</p>
-            <p class="text-xs text-gray-600">원자재·부품 구매</p>
-          </div>
-        </div>
-
-        <!-- 영업팀 -->
-        <div class="flex flex-col items-center">
-          <div class="hidden md:block absolute -top-8 w-1 h-8 bg-emerald-400" style="left: calc(62.5% + 80px)"></div>
-          <div class="bg-white rounded-lg border-2 border-purple-400 p-6 text-center shadow-md hover:shadow-lg transition w-full">
-            <p class="text-3xl mb-3">📈</p>
-            <h4 class="text-lg font-bold text-slate-900 mb-2">영업팀</h4>
-            <p class="text-sm text-purple-600 font-semibold mb-2">Sales Team</p>
-            <p class="text-xs text-gray-600">국내외 영업</p>
-          </div>
-        </div>
-
-        <!-- 개발팀 -->
-        <div class="flex flex-col items-center">
-          <div class="hidden md:block absolute -top-8 w-1 h-8 bg-emerald-400" style="left: calc(87.5% + 80px)"></div>
-          <div class="bg-white rounded-lg border-2 border-orange-400 p-6 text-center shadow-md hover:shadow-lg transition w-full">
-            <p class="text-3xl mb-3">⚙️</p>
-            <h4 class="text-lg font-bold text-slate-900 mb-2">개발팀</h4>
-            <p class="text-sm text-orange-600 font-semibold mb-2">Development Team</p>
-            <p class="text-xs text-gray-600">신제품·기술 개발</p>
-          </div>
-        </div>
-
-        <!-- 글로벌제조팀 -->
-        <div class="flex flex-col items-center md:col-start-1">
-          <div class="bg-white rounded-lg border-2 border-indigo-400 p-6 text-center shadow-md hover:shadow-lg transition w-full">
-            <p class="text-3xl mb-3">🌍</p>
-            <h4 class="text-lg font-bold text-slate-900 mb-2">글로벌제조팀</h4>
-            <p class="text-sm text-indigo-600 font-semibold mb-2">Global Manufacturing Team</p>
-            <p class="text-xs text-gray-600">해외 거점 생산</p>
-          </div>
-        </div>
-
-        <!-- 품질경영팀 -->
-        <div class="flex flex-col items-center">
-          <div class="bg-white rounded-lg border-2 border-rose-400 p-6 text-center shadow-md hover:shadow-lg transition w-full">
-            <p class="text-3xl mb-3">✅</p>
-            <h4 class="text-lg font-bold text-slate-900 mb-2">품질경영팀</h4>
-            <p class="text-sm text-rose-600 font-semibold mb-2">Quality Management Team</p>
-            <p class="text-xs text-gray-600">품질관리·인증</p>
-          </div>
-        </div>
-
-        <!-- 정보기기사업팀 -->
-        <div class="flex flex-col items-center">
-          <div class="bg-white rounded-lg border-2 border-cyan-400 p-6 text-center shadow-md hover:shadow-lg transition w-full">
-            <p class="text-3xl mb-3">💻</p>
-            <h4 class="text-lg font-bold text-slate-900 mb-2">정보기기사업팀</h4>
-            <p class="text-sm text-cyan-600 font-semibold mb-2">IT Business Team</p>
-            <p class="text-xs text-gray-600">IT·정보시스템</p>
-          </div>
-        </div>
+      <!-- 조직도 이미지 -->
+      <div class="rounded-lg overflow-hidden shadow-lg">
+        <img src="/assets/img/organization-chart.png" alt="삼진엘앤디 조직도" class="w-full h-auto">
       </div>
     </div>
   </section>
