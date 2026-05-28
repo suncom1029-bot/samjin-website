@@ -26,31 +26,31 @@
   <section class="hero-section relative">
     <div class="swiper hero-swiper h-full">
       <div class="swiper-wrapper">
-        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1581091226825-c6a89e7e4d31?w=1200&h=800&fit=crop');">
+        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=800&fit=crop');">
           <div class="hero-content">
             <h2 class="hero-title">세상을 바꾸는 기술,<br>삼진엘앤디</h2>
             <p class="hero-subtitle">1987년부터 38년, 정밀금형에서 AI 배터리 부품까지</p>
           </div>
         </div>
-        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=800&fit=crop');">
+        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1517331156700-3c241d2b4d83?w=1200&h=800&fit=crop');">
           <div class="hero-content">
             <h2 class="hero-title">ESS·UPS 배터리 부품<br>국내 선도 기업</h2>
             <p class="hero-subtitle">삼성SDI 핵심 파트너, 북미 AI 데이터센터 전력 인프라 공급</p>
           </div>
         </div>
-        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1565043589221-1a3460e06afa?w=1200&h=800&fit=crop');">
+        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=800&fit=crop');">
           <div class="hero-content">
             <h2 class="hero-title">4개국 글로벌 제조 거점<br>800명 임직원</h2>
             <p class="hero-subtitle">한국·미국·멕시코·베트남, 세계 시장과 함께 성장</p>
           </div>
         </div>
-        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1200&h=800&fit=crop');">
+        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1488191543519-e21cc028cb29?w=1200&h=800&fit=crop');">
           <div class="hero-content">
             <h2 class="hero-title">도광판부터<br>AI 비전 검사까지</h2>
             <p class="hero-subtitle">Roll Stamp 기술 특허, 정밀 광학 부품 글로벌 공급</p>
           </div>
         </div>
-        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1559056199-641a0ac8b3f7?w=1200&h=800&fit=crop');">
+        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=1200&h=800&fit=crop');">
           <div class="hero-content">
             <h2 class="hero-title">Pride in Quality<br>& Technology</h2>
             <p class="hero-subtitle">현대자동차 SQ·IATF16949 인증, 뿌리기술 명가 대통령상</p>
