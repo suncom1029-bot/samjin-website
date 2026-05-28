@@ -31,10 +31,10 @@
           <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-emerald-500 group-hover:w-full transition-all duration-300"></span>
         </button>
         <div class="absolute left-0 mt-0 w-48 bg-white rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pt-2">
-          <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">경영이념 및 비전</a>
-          <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">핵심역량 및 기술</a>
+          <a href="/management/philosophy.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">경영이념 및 비전</a>
+          <a href="/management/competency.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">핵심역량 및 기술</a>
           <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">품질/환경방침</a>
-          <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">수상 및 인증</a>
+          <a href="/management/awards.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">수상 및 인증</a>
         </div>
       </div>
 

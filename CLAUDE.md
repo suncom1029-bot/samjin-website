@@ -66,7 +66,10 @@ samjin-new/
 │   ├── overview.php           # 회사개요 페이지 (7섹션)
 │   ├── history.php            # 회사연혁 페이지 (4시대 타임라인)
 │   └── facilities.php         # 사업장 페이지 (4개국 거점)
-├── management/                # 경영관리 페이지들 (미개발)
+├── management/
+│   ├── philosophy.php         # 경영이념 및 비전 페이지 (설립이념 3가지 + 2026 비전)
+│   ├── competency.php         # 핵심역량 및 기술 페이지 (5가지 기술 + 특허 + 인증)
+│   └── awards.php             # 수상 및 인증 페이지 (수상타임라인 + 4가지 인증)
 ├── products/                  # 제품소개 페이지들 (미개발)
 ├── support/                   # 고객지원 페이지들 (미개발)
 ├── recruit/                   # 채용정보 페이지들 (미개발)
@@ -86,8 +89,14 @@ samjin-new/
 |------|------|
 | `index.php` | 랜딩페이지 전체 (Hero, Stats, About, Products, News, CTA, Footer) |
 | `company/greeting.php` | CEO 인사말 페이지 (배너, 메시지, 비전 카드) |
-| `includes/header.php` | Sticky 네비게이션, 로고, 드롭다운 메뉴 (GNB) |
-| `includes/footer.php` | 푸터 콘텐츠, 빠른 링크, 회사 정보 |
+| `company/overview.php` | 회사개요 페이지 (회사 규모, 사업영역, 가치제안, 기술 현황) |
+| `company/history.php` | 회사연혁 페이지 (4시대 타임라인: 창업기/성장기/도약기/전환기) |
+| `company/facilities.php` | 사업장 페이지 (한국 본사 + 3개국 해외거점, 글로벌 전략) |
+| `management/philosophy.php` | 경영이념 및 비전 페이지 (설립이념 3가지, 2026 비전) |
+| `management/competency.php` | 핵심역량 및 기술 페이지 (5가지 기술, 특허, 인증) |
+| `management/awards.php` | 수상 및 인증 페이지 (수상 타임라인, 4가지 국제 인증) |
+| `includes/header.php` | Sticky 네비게이션, 로고, 드롭다운 메뉴 (GNB) - 경영관리 링크 추가 |
+| `includes/footer.php` | 푸터 콘텐츠, 빠른 링크 (회사/경영관리/제품), 회사 정보 |
 | `includes/mock-data.php` | 뉴스, 제품, 통계, CTA 배너 목업 데이터 |
 | `assets/css/custom.css` | 색상 시스템, 컴포넌트 스타일 (stat-card, product-card, feature-card, etc) |
 | `assets/js/main.js` | 슬라이더 초기화, 카운터 애니메이션, 스크롤 이벤트, 모바일 메뉴 |

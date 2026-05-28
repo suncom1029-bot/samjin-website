@@ -34,13 +34,23 @@
             </ul>
           </div>
           <div>
-            <p class="font-semibold text-emerald-400 mb-2">제품</p>
-            <ul class="space-y-1 text-gray-300">
-              <li><a href="#" class="hover:text-emerald-400 transition">Display 부품</a></li>
-              <li><a href="#" class="hover:text-emerald-400 transition">2차전지</a></li>
-              <li><a href="#" class="hover:text-emerald-400 transition">OA 제품</a></li>
-              <li><a href="#" class="hover:text-emerald-400 transition">금형 & HR</a></li>
-            </ul>
+            <div>
+              <p class="font-semibold text-emerald-400 mb-2">경영관리</p>
+              <ul class="space-y-1 text-gray-300">
+                <li><a href="/management/philosophy.php" class="hover:text-emerald-400 transition">경영이념 및 비전</a></li>
+                <li><a href="/management/competency.php" class="hover:text-emerald-400 transition">핵심역량 및 기술</a></li>
+                <li><a href="/management/awards.php" class="hover:text-emerald-400 transition">수상 및 인증</a></li>
+              </ul>
+            </div>
+            <div class="mt-4">
+              <p class="font-semibold text-emerald-400 mb-2">제품</p>
+              <ul class="space-y-1 text-gray-300">
+                <li><a href="#" class="hover:text-emerald-400 transition">Display 부품</a></li>
+                <li><a href="#" class="hover:text-emerald-400 transition">2차전지</a></li>
+                <li><a href="#" class="hover:text-emerald-400 transition">OA 제품</a></li>
+                <li><a href="#" class="hover:text-emerald-400 transition">금형 & HR</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
