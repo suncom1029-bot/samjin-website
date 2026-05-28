@@ -141,22 +141,18 @@ samjin-new/
 
 ## Font System
 
-**Default Font**: Paperlogy (9 weights: 100~900)
+**Default Font**: Paperlogy (WOFF2 포맷 최적화)
 - 저장 위치: `assets/fonts/` (로컬 호스팅, CDN 불필요)
 - 선언: `assets/css/custom.css`의 @font-face 규칙
 - 폴백: Apple SD Gothic Neo (macOS) → Malgun Gothic (Windows) → sans-serif
+- **최적화 (2026-05-28)**: TTF → WOFF2 변환, 67% 크기 감소 (12MB → 1.7MB)
 
-**구성:**
+**현재 구성 (WOFF2 - 4가지 필수 weight만 로드):**
 ```
-Paperlogy-1Thin.ttf         (weight: 100)
-Paperlogy-2ExtraLight.ttf   (weight: 200)
-Paperlogy-3Light.ttf        (weight: 300)
-Paperlogy-4Regular.ttf      (weight: 400)
-Paperlogy-5Medium.ttf       (weight: 500)
-Paperlogy-6SemiBold.ttf     (weight: 600)
-Paperlogy-7Bold.ttf         (weight: 700)
-Paperlogy-8ExtraBold.ttf    (weight: 800)
-Paperlogy-9Black.ttf        (weight: 900)
+Paperlogy-4Regular.woff2    (weight: 400) — 기본 텍스트
+Paperlogy-5Medium.woff2     (weight: 500) — 중간 강조
+Paperlogy-6SemiBold.woff2   (weight: 600) — 부제목
+Paperlogy-7Bold.woff2       (weight: 700) — 제목
 ```
 
 **CSS 적용:**
@@ -164,6 +160,22 @@ Paperlogy-9Black.ttf        (weight: 900)
 html, body {
   font-family: 'Paperlogy', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
 }
+
+@font-face {
+  font-family: 'Paperlogy';
+  src: url('/assets/fonts/Paperlogy-4Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+/* ... 나머지 3개 weight */
+```
+
+**Preload 최적화** (모든 페이지에서 자동 적용):
+```html
+<link rel="preload" as="font" type="font/woff2"
+  href="/assets/fonts/Paperlogy-4Regular.woff2" crossorigin="anonymous">
+<link rel="preload" as="font" type="font/woff2"
+  href="/assets/fonts/Paperlogy-7Bold.woff2" crossorigin="anonymous">
 ```
 
 ## Color System
