@@ -86,7 +86,8 @@ samjin-new/
 │   ├── footer.php            # 푸터 + 사이트맵
 │   └── mock-data.php         # PHP 배열 기반 목업 데이터
 └── assets/
-    ├── css/custom.css        # Tailwind 보완 + 커스텀 스타일
+    ├── css/custom.css        # Tailwind 보완 + 커스텀 스타일 + Paperlogy @font-face
+    ├── fonts/                # Paperlogy 폰트 파일 (9 weights: 100~900)
     ├── js/main.js            # 모바일 메뉴, 슬라이더, 스크롤 애니메이션
     └── img/                  # 로고, 메인 이미지들
 ```
