@@ -76,8 +76,11 @@ samjin-new/
 │   ├── oa.php                 # OA 제품 페이지 (Finisher·정렬시스템)
 │   ├── mold.php               # 금형 & 핫런너 페이지 (Hot Runner 특허 5건)
 │   └── lgp.php                # LGP 도광판 페이지 (7"~85" Roll Stamp 기술)
-├── support/                   # 고객지원 페이지들 (미개발)
-├── recruit/                   # 채용정보 페이지들 (미개발)
+├── support/
+│   └── inquiry.php            # 고객문의 페이지 (연락처·문의카테고리·FAQ)
+├── recruit/
+│   ├── jobs.php               # 채용공고 페이지 (채용정보 목록·복리후생)
+│   └── process.php            # 채용절차 페이지 (5단계 프로세스)
 ├── includes/
 │   ├── header.php            # Sticky 헤더 + GNB (text-lg)
 │   ├── footer.php            # 푸터 + 사이트맵

@@ -70,7 +70,7 @@
           <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-emerald-500 group-hover:w-full transition-all duration-300"></span>
         </button>
         <div class="absolute left-0 mt-0 w-40 bg-white rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pt-2">
-          <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">고객문의</a>
+          <a href="/support/inquiry.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">고객문의</a>
           <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">FAQ</a>
           <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">뉴스센터</a>
         </div>
@@ -82,8 +82,8 @@
           <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-emerald-500 group-hover:w-full transition-all duration-300"></span>
         </button>
         <div class="absolute left-0 mt-0 w-40 bg-white rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pt-2">
-          <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">채용공고</a>
-          <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">채용절차</a>
+          <a href="/recruit/jobs.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">채용공고</a>
+          <a href="/recruit/process.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">채용절차</a>
         </div>
       </div>
     </nav>
