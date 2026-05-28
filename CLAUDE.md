@@ -120,8 +120,10 @@ samjin-new/
 
 ### Docker & Port Mapping
 - **docker-compose.yml**: `8080:80` (host:container) — local dev on port 8080
-- **Dockerfile**: `EXPOSE 80` + `ENV PORT=80` — tells Railway which port to expose (do not change)
-- **Why**: Railway auto-detects service port from Dockerfile; without explicit PORT env var, it can't generate public domain
+- **Dockerfile**: `php:8.2-apache` with Apache modules (rewrite, deflate/gzip, expires, headers)
+  - `EXPOSE 80` + `ENV PORT=80` — Railway auto-detects service port
+  - Apache serves static assets with proper caching headers
+- **.htaccess**: Enables Gzip compression + 1-year cache for fonts/CSS/JS, 1-hour for HTML/PHP
 
 ### PHP 템플릿 구조
 - `index.php` — 메인 페이지 (include 사용)
@@ -243,7 +245,11 @@ html, body {
 
 ## Notes
 
-- **Docker**: PHP 8.2-Apache, rewrite 모듈 활성화
+- **Docker**: PHP 8.2-Apache with modules (rewrite, deflate, expires, headers)
+- **.htaccess** (2026-05-28): Gzip 압축 + HTTP 캐싱 헤더 설정
+  - 폰트/CSS/JS: 1년 캐싱 (Cache-Control: public, max-age=31536000, immutable)
+  - HTML/PHP: 1시간 캐싱 (Cache-Control: public, max-age=3600, must-revalidate)
+  - Gzip 활성화: text/html, CSS, JavaScript 자동 압축 (60%+ 크기 감소)
 - **Sub-pages**: `company/` 등의 서브페이지는 includes를 상대경로로 참조 (`../includes/header.php`), 다른 assets는 절대경로로 참조 (`/assets/...`)
 - **No Backend**: 백엔드는 나중에 개발 예정 (현재 목업만 사용)
 - **Mock Data**: `includes/mock-data.php`에서 PHP 배열로 관리
