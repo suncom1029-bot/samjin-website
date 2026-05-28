@@ -32,7 +32,7 @@
             <p class="hero-subtitle">1987년부터 38년, 정밀금형에서 AI 배터리 부품까지</p>
           </div>
         </div>
-        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1532601674795-7cf5e9dbab7e?w=1200&h=800&fit=crop');">
+        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1200&h=800&fit=crop');">
           <div class="hero-content">
             <h2 class="hero-title">ESS·UPS 배터리 부품<br>국내 선도 기업</h2>
             <p class="hero-subtitle">삼성SDI 핵심 파트너, 북미 AI 데이터센터 전력 인프라 공급</p>
@@ -44,7 +44,7 @@
             <p class="hero-subtitle">한국·미국·멕시코·베트남, 세계 시장과 함께 성장</p>
           </div>
         </div>
-        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1516321318423-f06f70db4c22?w=1200&h=800&fit=crop');">
+        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=1200&h=800&fit=crop');">
           <div class="hero-content">
             <h2 class="hero-title">도광판부터<br>AI 비전 검사까지</h2>
             <p class="hero-subtitle">Roll Stamp 기술 특허, 정밀 광학 부품 글로벌 공급</p>
