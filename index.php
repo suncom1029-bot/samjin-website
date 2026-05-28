@@ -249,12 +249,12 @@
               const elapsed = Date.now() - startTime;
               const progress = Math.min(elapsed / duration, 1);
               const currentValue = Math.floor(numValue * progress);
-              value.textContent = currentValue + (finalValue.includes('+') ? '+' : '');
+              value.textContent = currentValue.toString() + (finalValue.includes('+') ? '+' : '');
 
               if (progress < 1) {
                 requestAnimationFrame(updateCounter);
               } else {
-                value.textContent = finalValue;
+                value.textContent = finalValue.replace(/,/g, '');
                 value.dataset.animated = 'true';
               }
             };
