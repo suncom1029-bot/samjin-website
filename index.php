@@ -74,7 +74,7 @@
             'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
             'https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&h=400&fit=crop',
             'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop',
-            'https://images.unsplash.com/photo-1581092168562-40aa08e78837?w=600&h=400&fit=crop',
+            'https://images.unsplash.com/photo-1576086213369-97a306d36557?w=600&h=400&fit=crop',
             'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=400&fit=crop',
             'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop'
           ];
