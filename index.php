@@ -16,6 +16,10 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/custom.css">
+
+  <!-- Paperlogy 폰트 preload (성능 최적화) -->
+  <link rel="preload" as="font" type="font/ttf" href="assets/fonts/Paperlogy-4Regular.ttf" crossorigin="anonymous">
+  <link rel="preload" as="font" type="font/ttf" href="assets/fonts/Paperlogy-7Bold.ttf" crossorigin="anonymous">
 </head>
 <body class="bg-white text-slate-900">
 

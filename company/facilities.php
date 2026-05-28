@@ -6,6 +6,10 @@
   <title>사업장 - 삼진엘앤디</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="/assets/css/custom.css">
+
+  <!-- Paperlogy 폰트 preload (성능 최적화) -->
+  <link rel="preload" as="font" type="font/ttf" href="/assets/fonts/Paperlogy-4Regular.ttf" crossorigin="anonymous">
+  <link rel="preload" as="font" type="font/ttf" href="/assets/fonts/Paperlogy-7Bold.ttf" crossorigin="anonymous">
 </head>
 <body class="bg-white text-slate-900">
   <?php include '../includes/header.php'; ?>
@@ -29,6 +33,55 @@
       <p class="text-lg lg:text-xl text-gray-300 font-light">
         글로벌 제조 거점에서 세계 시장과 함께 성장합니다
       </p>
+    </div>
+  </section>
+
+  <!-- 사업장 이미지 갤러리 -->
+  <section class="section-lg bg-white">
+    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+      <div class="mb-12 text-center">
+        <h2 class="text-4xl font-bold mb-4">글로벌 사업장 네트워크</h2>
+        <p class="text-gray-500 text-lg">4개국에서 고객사에 최고의 솔루션을 공급합니다</p>
+      </div>
+
+      <!-- 4개 사업장 사진 카드 -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- 베트남 -->
+        <div class="relative overflow-hidden rounded-lg aspect-video bg-cover bg-center shadow-lg hover:shadow-xl transition" style="background-image: url('https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=400&fit=crop&q=80')">
+          <div class="absolute inset-0 bg-black/25"></div>
+          <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-900 via-blue-900/70 to-transparent p-4">
+            <p class="text-white font-bold text-base">삼진 비나</p>
+            <p class="text-white/90 text-sm">베트남</p>
+          </div>
+        </div>
+
+        <!-- 본사 -->
+        <div class="relative overflow-hidden rounded-lg aspect-video bg-cover bg-center shadow-lg hover:shadow-xl transition" style="background-image: url('/assets/img/img_factory.jpg')">
+          <div class="absolute inset-0 bg-black/25"></div>
+          <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-900 via-blue-900/70 to-transparent p-4">
+            <p class="text-white font-bold text-base">본사</p>
+            <p class="text-white/90 text-sm">대한민국</p>
+          </div>
+        </div>
+
+        <!-- ELEMEK -->
+        <div class="relative overflow-hidden rounded-lg aspect-video bg-cover bg-center shadow-lg hover:shadow-xl transition" style="background-image: url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&h=400&fit=crop&q=80')">
+          <div class="absolute inset-0 bg-black/25"></div>
+          <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-900 via-blue-900/70 to-transparent p-4">
+            <p class="text-white font-bold text-base">ELEMEK</p>
+            <p class="text-white/90 text-sm">미국</p>
+          </div>
+        </div>
+
+        <!-- COMEX -->
+        <div class="relative overflow-hidden rounded-lg aspect-video bg-cover bg-center shadow-lg hover:shadow-xl transition" style="background-image: url('https://images.unsplash.com/photo-1574482620811-1aa16ffe3c82?w=600&h=400&fit=crop&q=80')">
+          <div class="absolute inset-0 bg-black/25"></div>
+          <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-900 via-blue-900/70 to-transparent p-4">
+            <p class="text-white font-bold text-base">COMEX</p>
+            <p class="text-white/90 text-sm">멕시코</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
