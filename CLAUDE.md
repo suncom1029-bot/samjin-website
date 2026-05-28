@@ -75,6 +75,7 @@ samjin-new/
 │   ├── display.php            # Display 부품 페이지 (도광판·확산판·Mold Frame)
 │   ├── battery.php            # 2차전지 부품 페이지 (가스켓·ESS·UPS)
 │   ├── oa.php                 # OA 제품 페이지 (Finisher·정렬시스템)
+│   ├── new-materials.php      # 신소재 사업 페이지 (탄소복합재·고기능성 플라스틱·바이오 소재)
 │   ├── mold.php               # 금형 & 핫런너 페이지 (Hot Runner 특허 5건)
 │   └── lgp.php                # LGP 도광판 페이지 (7"~85" Roll Stamp 기술)
 ├── support/
@@ -97,7 +98,7 @@ samjin-new/
 
 | 파일 | 역할 |
 |------|------|
-| `index.php` | 랜딩페이지 전체 (Hero, Stats, About, Products, News, CTA, Footer) |
+| `index.php` | 랜딩페이지 전체 (Hero, Stats, About, BUSINESS-6개 제품 링크, IR, ESG, News, CTA, Footer) |
 | `company/greeting.php` | CEO 인사말 페이지 (배너, 메시지, 비전 카드) |
 | `company/overview.php` | 회사개요 페이지 (회사 규모, 사업영역, 가치제안, 기술 현황) |
 | `company/history.php` | 회사연혁 페이지 (4시대 타임라인: 창업기/성장기/도약기/전환기) |
@@ -108,10 +109,11 @@ samjin-new/
 | `products/display.php` | Display 부품 페이지 (도광판·확산판·Mold Frame, Roll Stamp 기술) |
 | `products/battery.php` | 2차전지 부품 페이지 (배터리 가스켓, ESS/UPS 부품) |
 | `products/oa.php` | OA 제품 페이지 (Finisher, 자동 정렬 시스템) |
+| `products/new-materials.php` | 신소재 사업 페이지 (탄소복합재, 고기능성 플라스틱, 바이오 소재) |
 | `products/mold.php` | 금형 & 핫런너 페이지 (Hot Runner 특허 5건, 초정밀 기술) |
 | `products/lgp.php` | LGP 도광판 페이지 (7"~85" Roll Stamp 공법, 광효율 향상) |
-| `includes/header.php` | Sticky 네비게이션, 로고, 드롭다운 메뉴 (GNB) - 경영관리·제품 링크 추가 |
-| `includes/footer.php` | 푸터 콘텐츠, 빠른 링크 (회사/경영관리/제품 5개), 회사 정보 |
+| `includes/header.php` | Sticky 네비게이션, 로고, 드롭다운 메뉴 (GNB) - 6개 제품 메뉴 항목 포함 |
+| `includes/footer.php` | 푸터 콘텐츠, 빠른 링크 (회사/경영관리/제품 6개), 회사 정보 |
 | `includes/mock-data.php` | 뉴스, 제품, 통계, CTA 배너 목업 데이터 |
 | `assets/css/custom.css` | 색상 시스템, 컴포넌트 스타일 (stat-card, product-card, feature-card, etc) |
 | `assets/js/main.js` | 슬라이더 초기화, 카운터 애니메이션, 스크롤 이벤트, 모바일 메뉴 |

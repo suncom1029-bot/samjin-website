@@ -47,6 +47,7 @@
           <a href="/products/display.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">Display 부품</a>
           <a href="/products/battery.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">2차전지</a>
           <a href="/products/oa.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">OA 제품</a>
+          <a href="/products/new-materials.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">신소재 사업</a>
           <a href="/products/mold.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">금형 & 핫런너</a>
           <a href="/products/lgp.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">LGP</a>
         </div>

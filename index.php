@@ -82,15 +82,24 @@
             'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=400&fit=crop',
             'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop'
           ];
+          $product_links = [
+            '/products/display.php',
+            '/products/battery.php',
+            '/products/oa.php',
+            '/products/new-materials.php',
+            '/products/mold.php',
+            '/products/lgp.php'
+          ];
         ?>
         <?php foreach ($products as $index => $product): ?>
-          <div
+          <a
+            href="<?php echo $product_links[$index]; ?>"
             class="product-card"
             style="background-image: url('<?php echo $product_images[$index]; ?>');"
             data-aos="fade-up"
           >
             <span class="product-label"><?php echo $product['name']; ?></span>
-          </div>
+          </a>
         <?php endforeach; ?>
       </div>
     </div>

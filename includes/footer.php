@@ -48,7 +48,8 @@
                 <li><a href="/products/display.php" class="hover:text-emerald-400 transition">Display 부품</a></li>
                 <li><a href="/products/battery.php" class="hover:text-emerald-400 transition">2차전지</a></li>
                 <li><a href="/products/oa.php" class="hover:text-emerald-400 transition">OA 제품</a></li>
-                <li><a href="/products/mold.php" class="hover:text-emerald-400 transition">금형 & HR</a></li>
+                <li><a href="/products/new-materials.php" class="hover:text-emerald-400 transition">신소재 사업</a></li>
+                <li><a href="/products/mold.php" class="hover:text-emerald-400 transition">금형 & 핫런너</a></li>
                 <li><a href="/products/lgp.php" class="hover:text-emerald-400 transition">LGP</a></li>
               </ul>
             </div>
