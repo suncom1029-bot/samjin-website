@@ -79,7 +79,7 @@ samjin-new/
 │   ├── mold.php               # 금형 & 핫런너 페이지 (Hot Runner 특허 5건)
 │   └── lgp.php                # LGP 도광판 페이지 (7"~85" Roll Stamp 기술)
 ├── support/
-│   └── inquiry.php            # 고객문의 페이지 (연락처·문의카테고리·FAQ)
+│   └── inquiry.php            # 고객문의 페이지 (부서별 연락처 테이블·문의카테고리·FAQ)
 ├── recruit/
 │   ├── jobs.php               # 채용공고 페이지 (채용정보 목록·복리후생)
 │   └── process.php            # 채용절차 페이지 (5단계 프로세스)
@@ -112,6 +112,7 @@ samjin-new/
 | `products/new-materials.php` | 신소재 사업 페이지 (탄소복합재, 고기능성 플라스틱, 바이오 소재) |
 | `products/mold.php` | 금형 & 핫런너 페이지 (Hot Runner 특허 5건, 초정밀 기술) |
 | `products/lgp.php` | LGP 도광판 페이지 (7"~85" Roll Stamp 공법, 광효율 향상) |
+| `support/inquiry.php` | 고객문의 페이지 (부서별 연락처 테이블·문의카테고리·FAQ) |
 | `includes/header.php` | Sticky 네비게이션, 로고, 드롭다운 메뉴 (GNB) - 6개 제품 메뉴 항목 포함 |
 | `includes/footer.php` | 푸터 콘텐츠, 빠른 링크 (회사/경영관리/제품 6개), 회사 정보 |
 | `includes/mock-data.php` | 뉴스, 제품, 통계, CTA 배너 목업 데이터 |

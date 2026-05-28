@@ -36,47 +36,110 @@
     </div>
   </section>
 
-  <!-- 연락처 정보 -->
+  <!-- 부서별 연락처 -->
   <section class="section-lg bg-white">
     <div class="max-w-7xl mx-auto px-6 lg:px-12">
       <div class="mb-16 text-center">
-        <h2 class="text-4xl font-bold mb-4">연락처</h2>
-        <p class="text-gray-500 text-lg">편하신 방법으로 언제든 연락주세요</p>
+        <h2 class="text-4xl font-bold mb-4">부서별 연락처</h2>
+        <p class="text-gray-500 text-lg">담당 부서에 직접 연락주세요</p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <!-- 전화 -->
-        <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border border-blue-200 text-center">
-          <p class="text-4xl mb-4">☎️</p>
-          <h3 class="text-lg font-bold text-slate-900 mb-3">전화</h3>
-          <p class="text-slate-700 font-semibold">031-379-2000</p>
-          <p class="text-sm text-gray-600 mt-2">평일 09:00~18:00</p>
-        </div>
+      <!-- 데스크탑 테이블 -->
+      <div class="hidden lg:block overflow-x-auto">
+        <table class="w-full border-collapse">
+          <thead>
+            <tr class="bg-gradient-to-r from-slate-900 to-emerald-900 text-white">
+              <th class="px-6 py-4 text-left font-semibold text-base border-b border-slate-200">부문</th>
+              <th class="px-6 py-4 text-left font-semibold text-base border-b border-slate-200">E-Mail</th>
+              <th class="px-6 py-4 text-left font-semibold text-base border-b border-slate-200">전화번호</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-200 hover:bg-slate-50 transition">
+              <td class="px-6 py-4 font-semibold text-slate-900">채용(인사)</td>
+              <td class="px-6 py-4 text-slate-700"><a href="mailto:recruit@samjin.co.kr" class="text-emerald-600 hover:text-emerald-700 transition">recruit@samjin.co.kr</a></td>
+              <td class="px-6 py-4 text-slate-700"><a href="tel:031-379-2022" class="text-emerald-600 hover:text-emerald-700 transition">031-379-2022</a></td>
+            </tr>
+            <tr class="border-b border-slate-200 hover:bg-slate-50 transition">
+              <td class="px-6 py-4 font-semibold text-slate-900">구매</td>
+              <td class="px-6 py-4 text-slate-700"><a href="mailto:purchase@samjin.co.kr" class="text-emerald-600 hover:text-emerald-700 transition">purchase@samjin.co.kr</a></td>
+              <td class="px-6 py-4 text-slate-700"><a href="tel:031-379-2028" class="text-emerald-600 hover:text-emerald-700 transition">031-379-2028</a></td>
+            </tr>
+            <tr class="border-b border-slate-200 hover:bg-slate-50 transition">
+              <td class="px-6 py-4 font-semibold text-slate-900">홍보/IR</td>
+              <td class="px-6 py-4 text-slate-700"><a href="mailto:ir@samjin.co.kr" class="text-emerald-600 hover:text-emerald-700 transition">ir@samjin.co.kr</a></td>
+              <td class="px-6 py-4 text-slate-700"><a href="tel:031-379-2038" class="text-emerald-600 hover:text-emerald-700 transition">031-379-2038</a></td>
+            </tr>
+            <tr class="border-b border-slate-200 hover:bg-slate-50 transition">
+              <td class="px-6 py-4 font-semibold text-slate-900">영업</td>
+              <td class="px-6 py-4 text-slate-700"><a href="mailto:sales2@samjin.co.kr" class="text-emerald-600 hover:text-emerald-700 transition">sales2@samjin.co.kr</a></td>
+              <td class="px-6 py-4 text-slate-700"><a href="tel:031-379-2141" class="text-emerald-600 hover:text-emerald-700 transition">031-379-2141</a></td>
+            </tr>
+            <tr class="border-b border-slate-200 hover:bg-slate-50 transition">
+              <td class="px-6 py-4 font-semibold text-slate-900">품질보증</td>
+              <td class="px-6 py-4 text-slate-700"><a href="mailto:quality@samjin.co.kr" class="text-emerald-600 hover:text-emerald-700 transition">quality@samjin.co.kr</a></td>
+              <td class="px-6 py-4 text-slate-700"><a href="tel:031-379-2084" class="text-emerald-600 hover:text-emerald-700 transition">031-379-2084</a></td>
+            </tr>
+            <tr class="border-b border-slate-200 hover:bg-slate-50 transition">
+              <td class="px-6 py-4 font-semibold text-slate-900">제조</td>
+              <td class="px-6 py-4 text-slate-700"><a href="mailto:product@samjin.co.kr" class="text-emerald-600 hover:text-emerald-700 transition">product@samjin.co.kr</a></td>
+              <td class="px-6 py-4 text-slate-700"><a href="tel:031-379-2153" class="text-emerald-600 hover:text-emerald-700 transition">031-379-2153</a></td>
+            </tr>
+            <tr class="border-b border-slate-200 hover:bg-slate-50 transition">
+              <td class="px-6 py-4 font-semibold text-slate-900">LGP 개발</td>
+              <td class="px-6 py-4 text-slate-700"><a href="mailto:lgp@samjin.co.kr" class="text-emerald-600 hover:text-emerald-700 transition">lgp@samjin.co.kr</a></td>
+              <td class="px-6 py-4 text-slate-700"><a href="tel:031-379-2093" class="text-emerald-600 hover:text-emerald-700 transition">031-379-2093</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition">
+              <td class="px-6 py-4 font-semibold text-slate-900">KM사업팀</td>
+              <td class="px-6 py-4 text-slate-700"><a href="mailto:km@samjin.co.kr" class="text-emerald-600 hover:text-emerald-700 transition">km@samjin.co.kr</a></td>
+              <td class="px-6 py-4 text-slate-700"><a href="tel:031-379-2188" class="text-emerald-600 hover:text-emerald-700 transition">031-379-2188</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-        <!-- 팩스 -->
-        <div class="bg-gradient-to-br from-emerald-50 to-emerald-100 p-8 rounded-lg border border-emerald-200 text-center">
-          <p class="text-4xl mb-4">📠</p>
-          <h3 class="text-lg font-bold text-slate-900 mb-3">팩스</h3>
-          <p class="text-slate-700 font-semibold">031-376-5830</p>
-          <p class="text-sm text-gray-600 mt-2">24시간 이용</p>
+      <!-- 모바일 카드 -->
+      <div class="lg:hidden space-y-4">
+        <div class="bg-white p-6 rounded-lg border border-slate-200">
+          <p class="text-sm font-semibold text-emerald-600 mb-1">채용(인사)</p>
+          <p class="text-slate-700 text-sm mb-2"><a href="mailto:recruit@samjin.co.kr" class="text-emerald-600 hover:underline">recruit@samjin.co.kr</a></p>
+          <p class="text-slate-700 text-sm"><a href="tel:031-379-2022" class="text-emerald-600 hover:underline">031-379-2022</a></p>
         </div>
-
-        <!-- 주소 -->
-        <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-lg border border-purple-200 text-center">
-          <p class="text-4xl mb-4">📍</p>
-          <h3 class="text-lg font-bold text-slate-900 mb-3">주소</h3>
-          <p class="text-sm text-slate-700">
-            경기도 화성시<br>동탄기흥로 64-17
-          </p>
+        <div class="bg-white p-6 rounded-lg border border-slate-200">
+          <p class="text-sm font-semibold text-emerald-600 mb-1">구매</p>
+          <p class="text-slate-700 text-sm mb-2"><a href="mailto:purchase@samjin.co.kr" class="text-emerald-600 hover:underline">purchase@samjin.co.kr</a></p>
+          <p class="text-slate-700 text-sm"><a href="tel:031-379-2028" class="text-emerald-600 hover:underline">031-379-2028</a></p>
         </div>
-
-        <!-- 이메일 -->
-        <div class="bg-gradient-to-br from-amber-50 to-amber-100 p-8 rounded-lg border border-amber-200 text-center">
-          <p class="text-4xl mb-4">✉️</p>
-          <h3 class="text-lg font-bold text-slate-900 mb-3">이메일</h3>
-          <p class="text-sm text-slate-700 break-all">
-            info@samjin.co.kr
-          </p>
+        <div class="bg-white p-6 rounded-lg border border-slate-200">
+          <p class="text-sm font-semibold text-emerald-600 mb-1">홍보/IR</p>
+          <p class="text-slate-700 text-sm mb-2"><a href="mailto:ir@samjin.co.kr" class="text-emerald-600 hover:underline">ir@samjin.co.kr</a></p>
+          <p class="text-slate-700 text-sm"><a href="tel:031-379-2038" class="text-emerald-600 hover:underline">031-379-2038</a></p>
+        </div>
+        <div class="bg-white p-6 rounded-lg border border-slate-200">
+          <p class="text-sm font-semibold text-emerald-600 mb-1">영업</p>
+          <p class="text-slate-700 text-sm mb-2"><a href="mailto:sales2@samjin.co.kr" class="text-emerald-600 hover:underline">sales2@samjin.co.kr</a></p>
+          <p class="text-slate-700 text-sm"><a href="tel:031-379-2141" class="text-emerald-600 hover:underline">031-379-2141</a></p>
+        </div>
+        <div class="bg-white p-6 rounded-lg border border-slate-200">
+          <p class="text-sm font-semibold text-emerald-600 mb-1">품질보증</p>
+          <p class="text-slate-700 text-sm mb-2"><a href="mailto:quality@samjin.co.kr" class="text-emerald-600 hover:underline">quality@samjin.co.kr</a></p>
+          <p class="text-slate-700 text-sm"><a href="tel:031-379-2084" class="text-emerald-600 hover:underline">031-379-2084</a></p>
+        </div>
+        <div class="bg-white p-6 rounded-lg border border-slate-200">
+          <p class="text-sm font-semibold text-emerald-600 mb-1">제조</p>
+          <p class="text-slate-700 text-sm mb-2"><a href="mailto:product@samjin.co.kr" class="text-emerald-600 hover:underline">product@samjin.co.kr</a></p>
+          <p class="text-slate-700 text-sm"><a href="tel:031-379-2153" class="text-emerald-600 hover:underline">031-379-2153</a></p>
+        </div>
+        <div class="bg-white p-6 rounded-lg border border-slate-200">
+          <p class="text-sm font-semibold text-emerald-600 mb-1">LGP 개발</p>
+          <p class="text-slate-700 text-sm mb-2"><a href="mailto:lgp@samjin.co.kr" class="text-emerald-600 hover:underline">lgp@samjin.co.kr</a></p>
+          <p class="text-slate-700 text-sm"><a href="tel:031-379-2093" class="text-emerald-600 hover:underline">031-379-2093</a></p>
+        </div>
+        <div class="bg-white p-6 rounded-lg border border-slate-200">
+          <p class="text-sm font-semibold text-emerald-600 mb-1">KM사업팀</p>
+          <p class="text-slate-700 text-sm mb-2"><a href="mailto:km@samjin.co.kr" class="text-emerald-600 hover:underline">km@samjin.co.kr</a></p>
+          <p class="text-slate-700 text-sm"><a href="tel:031-379-2188" class="text-emerald-600 hover:underline">031-379-2188</a></p>
         </div>
       </div>
     </div>
