@@ -45,10 +45,11 @@
             <div class="mt-4">
               <p class="font-semibold text-emerald-400 mb-2">제품</p>
               <ul class="space-y-1 text-gray-300">
-                <li><a href="#" class="hover:text-emerald-400 transition">Display 부품</a></li>
-                <li><a href="#" class="hover:text-emerald-400 transition">2차전지</a></li>
-                <li><a href="#" class="hover:text-emerald-400 transition">OA 제품</a></li>
-                <li><a href="#" class="hover:text-emerald-400 transition">금형 & HR</a></li>
+                <li><a href="/products/display.php" class="hover:text-emerald-400 transition">Display 부품</a></li>
+                <li><a href="/products/battery.php" class="hover:text-emerald-400 transition">2차전지</a></li>
+                <li><a href="/products/oa.php" class="hover:text-emerald-400 transition">OA 제품</a></li>
+                <li><a href="/products/mold.php" class="hover:text-emerald-400 transition">금형 & HR</a></li>
+                <li><a href="/products/lgp.php" class="hover:text-emerald-400 transition">LGP</a></li>
               </ul>
             </div>
           </div>

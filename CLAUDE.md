@@ -70,7 +70,12 @@ samjin-new/
 │   ├── philosophy.php         # 경영이념 및 비전 페이지 (설립이념 3가지 + 2026 비전)
 │   ├── competency.php         # 핵심역량 및 기술 페이지 (5가지 기술 + 특허 + 인증)
 │   └── awards.php             # 수상 및 인증 페이지 (수상타임라인 + 4가지 인증)
-├── products/                  # 제품소개 페이지들 (미개발)
+├── products/
+│   ├── display.php            # Display 부품 페이지 (도광판·확산판·Mold Frame)
+│   ├── battery.php            # 2차전지 부품 페이지 (가스켓·ESS·UPS)
+│   ├── oa.php                 # OA 제품 페이지 (Finisher·정렬시스템)
+│   ├── mold.php               # 금형 & 핫런너 페이지 (Hot Runner 특허 5건)
+│   └── lgp.php                # LGP 도광판 페이지 (7"~85" Roll Stamp 기술)
 ├── support/                   # 고객지원 페이지들 (미개발)
 ├── recruit/                   # 채용정보 페이지들 (미개발)
 ├── includes/
@@ -95,8 +100,13 @@ samjin-new/
 | `management/philosophy.php` | 경영이념 및 비전 페이지 (설립이념 3가지, 2026 비전) |
 | `management/competency.php` | 핵심역량 및 기술 페이지 (5가지 기술, 특허, 인증) |
 | `management/awards.php` | 수상 및 인증 페이지 (수상 타임라인, 4가지 국제 인증) |
-| `includes/header.php` | Sticky 네비게이션, 로고, 드롭다운 메뉴 (GNB) - 경영관리 링크 추가 |
-| `includes/footer.php` | 푸터 콘텐츠, 빠른 링크 (회사/경영관리/제품), 회사 정보 |
+| `products/display.php` | Display 부품 페이지 (도광판·확산판·Mold Frame, Roll Stamp 기술) |
+| `products/battery.php` | 2차전지 부품 페이지 (배터리 가스켓, ESS/UPS 부품) |
+| `products/oa.php` | OA 제품 페이지 (Finisher, 자동 정렬 시스템) |
+| `products/mold.php` | 금형 & 핫런너 페이지 (Hot Runner 특허 5건, 초정밀 기술) |
+| `products/lgp.php` | LGP 도광판 페이지 (7"~85" Roll Stamp 공법, 광효율 향상) |
+| `includes/header.php` | Sticky 네비게이션, 로고, 드롭다운 메뉴 (GNB) - 경영관리·제품 링크 추가 |
+| `includes/footer.php` | 푸터 콘텐츠, 빠른 링크 (회사/경영관리/제품 5개), 회사 정보 |
 | `includes/mock-data.php` | 뉴스, 제품, 통계, CTA 배너 목업 데이터 |
 | `assets/css/custom.css` | 색상 시스템, 컴포넌트 스타일 (stat-card, product-card, feature-card, etc) |
 | `assets/js/main.js` | 슬라이더 초기화, 카운터 애니메이션, 스크롤 이벤트, 모바일 메뉴 |

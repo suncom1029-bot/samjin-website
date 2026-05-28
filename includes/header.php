@@ -44,11 +44,11 @@
           <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-emerald-500 group-hover:w-full transition-all duration-300"></span>
         </button>
         <div class="absolute left-0 mt-0 w-40 bg-white rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pt-2">
-          <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">Display 부품</a>
-          <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">2차전지</a>
-          <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">OA 제품</a>
-          <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">금형 & 핫런너</a>
-          <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">LGP</a>
+          <a href="/products/display.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">Display 부품</a>
+          <a href="/products/battery.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">2차전지</a>
+          <a href="/products/oa.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">OA 제품</a>
+          <a href="/products/mold.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">금형 & 핫런너</a>
+          <a href="/products/lgp.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">LGP</a>
         </div>
       </div>
 
