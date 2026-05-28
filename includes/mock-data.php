@@ -75,9 +75,9 @@ $news = [
 
 $stats = [
     [
-        'value' => '38',
+        'value' => '1987',
         'label' => '설립 연도',
-        'description' => '1987년부터, 정밀금형 기술의 여정'
+        'description' => '38년, 정밀금형 기술의 여정'
     ],
     [
         'value' => '4',

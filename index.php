@@ -238,6 +238,13 @@
             const finalValue = value.dataset.count;
             const numValue = parseInt(finalValue);
 
+            // 1987(설립연도)은 카운팅하지 않고 바로 표시
+            if (numValue === 1987) {
+              value.textContent = finalValue;
+              value.dataset.animated = 'true';
+              return;
+            }
+
             const updateCounter = () => {
               const elapsed = Date.now() - startTime;
               const progress = Math.min(elapsed / duration, 1);
