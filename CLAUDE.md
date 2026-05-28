@@ -138,6 +138,33 @@ samjin-new/
 | 태블릿 | 768~1024px | 2열 그리드 |
 | 데스크탑 | > 1024px | 3열+ 그리드, 풀 GNB |
 
+## Font System
+
+**Default Font**: Paperlogy (9 weights: 100~900)
+- 저장 위치: `assets/fonts/` (로컬 호스팅, CDN 불필요)
+- 선언: `assets/css/custom.css`의 @font-face 규칙
+- 폴백: Apple SD Gothic Neo (macOS) → Malgun Gothic (Windows) → sans-serif
+
+**구성:**
+```
+Paperlogy-1Thin.ttf         (weight: 100)
+Paperlogy-2ExtraLight.ttf   (weight: 200)
+Paperlogy-3Light.ttf        (weight: 300)
+Paperlogy-4Regular.ttf      (weight: 400)
+Paperlogy-5Medium.ttf       (weight: 500)
+Paperlogy-6SemiBold.ttf     (weight: 600)
+Paperlogy-7Bold.ttf         (weight: 700)
+Paperlogy-8ExtraBold.ttf    (weight: 800)
+Paperlogy-9Black.ttf        (weight: 900)
+```
+
+**CSS 적용:**
+```css
+html, body {
+  font-family: 'Paperlogy', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+}
+```
+
 ## Color System
 
 ```css
