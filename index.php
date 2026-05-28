@@ -74,9 +74,9 @@
             'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
             'https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&h=400&fit=crop',
             'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop',
-            'https://images.unsplash.com/photo-1564466809058-bf4114d55352?w=600&h=400&fit=crop',
-            'https://images.unsplash.com/photo-1531746790731-6c087fecd65b?w=600&h=400&fit=crop',
-            'https://images.unsplash.com/photo-1535576661393-b8e8b30266d5?w=600&h=400&fit=crop'
+            'https://images.unsplash.com/photo-1581092168562-40aa08e78837?w=600&h=400&fit=crop',
+            'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=400&fit=crop',
+            'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop'
           ];
         ?>
         <?php foreach ($products as $index => $product): ?>
