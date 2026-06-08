@@ -254,14 +254,25 @@
           </div>
         </div>
 
+        <!-- 2025년 -->
+        <div class="flex gap-6 lg:gap-12">
+          <div class="flex-shrink-0 w-24">
+            <div class="bg-emerald-500 text-white rounded-lg p-4 text-center font-bold">2025</div>
+          </div>
+          <div class="flex-grow border-l-4 border-emerald-200 pl-6 pb-8">
+            <h3 class="text-xl font-bold text-slate-900 mb-2">첨단 정밀 부품 사업 본격화</h3>
+            <p class="text-slate-700">수소탱크 개발 진행 & Precision·Automation·Intelligence 전략 본격 시작</p>
+          </div>
+        </div>
+
         <!-- 2026년 -->
         <div class="flex gap-6 lg:gap-12">
           <div class="flex-shrink-0 w-24">
             <div class="bg-emerald-500 text-white rounded-lg p-4 text-center font-bold">2026</div>
           </div>
           <div class="flex-grow pl-6">
-            <h3 class="text-xl font-bold text-slate-900 mb-2">AI 데이터센터 핵심 부품 기업 선언</h3>
-            <p class="text-slate-700">글로벌 AI 산업 급성장 시대, 삼진엘앤디의 새로운 도약</p>
+            <h3 class="text-xl font-bold text-slate-900 mb-2">TPED/ADR 인증 & 자동화율 70% 달성</h3>
+            <p class="text-slate-700">수소탱크 국제 인증 획득 & 자동화 라인 고도화로 글로벌 경쟁력 강화</p>
           </div>
         </div>
       </div>

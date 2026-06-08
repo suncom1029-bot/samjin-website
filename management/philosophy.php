@@ -86,6 +86,81 @@
     </div>
   </section>
 
+  <!-- 정밀의 여정: Past·Present·Future -->
+  <section class="section-lg bg-white">
+    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+      <div class="mb-16 text-center">
+        <h2 class="text-4xl font-bold mb-4">정밀의 여정</h2>
+        <p class="text-gray-500 text-lg">과거의 기초에서 미래의 혁신으로</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- PAST: 정밀의 기원 -->
+        <div class="relative">
+          <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-12 h-12 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-lg">
+            1987
+          </div>
+          <div class="bg-gradient-to-br from-slate-50 to-slate-100 p-8 rounded-lg border-2 border-slate-300 mt-8">
+            <p class="text-sm font-semibold text-slate-600 uppercase tracking-widest mb-3">PAST</p>
+            <h3 class="text-2xl font-bold text-slate-900 mb-3">정밀의 기원</h3>
+            <p class="text-slate-700 mb-4 leading-relaxed">
+              1987년부터 정밀금형이라는 한 가지에 집중했습니다.
+              ±0.01mm의 정밀도는 우리의 출발점이자 DNA입니다.
+            </p>
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li>✓ 정밀금형 기술의 선두주자</li>
+              <li>✓ 39년 축적된 노하우</li>
+              <li>✓ 글로벌 신뢰의 기초</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- PRESENT: 정밀의 현재 -->
+        <div class="relative">
+          <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-12 h-12 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-lg">
+            NOW
+          </div>
+          <div class="bg-gradient-to-br from-emerald-50 to-emerald-100 p-8 rounded-lg border-2 border-emerald-400 mt-8 ring-2 ring-emerald-200">
+            <p class="text-sm font-semibold text-emerald-700 uppercase tracking-widest mb-3">PRESENT</p>
+            <h3 class="text-2xl font-bold text-slate-900 mb-3">정밀의 현재</h3>
+            <p class="text-slate-700 mb-4 leading-relaxed">
+              정밀의 기술을 자동화로 구현하고, AI로 지능화합니다.
+              배터리, 모빌리티, AI 데이터센터의 핵심 부품 기업으로 진화했습니다.
+            </p>
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li>✓ Precision · Automation · Intelligence</li>
+              <li>✓ 6개 해외거점, 720명 글로벌 인력</li>
+              <li>✓ 삼성SDI, 현대차 등 Tier 1 파트너</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- FUTURE: 정밀 + α -->
+        <div class="relative">
+          <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-12 h-12 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-lg">
+            2026+
+          </div>
+          <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-2 border-blue-400 mt-8">
+            <p class="text-sm font-semibold text-blue-700 uppercase tracking-widest mb-3">FUTURE</p>
+            <h3 class="text-2xl font-bold text-slate-900 mb-3">정밀 + α</h3>
+            <p class="text-slate-700 mb-4 leading-relaxed">
+              정밀의 기술에 신소재, 수소, AI를 더합니다.
+              에너지 혁명의 가장 중요한 파트너가 되겠습니다.
+            </p>
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li>✓ 수소탱크 기술 (TPED/ADR)</li>
+              <li>✓ Zero Defect 스마트팩토리</li>
+              <li>✓ AI 지능화 시스템</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 연결선 -->
+      <div class="mt-12 h-1 bg-gradient-to-r from-slate-300 via-emerald-400 to-blue-400 rounded-full"></div>
+    </div>
+  </section>
+
   <!-- 2026 비전 -->
   <section class="section-lg bg-white">
     <div class="max-w-7xl mx-auto px-6 lg:px-12">

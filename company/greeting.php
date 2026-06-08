@@ -30,7 +30,7 @@
       </div>
       <!-- 타이틀 -->
       <h1 class="text-4xl lg:text-5xl font-black mb-3 leading-tight">
-        38년 신뢰,<br>AI 시대를 선도하다
+        정밀의 힘을 기술로 완성하다<br>PRECISION · AUTOMATION · INTELLIGENCE
       </h1>
       <p class="text-lg lg:text-xl text-gray-300 font-light">
         삼진엘앤디 대표이사 인사말
@@ -56,9 +56,34 @@
 
           <p class="text-lg leading-relaxed font-light text-slate-700">
             우리는 1987년 정밀금형이라는 작은 손길로 시작했습니다.
-            그 손길이 모이고 모여 38년이 지난 지금,
+            그 손길이 모이고 모여 39년이 지난 지금,
             수백만 가정의 일상을 만드는 가전, 디스플레이, 전지 같은 제품들을 함께 만들고 있습니다.
           </p>
+
+          <!-- P·A·I 프레임 -->
+          <div class="my-8 space-y-6 bg-emerald-50 p-8 rounded-lg border border-emerald-200">
+            <div>
+              <p class="text-sm font-semibold text-emerald-600 uppercase tracking-widest mb-2">PRECISION 정밀</p>
+              <p class="text-slate-700 leading-relaxed">
+                1987년부터 ±0.01mm 정밀도로 제조하는 기술.
+                세계 최고 기업들의 부품 기준을 정하는 우리의 기본입니다.
+              </p>
+            </div>
+            <div>
+              <p class="text-sm font-semibold text-emerald-600 uppercase tracking-widest mb-2">AUTOMATION 자동화</p>
+              <p class="text-slate-700 leading-relaxed">
+                39년 숙련공의 노하우를 알고리즘으로.
+                한국에서 개발한 자동화 라인을 6개 해외거점에서 동일하게 재현합니다.
+              </p>
+            </div>
+            <div>
+              <p class="text-sm font-semibold text-emerald-600 uppercase tracking-widest mb-2">INTELLIGENCE 지능화</p>
+              <p class="text-slate-700 leading-relaxed">
+                AI 비전 검사로 불량이 생기지 않는 환경을 설계합니다.
+                Zero Defect 스마트팩토리는 이제 현실입니다.
+              </p>
+            </div>
+          </div>
 
           <p class="text-lg leading-relaxed font-light text-slate-700">
             최근 우리는 또 다른 전환기를 맞이했습니다.
@@ -67,31 +92,22 @@
           </p>
 
           <p class="text-lg leading-relaxed font-light text-slate-700">
-            38년의 경험과 기술만으로는 충분하지 않습니다.
-            우리는 신소재에 관심을 가지고, 인공지능을 배우며,
-            전 세계 여러 나라에서 더 나은 기술을 찾고 있습니다.
-            <span class="font-semibold">한국, 미국, 멕시코, 베트남 4개국 거점</span>에서
-            삼성SDI, 삼성전자, 현대자동차 같은 세계적 기업들과 함께 일할 때마다
-            우리는 더 나은 내일을 만들고 있다는 것을 느낍니다.
-          </p>
-
-          <p class="text-lg leading-relaxed font-light text-slate-700">
-            우리가 하는 일은 단순합니다.
+            <span class="font-semibold">정밀의 기술(자동화)로 구현하고, 지혜의 기술(지능화)로 완성하여 '제조의 정석'을 만드는 솔루션 파트너</span>.
+            이것이 우리가 추구하는 방향입니다.
           </p>
 
           <!-- 슬로건 박스 -->
           <div class="my-10 p-8 bg-gradient-to-r from-emerald-50 to-blue-50 rounded-lg border-l-4 border-emerald-500">
-            <p class="text-center text-3xl lg:text-4xl font-bold gradient-text">
-              Pride in Quality & Technology
+            <p class="text-center text-2xl lg:text-3xl font-bold text-slate-900 mb-2">
+              PRECISION · AUTOMATION · INTELLIGENCE
             </p>
-            <p class="text-center text-slate-600 mt-4 text-base lg:text-lg">
-              고객의 신뢰를 위해, 더 나은 내일을 위해,<br>
-              품질과 기술로 신뢰를 쌓는 것.
+            <p class="text-center text-slate-600 text-base lg:text-lg">
+              39년의 정밀함을 기술(자동화)로 구현하고,<br>
+              지혜(지능화)로 완성하여 '제조의 정석'을 만듭니다.
             </p>
           </div>
 
           <p class="text-lg leading-relaxed font-light text-slate-700">
-            이 다섯 글자 안에 우리의 모든 노력이 담겨 있습니다.
             여러분의 신뢰가 우리의 가장 큰 자산이 되겠습니다.
           </p>
 

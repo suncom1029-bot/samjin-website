@@ -160,6 +160,57 @@
     </div>
   </section>
 
+  <!-- Battery Safety — LithiumPrevent™ -->
+  <section class="section-lg bg-white">
+    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <!-- 콘텐츠 -->
+        <div class="space-y-8">
+          <div>
+            <div class="inline-block bg-emerald-100 text-emerald-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+              Battery Safety Solution
+            </div>
+            <h2 class="text-4xl font-bold mb-4">열폭주로부터<br>안전을 설계하다</h2>
+            <p class="text-slate-700 text-lg leading-relaxed">
+              캐나다 Pyrophobic Systems와 협업한 자기소화성 레진(LithiumPrevent™)을 활용합니다.
+              배터리의 가장 큰 위험인 '열폭주'를 근본에서 차단하는 솔루션입니다.
+            </p>
+          </div>
+
+          <div class="space-y-4">
+            <h3 class="text-2xl font-bold text-slate-900">핵심 기술</h3>
+            <ul class="space-y-3 text-slate-700">
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span><strong>자기소화성 레진</strong> — 열폭주 발생 시 자동으로 연소를 차단</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span><strong>다중 방어층</strong> — Top Cover, Bottom Cover, Busbar Cover, Module Outer</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span><strong>양산 진행 중</strong> — GM EV 플랫폼 Busbar Cover 대량 공급</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span><strong>글로벌 협업</strong> — 현대차, 삼성 EV용 Battery Cover 샘플 진행</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 이미지 -->
+        <div class="rounded-lg overflow-hidden bg-gradient-to-br from-slate-100 to-slate-50 h-96 flex items-center justify-center">
+          <div class="text-center">
+            <div class="text-6xl mb-3">🛡️</div>
+            <p class="text-slate-500 font-semibold">Battery Safety Protection</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- 주요 고객사 -->
   <section class="section-lg bg-slate-50">
     <div class="max-w-7xl mx-auto px-6 lg:px-12">
