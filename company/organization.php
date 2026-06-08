@@ -62,8 +62,7 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- 수평적 소통 -->
         <div class="bg-white p-8 rounded-lg border-2 border-emerald-200 shadow-md hover:shadow-lg transition">
-          <p class="text-4xl mb-4">🤝</p>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">수평적 소통</h3>
+          <h3 class="text-lg font-bold text-slate-900 mb-3">수평적 소통</h3>
           <p class="text-slate-700 leading-relaxed">
             직급보다는 신뢰와 역량을 중시합니다. 모든 직원의 의견은 소중하며, 열린 커뮤니케이션을 장려합니다.
           </p>
@@ -71,8 +70,7 @@
 
         <!-- 도전과 혁신 -->
         <div class="bg-white p-8 rounded-lg border-2 border-blue-200 shadow-md hover:shadow-lg transition">
-          <p class="text-4xl mb-4">🚀</p>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">도전과 혁신</h3>
+          <h3 class="text-lg font-bold text-slate-900 mb-3">도전과 혁신</h3>
           <p class="text-slate-700 leading-relaxed">
             실패를 두려워하지 않습니다. 새로운 아이디어와 도전을 적극 장려하며, 지속적인 혁신을 추구합니다.
           </p>
@@ -80,8 +78,7 @@
 
         <!-- 지속적 성장 -->
         <div class="bg-white p-8 rounded-lg border-2 border-purple-200 shadow-md hover:shadow-lg transition">
-          <p class="text-4xl mb-4">📈</p>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">지속적 성장</h3>
+          <h3 class="text-lg font-bold text-slate-900 mb-3">지속적 성장</h3>
           <p class="text-slate-700 leading-relaxed">
             개인의 역량 개발과 경력 발전을 적극 지원합니다. 함께 성장하는 것이 우리의 목표입니다.
           </p>
