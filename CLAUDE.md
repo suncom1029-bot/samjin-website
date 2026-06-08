@@ -319,4 +319,6 @@ html, body {
   - `/management/awards.php`: 수상 타임라인을 3칼럼 카드 형식으로 재디자인 (1991, 2014, 2023+) (2026-06-10) ✅
   - `/management/awards.php`: "보유 인증" 섹션 이모티콘 제거 + 폰트 조정 (2026-06-10) ✅
   - `/management/competency.php`: "보유 인증" 섹션 이모티콘 제거 + 폰트 조정 (2026-06-10) ✅
+  - `/management/philosophy.php`: "정밀의 여정" 타임라인 배지 크기 확대 (w-12→w-16, text-lg→text-2xl) (2026-06-10) ✅
   - **(다음 단계)** philosophy.php: "2026 비전" 섹션 제거, "정밀의 여정" 도형 짤림 수정
+  - **(다음 단계)** ir/stock.php: Fatal error 수정 + 주식정보 페이지 전면 재설계

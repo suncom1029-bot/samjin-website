@@ -94,10 +94,10 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- PAST: 정밀의 기원 -->
         <div class="relative">
-          <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-12 h-12 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-lg">
+          <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-6 w-16 h-16 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-2xl">
             1987
           </div>
-          <div class="bg-gradient-to-br from-slate-50 to-slate-100 p-8 rounded-lg border-2 border-slate-300 mt-8">
+          <div class="bg-gradient-to-br from-slate-50 to-slate-100 p-8 rounded-lg border-2 border-slate-300 mt-10">
             <p class="text-sm font-semibold text-slate-600 uppercase tracking-widest mb-3">PAST</p>
             <h3 class="text-2xl font-bold text-slate-900 mb-3">정밀의 기원</h3>
             <p class="text-slate-700 mb-4 leading-relaxed">
@@ -114,10 +114,10 @@
 
         <!-- PRESENT: 정밀의 현재 -->
         <div class="relative">
-          <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-12 h-12 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-lg">
+          <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-6 w-16 h-16 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-2xl">
             NOW
           </div>
-          <div class="bg-gradient-to-br from-emerald-50 to-emerald-100 p-8 rounded-lg border-2 border-emerald-400 mt-8 ring-2 ring-emerald-200">
+          <div class="bg-gradient-to-br from-emerald-50 to-emerald-100 p-8 rounded-lg border-2 border-emerald-400 mt-10 ring-2 ring-emerald-200">
             <p class="text-sm font-semibold text-emerald-700 uppercase tracking-widest mb-3">PRESENT</p>
             <h3 class="text-2xl font-bold text-slate-900 mb-3">정밀의 현재</h3>
             <p class="text-slate-700 mb-4 leading-relaxed">
@@ -134,10 +134,10 @@
 
         <!-- FUTURE: 정밀 + α -->
         <div class="relative">
-          <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-12 h-12 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-lg">
+          <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-6 w-16 h-16 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-2xl">
             2026+
           </div>
-          <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-2 border-blue-400 mt-8">
+          <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-2 border-blue-400 mt-10">
             <p class="text-sm font-semibold text-blue-700 uppercase tracking-widest mb-3">FUTURE</p>
             <h3 class="text-2xl font-bold text-slate-900 mb-3">정밀 + α</h3>
             <p class="text-slate-700 mb-4 leading-relaxed">
