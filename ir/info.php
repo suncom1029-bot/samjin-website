@@ -123,28 +123,12 @@
           <p class="text-xs text-gray-500">2025년도 감사보고서</p>
         </a>
 
-        <!-- 정관 -->
-        <a href="#" class="bg-white p-8 rounded-lg border border-slate-200 shadow-lg hover:shadow-xl hover:border-emerald-500 transition">
-          <div class="text-4xl mb-4">⚖️</div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">정관</h3>
-          <p class="text-slate-600 text-sm mb-4">회사의 기본 운영 규칙</p>
-          <p class="text-xs text-gray-500">현행 정관</p>
-        </a>
-
         <!-- 주주총회 자료 -->
         <a href="#" class="bg-white p-8 rounded-lg border border-slate-200 shadow-lg hover:shadow-xl hover:border-emerald-500 transition">
           <div class="text-4xl mb-4">🤝</div>
           <h3 class="text-xl font-bold text-slate-900 mb-3">주주총회 자료</h3>
           <p class="text-slate-600 text-sm mb-4">정기·임시 주주총회 소집 공고</p>
           <p class="text-xs text-gray-500">2026년 정기주주총회</p>
-        </a>
-
-        <!-- IR Book -->
-        <a href="#" class="bg-white p-8 rounded-lg border border-slate-200 shadow-lg hover:shadow-xl hover:border-emerald-500 transition">
-          <div class="text-4xl mb-4">📚</div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">IR Book</h3>
-          <p class="text-slate-600 text-sm mb-4">투자자를 위한 회사 종합 소개서</p>
-          <p class="text-xs text-gray-500">최신 버전</p>
         </a>
       </div>
     </div>
