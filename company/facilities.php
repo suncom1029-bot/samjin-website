@@ -55,7 +55,7 @@
   <section class="section-lg bg-white">
     <div class="max-w-7xl mx-auto px-6 lg:px-12">
       <div class="mb-16 text-center">
-        <h2 class="text-4xl font-bold mb-4">🇰🇷 본사 (한국)</h2>
+        <h2 class="text-4xl font-bold mb-4">본사 (한국)</h2>
         <p class="text-gray-500 text-lg">개발·기술·금형의 심장</p>
       </div>
 
@@ -130,8 +130,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- 미국 -->
         <div class="bg-white rounded-lg p-8 border border-slate-200 hover:shadow-lg transition">
-          <p class="text-4xl mb-4">🇺🇸</p>
-          <h3 class="text-2xl font-bold text-slate-900 mb-2">ELEMEK, INC.</h3>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">ELEMEK, INC.</h3>
           <p class="text-emerald-600 font-semibold mb-4">미국 (Chula Vista, CA)</p>
           <div class="space-y-3 text-slate-700">
             <div>
@@ -151,8 +150,7 @@
 
         <!-- 멕시코 -->
         <div class="bg-white rounded-lg p-8 border border-slate-200 hover:shadow-lg transition">
-          <p class="text-4xl mb-4">🇲🇽</p>
-          <h3 class="text-2xl font-bold text-slate-900 mb-2">COMEX PLATECH</h3>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">COMEX PLATECH</h3>
           <p class="text-emerald-600 font-semibold mb-4">멕시코 (Tijuana, BC)</p>
           <div class="space-y-3 text-slate-700">
             <div>
@@ -176,8 +174,7 @@
 
         <!-- 베트남 -->
         <div class="bg-white rounded-lg p-8 border border-slate-200 hover:shadow-lg transition">
-          <p class="text-4xl mb-4">🇻🇳</p>
-          <h3 class="text-2xl font-bold text-slate-900 mb-2">SAMJIN LND VINA</h3>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">SAMJIN LND VINA</h3>
           <p class="text-emerald-600 font-semibold mb-4">베트남 (Vinh Phuc)</p>
           <div class="space-y-3 text-slate-700">
             <div>
@@ -213,8 +210,7 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- 카드 1 -->
         <div class="bg-gradient-to-br from-emerald-50 to-emerald-100 p-8 rounded-lg border border-emerald-200">
-          <p class="text-3xl mb-4">🏭</p>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">현지화 생산</h3>
+          <h3 class="text-lg font-bold text-slate-900 mb-3">현지화 생산</h3>
           <p class="text-slate-700">
             소비지 생산 관점에서 운송비 절감, 납기 단축, 고객 신뢰성 강화
           </p>
@@ -222,8 +218,7 @@
 
         <!-- 카드 2 -->
         <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border border-blue-200">
-          <p class="text-3xl mb-4">🎯</p>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">거점별 특화</h3>
+          <h3 class="text-lg font-bold text-slate-900 mb-3">거점별 특화</h3>
           <p class="text-slate-700">
             한국(개발·기술), 멕시코(디스플레이·OA), 베트남(배터리 부품) 역할 분담
           </p>
@@ -231,8 +226,7 @@
 
         <!-- 카드 3 -->
         <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-lg border border-purple-200">
-          <p class="text-3xl mb-4">🌍</p>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">글로벌 공급망</h3>
+          <h3 class="text-lg font-bold text-slate-900 mb-3">글로벌 공급망</h3>
           <p class="text-slate-700">
             삼성SDI, 삼성전자, 현대자동차 등 주요 고객사와 함께 성장
           </p>
@@ -281,14 +275,14 @@
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <!-- 주소 -->
         <div class="bg-gradient-to-br from-slate-50 to-slate-100 p-8 rounded-lg border border-slate-200">
-          <h3 class="text-xl font-bold text-slate-900 mb-4">📍 주소</h3>
+          <h3 class="text-lg font-bold text-slate-900 mb-4">주소</h3>
           <p class="text-slate-700 mb-2">경기도 화성시 동탄기흥로 64-17</p>
           <p class="text-sm text-gray-600 mt-4">본사 & 개발·기술 센터</p>
         </div>
 
         <!-- 연락처 -->
         <div class="bg-gradient-to-br from-slate-50 to-slate-100 p-8 rounded-lg border border-slate-200">
-          <h3 class="text-xl font-bold text-slate-900 mb-4">☎️ 연락처</h3>
+          <h3 class="text-lg font-bold text-slate-900 mb-4">연락처</h3>
           <div class="space-y-2 text-slate-700">
             <p><span class="font-semibold">대표전화:</span> 031-379-2000</p>
             <p><span class="font-semibold">팩스:</span> 031-376-5830</p>
@@ -297,7 +291,7 @@
 
         <!-- 대중교통 -->
         <div class="bg-gradient-to-br from-slate-50 to-slate-100 p-8 rounded-lg border border-slate-200">
-          <h3 class="text-xl font-bold text-slate-900 mb-4">🚗 대중교통</h3>
+          <h3 class="text-lg font-bold text-slate-900 mb-4">대중교통</h3>
           <p class="text-slate-700 text-sm">
             화성시 동탄신도시 인근<br>
             자세한 교통편은 네비게이션으로 확인해주세요
