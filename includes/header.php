@@ -78,8 +78,8 @@
         </button>
         <div class="absolute left-0 mt-0 w-40 bg-white rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pt-2">
           <a href="/support/inquiry.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">고객문의</a>
-          <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">FAQ</a>
           <a href="/support/news.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">뉴스센터</a>
+          <a href="/support/cyber.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">사이버신문고</a>
         </div>
       </div>
 

@@ -83,7 +83,8 @@ samjin-new/
 │   └── intelligence.php       # AI 지능화 페이지 (Zero Defect, ±0.01mm 정밀도)
 ├── support/
 │   ├── inquiry.php            # 고객문의 페이지 (부서별 연락처 테이블·문의카테고리·FAQ)
-│   └── news.php               # 뉴스센터 페이지 (뉴스 목록·카테고리·페이지네이션)
+│   ├── news.php               # 뉴스센터 페이지 (뉴스 목록·카테고리·페이지네이션)
+│   └── cyber.php              # 사이버신문고 페이지 (신고 양식·신고 유형·FAQ)
 ├── recruit/
 │   ├── jobs.php               # 채용공고 페이지 (게시판 형식, 6개 공고·카테고리·마감일)
 │   └── process.php            # 채용절차 페이지 (5단계 프로세스)
@@ -371,3 +372,9 @@ html, body {
 - **Customer Inquiry Page Design Update** (2026-06-08): 고객문의 페이지 이모티콘 제거
   - `/support/inquiry.php`: 문의 유형 섹션 이모티콘 제거 (🏢, 🤝, ❓)
   - 제목 폰트 조정 text-xl → text-lg
+- **Cyber Complaint System Page** (2026-06-08): 사이버신문고 페이지 신규 개발
+  - `/support/cyber.php`: 신고 및 제안 접수 페이지 개발 (신고 유형·신고 양식·FAQ)
+  - 4가지 신고 유형: 제안, 부정·비리, 품질·안전, 기타
+  - 신고하기 폼: 신고 유형·제목·상세 내용·관련 부서·발생 시기·신고자 정보·연락처·이메일
+  - 4개 FAQ 항목: 처리 방법, 신원 보호, 추적 기능, 익명 신고
+  - `includes/header.php`: 고객지원 드롭다운 메뉴 'FAQ' 제거, '뉴스센터' 다음에 '사이버신문고' 추가
