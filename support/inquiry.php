@@ -156,8 +156,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- 제품 문의 -->
         <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
-          <p class="text-4xl mb-4">🏢</p>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">제품 문의</h3>
+          <h3 class="text-lg font-bold text-slate-900 mb-3">제품 문의</h3>
           <p class="text-slate-700 mb-4">
             Display 부품, 배터리, OA, 금형 등 제품에 관한 상세한 정보 및 기술 사양 문의
           </p>
@@ -166,8 +165,7 @@
 
         <!-- 파트너십 문의 -->
         <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
-          <p class="text-4xl mb-4">🤝</p>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">파트너십</h3>
+          <h3 class="text-lg font-bold text-slate-900 mb-3">파트너십</h3>
           <p class="text-slate-700 mb-4">
             협력업체 모집, OEM 파트너십, 대리점 가입 등 비즈니스 파트너 관련 문의
           </p>
@@ -176,8 +174,7 @@
 
         <!-- 기타 문의 -->
         <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
-          <p class="text-4xl mb-4">❓</p>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">기타 문의</h3>
+          <h3 class="text-lg font-bold text-slate-900 mb-3">기타 문의</h3>
           <p class="text-slate-700 mb-4">
             투자 정보, 채용 관련, 기타 일반 문의 및 제안 사항
           </p>

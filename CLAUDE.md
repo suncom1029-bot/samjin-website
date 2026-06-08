@@ -368,3 +368,6 @@ html, body {
   - 6개 채용공고 (기술직, 영업직, 관리직) + 카테고리·공고일·마감일·경력 배지
   - 페이지네이션, 복리후생 섹션 (6개 항목), 채용 관련 문의 CTA 추가
   - `/recruit/jobs.php`: 버튼 텍스트 "지원하기" → "세부내역"으로 변경
+- **Customer Inquiry Page Design Update** (2026-06-08): 고객문의 페이지 이모티콘 제거
+  - `/support/inquiry.php`: 문의 유형 섹션 이모티콘 제거 (🏢, 🤝, ❓)
+  - 제목 폰트 조정 text-xl → text-lg
