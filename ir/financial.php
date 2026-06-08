@@ -18,7 +18,7 @@
   <?php include '../includes/header.php'; ?>
 
   <!-- Hero Banner -->
-  <section class="relative bg-gradient-to-br from-slate-900 via-slate-800 to-emerald-900 text-white py-20 lg:py-28 mt-20">
+  <section class="relative bg-gradient-to-br from-slate-900 via-slate-800 to-emerald-900 text-white py-12 lg:py-16 mt-20">
     <div class="absolute inset-0 bg-black/20"></div>
     <div class="relative max-w-7xl mx-auto px-6 lg:px-12">
       <div class="mb-6">

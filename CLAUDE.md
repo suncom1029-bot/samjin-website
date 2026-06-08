@@ -378,3 +378,8 @@ html, body {
   - 신고하기 폼: 신고 유형·제목·상세 내용·관련 부서·발생 시기·신고자 정보·연락처·이메일
   - 4개 FAQ 항목: 처리 방법, 신원 보호, 추적 기능, 익명 신고
   - `includes/header.php`: 고객지원 드롭다운 메뉴 'FAQ' 제거, '뉴스센터' 다음에 '사이버신문고' 추가
+- **Hero Banner Height Optimization** (2026-06-08): 모든 서브페이지 Hero Banner 높이 단축
+  - 패딩 조정: `py-20 lg:py-28` → `py-12 lg:py-16` (약 32% 감소)
+  - 모바일: 240px → 176px | 데스크톱: 304px → 208px
+  - 26개 파일 적용: products(7), management(5), company(5), ir(3), support(2), recruit(2)
+  - 전체 페이지 레이아웃 개선 및 과도한 공백 제거
