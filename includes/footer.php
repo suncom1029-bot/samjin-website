@@ -1,8 +1,8 @@
 <!-- Footer -->
-<footer class="bg-slate-900 text-white pt-16 pb-8">
+<footer class="bg-slate-900 text-white pt-12 pb-6">
   <div class="max-w-7xl mx-auto px-6 lg:px-12">
     <!-- Footer Content -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
       <!-- Company Info -->
       <div>
         <img src="/assets/img/footer_logo.png" alt="SAMJIN L&D" class="h-32 max-w-xs mb-6">
@@ -75,12 +75,7 @@
     </div>
 
     <!-- Divider -->
-    <hr class="border-slate-700 mb-8">
-
-    <!-- Brand Tagline -->
-    <div class="text-center mb-8">
-      <p class="text-xs tracking-widest text-gray-400">PRECISION · AUTOMATION · INTELLIGENCE</p>
-    </div>
+    <hr class="border-slate-700 mb-6">
 
     <!-- Copyright -->
     <div class="text-center text-sm text-gray-400">

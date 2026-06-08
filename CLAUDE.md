@@ -353,3 +353,7 @@ html, body {
   - `/assets/img/footer_logo.png`: 새 SAMJIN L&D 로고로 교체 (배경색 #0f172a로 통일)
   - `includes/footer.php`: 로고 높이 h-10 md:h-12 → h-32로 조정 (회사정보 텍스트 높이와 통일)
   - `includes/footer.php`: 로고 폭 w-auto → max-w-xs로 제한 (320px 최대 폭)
+- **Footer Height Optimization** (2026-06-08): 푸터 높이 감소 및 정리
+  - `includes/footer.php`: 상단 padding pt-16 → pt-12, 하단 pb-8 → pb-6 조정
+  - `includes/footer.php`: 콘텐츠 간격 mb-12 → mb-8, divider 하단 mb-8 → mb-6 조정
+  - `includes/footer.php`: 'PRECISION · AUTOMATION · INTELLIGENCE' 브랜드 태그라인 섹션 제거
