@@ -82,7 +82,8 @@ samjin-new/
 │   ├── automation.php         # 자동화 솔루션 페이지 (Plug & Play, 70% 자동화)
 │   └── intelligence.php       # AI 지능화 페이지 (Zero Defect, ±0.01mm 정밀도)
 ├── support/
-│   └── inquiry.php            # 고객문의 페이지 (부서별 연락처 테이블·문의카테고리·FAQ)
+│   ├── inquiry.php            # 고객문의 페이지 (부서별 연락처 테이블·문의카테고리·FAQ)
+│   └── news.php               # 뉴스센터 페이지 (뉴스 목록·카테고리·페이지네이션)
 ├── recruit/
 │   ├── jobs.php               # 채용공고 페이지 (채용정보 목록·복리후생)
 │   └── process.php            # 채용절차 페이지 (5단계 프로세스)
@@ -357,3 +358,8 @@ html, body {
   - `includes/footer.php`: 상단 padding pt-16 → pt-12, 하단 pb-8 → pb-6 조정
   - `includes/footer.php`: 콘텐츠 간격 mb-12 → mb-8, divider 하단 mb-8 → mb-6 조정
   - `includes/footer.php`: 'PRECISION · AUTOMATION · INTELLIGENCE' 브랜드 태그라인 섹션 제거
+- **News Center Page** (2026-06-08): 뉴스센터 페이지 신규 개발
+  - `/support/news.php`: 메인화면 NEWS 데이터 기반 뉴스 목록 페이지 개발
+  - Hero 배너, 6개 뉴스 아이템 (카테고리·날짜·제목·요약), 페이지네이션, CTA 섹션 구성
+  - 뉴스 카테고리: 경영소식, 인증/수상, 비즈니스, 기술뉴스, 제품개발
+  - `includes/header.php`: 고객지원 > 뉴스센터 링크 "#" → "/support/news.php" 변경
