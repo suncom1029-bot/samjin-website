@@ -178,6 +178,85 @@
     </div>
   </section>
 
+  <!-- 분기별 실적 -->
+  <section class="section-lg bg-white">
+    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+      <div class="mb-16">
+        <h2 class="text-4xl font-bold mb-2">분기별 실적</h2>
+        <p class="text-gray-600 text-lg">최근 4분기 경영 성과</p>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full border-collapse">
+          <thead>
+            <tr class="bg-slate-100 border-b-2 border-slate-300">
+              <th class="p-4 text-left font-bold text-slate-900">분기</th>
+              <th class="p-4 text-right font-bold text-slate-900">매출액<br>(백만원)</th>
+              <th class="p-4 text-right font-bold text-slate-900">영업이익<br>(백만원)</th>
+              <th class="p-4 text-right font-bold text-slate-900">순이익<br>(백만원)</th>
+              <th class="p-4 text-right font-bold text-slate-900">영업이익률<br>(%)</th>
+              <th class="p-4 text-right font-bold text-slate-900">공시일</th>
+            </tr>
+          </thead>
+          <tbody>
+            <?php foreach ($quarterly_results as $quarter): ?>
+            <tr class="border-b border-slate-200 hover:bg-slate-50 transition">
+              <td class="p-4 font-semibold text-slate-900"><?php echo $quarter['quarter']; ?></td>
+              <td class="p-4 text-right text-slate-700"><?php echo number_format($quarter['revenue']); ?></td>
+              <td class="p-4 text-right text-slate-700"><?php echo number_format($quarter['operating_profit']); ?></td>
+              <td class="p-4 text-right text-slate-700"><?php echo number_format($quarter['net_income']); ?></td>
+              <td class="p-4 text-right text-emerald-600 font-semibold"><?php echo $quarter['margin']; ?>%</td>
+              <td class="p-4 text-right text-gray-500"><?php echo $quarter['released_date']; ?></td>
+            </tr>
+            <?php endforeach; ?>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 주요 재무 지표 -->
+  <section class="section-lg bg-slate-50">
+    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+      <div class="mb-16">
+        <h2 class="text-3xl font-bold mb-2">주요 재무 지표</h2>
+        <p class="text-gray-600 text-lg">2025년 기준</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
+        <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-lg text-center">
+          <p class="text-sm text-slate-600 font-semibold mb-2 uppercase">ROA</p>
+          <p class="text-3xl font-bold text-emerald-600"><?php echo $key_metrics['roa']; ?>%</p>
+          <p class="text-xs text-gray-500 mt-2">자산수익률</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-lg text-center">
+          <p class="text-sm text-slate-600 font-semibold mb-2 uppercase">ROE</p>
+          <p class="text-3xl font-bold text-blue-600"><?php echo $key_metrics['roe']; ?>%</p>
+          <p class="text-xs text-gray-500 mt-2">자기자본수익률</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-lg text-center">
+          <p class="text-sm text-slate-600 font-semibold mb-2 uppercase">부채비율</p>
+          <p class="text-3xl font-bold text-purple-600"><?php echo $key_metrics['debt_ratio']; ?>%</p>
+          <p class="text-xs text-gray-500 mt-2">안정성 지표</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-lg text-center">
+          <p class="text-sm text-slate-600 font-semibold mb-2 uppercase">유동비율</p>
+          <p class="text-3xl font-bold text-orange-600"><?php echo $key_metrics['current_ratio']; ?>배</p>
+          <p class="text-xs text-gray-500 mt-2">유동성 지표</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-lg text-center">
+          <p class="text-sm text-slate-600 font-semibold mb-2 uppercase">당좌비율</p>
+          <p class="text-3xl font-bold text-pink-600"><?php echo $key_metrics['quick_ratio']; ?>배</p>
+          <p class="text-xs text-gray-500 mt-2">긴급유동성</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- 영업이익률 추이 -->
   <section class="section-lg bg-slate-50">
     <div class="max-w-7xl mx-auto px-6 lg:px-12">

@@ -284,10 +284,15 @@ html, body {
   - `/ir/financial.php`: 재무 정보 (DART API 또는 Mock: 2024~2026 재무제표, 배당 내역)
   - Mock 데이터: `includes/mock-data.php`에 stock_info, financial_data, dividend_history 추가
   - Header/Footer: 투자정보 드롭다운 메뉴 + 빠른 링크에 3개 페이지 연결
-- **API Integration** (2026-06-08): Phase 1-2 진행중
+- **API Integration** (2026-06-08): 인프라 구축 완료 (실제 API 연동은 향후)
   - Finnhub API: 실시간 주가, 거래량, PER/PBR 지표 (5분 캐싱)
   - DART API: 재무정보, 배당내역, 공시정보 (24시간 캐싱)
   - `includes/api-helpers.php`: Finnhub 4개 함수 + DART 3개 함수 + 캐싱 시스템
   - `.env.example`: API KEY 설정 템플릿
   - `IR_API_SETUP.md`: 완전한 API 설정 가이드
   - Graceful fallback: API 실패 시 mock 데이터 자동 사용
+- **Mock Data Enhancement** (2026-06-08): IR 페이지용 고도화 목업 데이터
+  - 분기별 실적: 2026 Q1 ~ 2025 Q4 (매출액, 영업이익, 순이익, 마진율)
+  - 주요 재무 지표: ROA, ROE, 부채비율, 유동비율, 당좌비율
+  - `/ir/financial.php`에 분기별 실적 테이블 + 지표 카드 추가
+  - 더 현실적인 숫자 기반 완성도 높은 디자인

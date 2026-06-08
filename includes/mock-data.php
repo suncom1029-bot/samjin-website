@@ -145,7 +145,8 @@ $ir_data = [
     'stock_price' => 1041,
     'price_change' => -22,
     'change_percent' => -2.07,
-    'dividend_link' => '#dividend'
+    'dividend_link' => '#dividend',
+    'update_time' => '2026-06-08 15:30:00'
 ];
 
 $ir_sections = [
@@ -232,6 +233,51 @@ $dividend_history = [
         'ex_date' => '2024.03.12',
         'payment_date' => '2024.04.08'
     ]
+];
+
+// ======================== 분기별 실적 ========================
+$quarterly_results = [
+    [
+        'quarter' => '2026년 1분기',
+        'revenue' => 248500,
+        'operating_profit' => 21340,
+        'net_income' => 17850,
+        'margin' => 8.58,
+        'released_date' => '2026.05.15'
+    ],
+    [
+        'quarter' => '2025년 4분기',
+        'revenue' => 256300,
+        'operating_profit' => 23450,
+        'net_income' => 19620,
+        'margin' => 9.14,
+        'released_date' => '2026.02.28'
+    ],
+    [
+        'quarter' => '2025년 3분기',
+        'revenue' => 231400,
+        'operating_profit' => 19280,
+        'net_income' => 16100,
+        'margin' => 8.34,
+        'released_date' => '2025.11.15'
+    ],
+    [
+        'quarter' => '2025년 2분기',
+        'revenue' => 187300,
+        'operating_profit' => 18380,
+        'net_income' => 15400,
+        'margin' => 9.81,
+        'released_date' => '2025.08.14'
+    ]
+];
+
+// ======================== 연간 주요 지표 ========================
+$key_metrics = [
+    'roa' => 7.2,           // Return on Assets
+    'roe' => 10.5,          // Return on Equity
+    'debt_ratio' => 25.3,   // 부채비율
+    'current_ratio' => 1.8, // 유동비율
+    'quick_ratio' => 1.4    // 당좌비율
 ];
 
 // ======================== IR 공지사항 ========================
