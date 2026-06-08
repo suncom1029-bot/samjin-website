@@ -271,6 +271,13 @@ html, body {
 - **Responsive**: Tailwind 기본 브레이크포인트 사용 (sm/md/lg/xl)
 - **Images**: 로컬 이미지 + Unsplash CDN 혼합 사용
 - **Tailwind CDN**: 빌드 과정 없음 (CDN 직접 로드). 커스텀 클래스는 `custom.css`에서 정의
+- **Data Integrity & Consistency** (2026-06-08): 기업 수치 신뢰성 개선
+  - `/includes/company-constants.php`: 공식 기준 데이터 파일 생성 (YEARS_IN_BUSINESS=39, EMPLOYEES_COUNT=800)
+  - `index.php`: hero subtitle·HIGHLIGHTS 문구를 동적값으로 변경 (혼재 해결)
+  - `company/overview.php`: 임직원 수를 상수로 참조 (800명 통일)
+  - `includes/mock-data.php`: stats의 임직원 수 720→800 수정
+  - `index.php`: "실시간 주가정보"→"주가정보 (모의 데이터)" 표기 변경
+  - `CLAUDE.md`: 모든 운영 기록 날짜 2026-06-08로 정규화 (중복 기록 제거)
 - **Recruitment Pages** (2026-06-08): `recruit/process.php` 다크 테마 + UX 개선 (호버 애니메이션, 상세 설명)
 - **Communication Strategy** (2026-06-08): 공식 커뮤니케이션 전략 문서 반영
   - Phase 1 ✅: 브랜드 키워드 (Precision · Automation · Intelligence) 적용
@@ -292,37 +299,37 @@ html, body {
   - `.env.example`: API KEY 설정 템플릿
   - `IR_API_SETUP.md`: 완전한 API 설정 가이드
   - Graceful fallback: API 실패 시 mock 데이터 자동 사용
-  - (2026-06-09 버그 수정): get_cached_data()/set_cached_data() 함수 중복 선언 제거
+  - (2026-06-08 버그 수정): get_cached_data()/set_cached_data() 함수 중복 선언 제거
 - **Mock Data Enhancement** (2026-06-08): IR 페이지용 고도화 목업 데이터
   - 분기별 실적: 2026 Q1 ~ 2025 Q4 (매출액, 영업이익, 순이익, 마진율)
   - 주요 재무 지표: ROA, ROE, 부채비율, 유동비율, 당좌비율
   - `/ir/financial.php`에 분기별 실적 테이블 + 지표 카드 추가
   - 더 현실적인 숫자 기반 완성도 높은 디자인
-  - (2026-06-09): $stock_info에 stock_price, price_change, change_percent 필드 추가
+  - (2026-06-08): $stock_info에 stock_price, price_change, change_percent 필드 추가
 
-- **Stock Info Page Design** (2026-06-08 → 2026-06-09): 네이버 금융 스타일 리디자인
+- **Stock Info Page Design** (2026-06-08 → 2026-06-08): 네이버 금융 스타일 리디자인
   - 좌측 패널: 현재가 대표 표시 + 시가총액/상장일/평균거래량 정보박스
   - 우측 영역: 거래정보(4개 박스) + 52주 범위 프로그레스바 + 주주구성 섹션
   - 투자지표: EPS/PER/PBR 카드를 깔끔한 보더 스타일로 변경 (그라데이션 제거)
   - 배당금: 배당금/배당수익률/상세정보 버튼 3분할 레이아웃
   - 타이포그래피: 이모티콘 제거, 전문적 텍스트 라벨 강화
-  - (2026-06-09): Mock 데이터 우선 사용 - API 호출 제거 (향후 API 연동 예정)
+  - (2026-06-08): Mock 데이터 우선 사용 - API 호출 제거 (향후 API 연동 예정)
 - **IR Section Updates** (2026-06-08): 메인페이지 IR 섹션 정리
   - "2022년 정점 이후" 질적 전환 내러티브 박스 제거
   - IR 정보/주식 정보/재무 정보 카드의 이모티콘 제거
-- **Company Pages Design Updates** (2026-06-09): 회사소개 페이지 이모티콘 제거 및 디자인 통일
+- **Company Pages Design Updates** (2026-06-08): 회사소개 페이지 이모티콘 제거 및 디자인 통일
   - `/company/greeting.php`: "삼진엘앤디의 약속" 섹션 이모티콘 제거 + 폰트 조정 ✅
-  - `/company/greeting.php`: "글로벌 확장" 카드 이모티콘 제거 (2026-06-10) ✅
+  - `/company/greeting.php`: "글로벌 확장" 카드 이모티콘 제거 (2026-06-08) ✅
   - `/company/overview.php`: "주요 사업 분야", "인증 및 수상" 이모티콘 제거 + 폰트 조정 ✅
   - `/company/overview.php`: "핵심 기술"을 박스 3열 레이아웃으로 개선 ✅
-  - `/company/overview.php`: "글로벌 거점" 섹션 국기 이모티콘 제거 + 디자인 통일 (2026-06-10) ✅
+  - `/company/overview.php`: "글로벌 거점" 섹션 국기 이모티콘 제거 + 디자인 통일 (2026-06-08) ✅
   - `/management/philosophy.php`: "설립이념" 섹션 이모티콘 제거 + 폰트 조정 ✅
-  - `/management/awards.php`: 수상 타임라인을 3칼럼 카드 형식으로 재디자인 (1991, 2014, 2023+) (2026-06-10) ✅
-  - `/management/awards.php`: "보유 인증" 섹션 이모티콘 제거 + 폰트 조정 (2026-06-10) ✅
-  - `/management/competency.php`: "보유 인증" 섹션 이모티콘 제거 + 폰트 조정 (2026-06-10) ✅
-  - `/management/philosophy.php`: "정밀의 여정" 타임라인 배지 크기 확대 (w-12→w-16, text-lg→text-2xl) (2026-06-10) ✅
-  - `/ir/info.php`: IR 자료실에서 '정관', 'IR Book' 항목 제거 (2026-06-10) ✅
-  - `/ir/info.php`: 경영진 소개 섹션 제거 (2026-06-10) ✅
+  - `/management/awards.php`: 수상 타임라인을 3칼럼 카드 형식으로 재디자인 (1991, 2014, 2023+) (2026-06-08) ✅
+  - `/management/awards.php`: "보유 인증" 섹션 이모티콘 제거 + 폰트 조정 (2026-06-08) ✅
+  - `/management/competency.php`: "보유 인증" 섹션 이모티콘 제거 + 폰트 조정 (2026-06-08) ✅
+  - `/management/philosophy.php`: "정밀의 여정" 타임라인 배지 크기 확대 (w-12→w-16, text-lg→text-2xl) (2026-06-08) ✅
+  - `/ir/info.php`: IR 자료실에서 '정관', 'IR Book' 항목 제거 (2026-06-08) ✅
+  - `/ir/info.php`: 경영진 소개 섹션 제거 (2026-06-08) ✅
   - `/management/philosophy.php`: "2026 비전" 섹션 제거 (2026-06-08) ✅
   - `/management/policy.php`: 신규 페이지 제작 - 품질/환경방침 (심플 디자인, 이모티콘 제거) (2026-06-08) ✅
     * 품질 방침 섹션: 고객만족·프로세스개선·국제기준·임직원교육
@@ -331,9 +338,9 @@ html, body {
     * 방침 실행 약속: 경영진책임·전직원참여·지속개선·이해관계자소통
   - `includes/header.php`: '경영관리' > '품질/환경방침' 링크 추가 (/management/policy.php) (2026-06-08) ✅
   - `includes/footer.php`: 경영관리 섹션에 '품질/환경방침' 링크 추가 (2026-06-08) ✅
-  - `/ir/stock.php`: Fatal error 수정 (number_format TypeError) + 주식정보 페이지 전면 재설계 (2026-06-10) ✅
+  - `/ir/stock.php`: Fatal error 수정 (number_format TypeError) + 주식정보 페이지 전면 재설계 (2026-06-08) ✅
     * 8개 섹션: 현재가+당일거래, 기본정보표, 52주범위+주주구성, 투자지표(6개), 주가추이차트, 수익률비교, 배당정보, 최근공시
-  - `includes/mock-data.php`: $stock_info 데이터 타입 교정 (문자열→정수) + 20개 신규 필드 추가 (2026-06-10) ✅
+  - `includes/mock-data.php`: $stock_info 데이터 타입 교정 (문자열→정수) + 20개 신규 필드 추가 (2026-06-08) ✅
   - `/company/organization.php`: "우리의 조직 문화" 섹션 이모티콘 제거 + 폰트 조정 (text-xl→text-lg) (2026-06-08) ✅
   - `/company/facilities.php`: 이모티콘 제거 (국기·🏭·🎯·🌍·📍·☎️·🚗) + 폰트 조정 (2026-06-08) ✅
   - `/company/facilities.php`: img_factory 이미지 크기 조정 (items-center → items-start, 기본정보~팩스 길이에 맞춤) (2026-06-08) ✅

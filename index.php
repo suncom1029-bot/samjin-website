@@ -23,6 +23,7 @@
 </head>
 <body class="bg-white text-slate-900">
 
+  <?php include 'includes/company-constants.php'; ?>
   <?php include 'includes/mock-data.php'; ?>
   <?php include 'includes/header.php'; ?>
 
@@ -33,7 +34,7 @@
         <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=800&fit=crop');">
           <div class="hero-content">
             <h2 class="hero-title">세상을 바꾸는 기술,<br>삼진엘앤디</h2>
-            <p class="hero-subtitle">1987년부터 39년, 정밀금형에서 AI 배터리 부품까지</p>
+            <p class="hero-subtitle">1987년부터 <?php echo YEARS_IN_BUSINESS; ?>년, 정밀금형에서 AI 배터리 부품까지</p>
             <div class="flex gap-2 mt-4 justify-center">
               <span class="px-4 py-2 bg-emerald-500 text-white text-sm font-semibold rounded-full">PRECISION</span>
               <span class="px-4 py-2 bg-emerald-500 text-white text-sm font-semibold rounded-full">AUTOMATION</span>
@@ -115,7 +116,7 @@
     <div class="max-w-7xl mx-auto px-6 lg:px-12">
       <div class="mb-16">
         <h2 class="text-4xl font-bold mb-4">HIGHLIGHTS</h2>
-        <p class="text-gray-500 text-lg">39년 정밀 제조 기술로 써 내려간 삼진엘앤디의 성장</p>
+        <p class="text-gray-500 text-lg"><?php echo YEARS_IN_BUSINESS; ?>년 정밀 제조 기술로 써 내려간 삼진엘앤디의 성장</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <?php foreach ($stats as $stat): ?>
@@ -140,7 +141,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
         <!-- Stock Price Card -->
         <div class="lg:col-span-2 bg-gradient-to-br from-slate-50 to-white rounded-lg p-8 shadow-lg border border-slate-100 transition-all duration-300 hover:shadow-xl hover:border-emerald-500 hover:-translate-y-1" data-aos="fade-up">
-          <h3 class="text-slate-600 font-semibold mb-4 text-lg">실시간 주가정보</h3>
+          <h3 class="text-slate-600 font-semibold mb-4 text-lg">주가정보 (모의 데이터)</h3>
           <div>
             <p class="text-6xl font-bold text-slate-900 mb-4"><?php echo number_format($ir_data['stock_price']); ?>원</p>
             <div class="space-y-3">

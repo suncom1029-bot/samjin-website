@@ -12,6 +12,8 @@
   <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/Paperlogy-7Bold.woff2" crossorigin="anonymous">
 </head>
 <body class="bg-white text-slate-900">
+  <?php include '../includes/company-constants.php'; ?>
+<body class="bg-white text-slate-900">
   <?php include '../includes/header.php'; ?>
 
   <!-- Hero Banner -->
@@ -58,7 +60,7 @@
         </div>
         <div class="bg-slate-50 p-8 rounded-lg border border-slate-200">
           <p class="text-emerald-600 font-semibold text-sm mb-2">규모</p>
-          <p class="text-xl font-bold text-slate-900">800명 임직원</p>
+          <p class="text-xl font-bold text-slate-900"><?php echo EMPLOYEES_COUNT; ?>명 임직원</p>
         </div>
       </div>
     </div>
