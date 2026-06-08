@@ -169,6 +169,10 @@ $ir_sections = [
 
 // ======================== IR 주식 정보 ========================
 $stock_info = [
+    'stock_price' => 1041,
+    'current_price' => 1041,
+    'price_change' => -22,
+    'change_percent' => -2.07,
     'market_cap' => '327,000',
     'listed_date' => '2023.08.04',
     'trading_volume' => '1,234,567',
@@ -176,7 +180,6 @@ $stock_info = [
     'avg_trading_volume' => '856,342',
     'high_52w' => 1450,
     'low_52w' => 875,
-    'current_price' => 1041,
     'eps' => 156.45,
     'per' => 6.65,
     'pbr' => 0.98,

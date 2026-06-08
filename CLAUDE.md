@@ -297,6 +297,7 @@ html, body {
   - 주요 재무 지표: ROA, ROE, 부채비율, 유동비율, 당좌비율
   - `/ir/financial.php`에 분기별 실적 테이블 + 지표 카드 추가
   - 더 현실적인 숫자 기반 완성도 높은 디자인
+  - (2026-06-09): $stock_info에 stock_price, price_change, change_percent 필드 추가
 
 - **Stock Info Page Design** (2026-06-08 → 2026-06-09): 네이버 금융 스타일 리디자인
   - 좌측 패널: 현재가 대표 표시 + 시가총액/상장일/평균거래량 정보박스
