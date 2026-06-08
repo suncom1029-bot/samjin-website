@@ -132,8 +132,7 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- 카드 1: 고객 신뢰 -->
         <div class="feature-card fade-in-up" data-aos="fade-up">
-          <p class="text-3xl mb-4">🤝</p>
-          <h3 class="text-2xl font-bold mb-3">고객 신뢰</h3>
+          <h3 class="text-xl font-bold mb-3 text-emerald-600">고객 신뢰</h3>
           <p class="feature-description">
             IATF16949 인증, 현대차 SQ 인증으로 입증된 품질 경영.
             고객의 신뢰는 우리의 가장 큰 자산이며,
@@ -143,8 +142,7 @@
 
         <!-- 카드 2: 기술 혁신 -->
         <div class="feature-card fade-in-up" data-aos="fade-up">
-          <p class="text-3xl mb-4">🔬</p>
-          <h3 class="text-2xl font-bold mb-3">기술 혁신</h3>
+          <h3 class="text-xl font-bold mb-3 text-emerald-600">기술 혁신</h3>
           <p class="feature-description">
             금형 기술(특허 5건), AI 비전 검사 시스템,
             ESS·UPS 배터리 부품 기술.

@@ -309,3 +309,7 @@ html, body {
 - **IR Section Updates** (2026-06-08): 메인페이지 IR 섹션 정리
   - "2022년 정점 이후" 질적 전환 내러티브 박스 제거
   - IR 정보/주식 정보/재무 정보 카드의 이모티콘 제거
+- **Company Pages Design Updates** (2026-06-09): 회사소개 페이지 이모티콘 제거 및 디자인 통일
+  - `/company/greeting.php`: "삼진엘앤디의 약속" 섹션 이모티콘 제거 + 폰트 조정
+  - `/company/overview.php`: "주요 사업 분야", "인증 및 수상" 이모티콘 제거 + 폰트 조정
+  - `/company/overview.php`: "핵심 기술"을 박스 3열 레이아웃으로 개선

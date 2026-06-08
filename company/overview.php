@@ -132,27 +132,27 @@
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
-          <h3 class="text-xl font-bold text-slate-900 mb-3">⚡ 2차전지 부품</h3>
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">2차전지 부품</h3>
           <p class="text-slate-700">ESS, UPS 배터리 부품 및 가스켓 제조</p>
         </div>
         <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
-          <h3 class="text-xl font-bold text-slate-900 mb-3">📱 Display 부품</h3>
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">Display 부품</h3>
           <p class="text-slate-700">도광판, 확산판, Mold Frame 등</p>
         </div>
         <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
-          <h3 class="text-xl font-bold text-slate-900 mb-3">🖨️ OA 제품</h3>
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">OA 제품</h3>
           <p class="text-slate-700">복합기, Finisher 등 사무기기</p>
         </div>
         <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
-          <h3 class="text-xl font-bold text-slate-900 mb-3">🔧 금형 & 핫런너</h3>
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">금형 & 핫런너</h3>
           <p class="text-slate-700">정밀 금형 및 자동화 시스템</p>
         </div>
         <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
-          <h3 class="text-xl font-bold text-slate-900 mb-3">💡 LGP</h3>
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">LGP</h3>
           <p class="text-slate-700">광학 등 패널 및 광학 부품</p>
         </div>
         <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
-          <h3 class="text-xl font-bold text-slate-900 mb-3">🤖 AI 비전 검사</h3>
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">AI 비전 검사</h3>
           <p class="text-slate-700">Deep Learning 기반 검사 시스템</p>
         </div>
       </div>
@@ -160,57 +160,32 @@
   </section>
 
   <!-- 핵심 기술 -->
-  <section class="section-lg bg-white">
+  <section class="section-lg bg-white border-t border-slate-200">
     <div class="max-w-7xl mx-auto px-6 lg:px-12">
       <div class="mb-16 text-center">
         <h2 class="text-4xl font-bold mb-4">핵심 기술</h2>
         <p class="text-gray-500 text-lg">38년의 기술 축적</p>
       </div>
-      <div class="space-y-6">
-        <div class="flex gap-6 items-start">
-          <div class="flex-shrink-0">
-            <div class="text-2xl font-bold text-emerald-600 bg-emerald-100 rounded-full w-12 h-12 flex items-center justify-center">1</div>
-          </div>
-          <div>
-            <h3 class="text-xl font-bold text-slate-900 mb-2">금형 기술</h3>
-            <p class="text-slate-700">Hot Runner 특허 5건 보유로 정밀 금형 제작의 선두주자</p>
-          </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">금형 기술</h3>
+          <p class="text-slate-700">Hot Runner 특허 5건 보유로 정밀 금형 제작의 선두주자</p>
         </div>
-        <div class="flex gap-6 items-start">
-          <div class="flex-shrink-0">
-            <div class="text-2xl font-bold text-emerald-600 bg-emerald-100 rounded-full w-12 h-12 flex items-center justify-center">2</div>
-          </div>
-          <div>
-            <h3 class="text-xl font-bold text-slate-900 mb-2">광학 기술</h3>
-            <p class="text-slate-700">Roll Stamp, 패터닝 기술로 정밀 광학 부품 글로벌 공급</p>
-          </div>
+        <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">광학 기술</h3>
+          <p class="text-slate-700">Roll Stamp, 패터닝 기술로 정밀 광학 부품 글로벌 공급</p>
         </div>
-        <div class="flex gap-6 items-start">
-          <div class="flex-shrink-0">
-            <div class="text-2xl font-bold text-emerald-600 bg-emerald-100 rounded-full w-12 h-12 flex items-center justify-center">3</div>
-          </div>
-          <div>
-            <h3 class="text-xl font-bold text-slate-900 mb-2">배터리 부품 기술</h3>
-            <p class="text-slate-700">IATF16949, 현대·삼성 협력으로 검증된 배터리 부품 제조</p>
-          </div>
+        <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">배터리 부품 기술</h3>
+          <p class="text-slate-700">IATF16949, 현대·삼성 협력으로 검증된 배터리 부품 제조</p>
         </div>
-        <div class="flex gap-6 items-start">
-          <div class="flex-shrink-0">
-            <div class="text-2xl font-bold text-emerald-600 bg-emerald-100 rounded-full w-12 h-12 flex items-center justify-center">4</div>
-          </div>
-          <div>
-            <h3 class="text-xl font-bold text-slate-900 mb-2">AI 비전 기술</h3>
-            <p class="text-slate-700">Deep Learning 기반 검사 시스템으로 품질 향상</p>
-          </div>
+        <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">AI 비전 기술</h3>
+          <p class="text-slate-700">Deep Learning 기반 검사 시스템으로 품질 향상</p>
         </div>
-        <div class="flex gap-6 items-start">
-          <div class="flex-shrink-0">
-            <div class="text-2xl font-bold text-emerald-600 bg-emerald-100 rounded-full w-12 h-12 flex items-center justify-center">5</div>
-          </div>
-          <div>
-            <h3 class="text-xl font-bold text-slate-900 mb-2">글로벌 제조</h3>
-            <p class="text-slate-700">한국, 미국, 멕시코, 베트남 4개국 거점으로 글로벌 대응</p>
-          </div>
+        <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">글로벌 제조</h3>
+          <p class="text-slate-700">한국, 미국, 멕시코, 베트남 4개국 거점으로 글로벌 대응</p>
         </div>
       </div>
     </div>
@@ -224,35 +199,29 @@
         <p class="text-gray-500 text-lg">신뢰의 증명</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-white p-8 rounded-lg border border-slate-200 text-center">
-          <p class="text-3xl mb-3">🏆</p>
-          <h3 class="font-bold text-slate-900 mb-2">뿌리기술 명가 대통령상</h3>
-          <p class="text-sm text-slate-600">기술 우수성 인정</p>
+        <div class="bg-white p-8 rounded-lg border border-slate-200">
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">뿌리기술 명가 대통령상</h3>
+          <p class="text-slate-700">기술 우수성 인정</p>
         </div>
-        <div class="bg-white p-8 rounded-lg border border-slate-200 text-center">
-          <p class="text-3xl mb-3">✅</p>
-          <h3 class="font-bold text-slate-900 mb-2">IATF16949 인증</h3>
-          <p class="text-sm text-slate-600">국제 자동차 품질 인증</p>
+        <div class="bg-white p-8 rounded-lg border border-slate-200">
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">IATF16949 인증</h3>
+          <p class="text-slate-700">국제 자동차 품질 인증</p>
         </div>
-        <div class="bg-white p-8 rounded-lg border border-slate-200 text-center">
-          <p class="text-3xl mb-3">🚗</p>
-          <h3 class="font-bold text-slate-900 mb-2">현대자동차 SQ 인증</h3>
-          <p class="text-sm text-slate-600">최고 품질 기준 충족</p>
+        <div class="bg-white p-8 rounded-lg border border-slate-200">
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">현대자동차 SQ 인증</h3>
+          <p class="text-slate-700">최고 품질 기준 충족</p>
         </div>
-        <div class="bg-white p-8 rounded-lg border border-slate-200 text-center">
-          <p class="text-3xl mb-3">⭐</p>
-          <h3 class="font-bold text-slate-900 mb-2">World Class 300 선정</h3>
-          <p class="text-sm text-slate-600">글로벌 경쟁력 인정</p>
+        <div class="bg-white p-8 rounded-lg border border-slate-200">
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">World Class 300 선정</h3>
+          <p class="text-slate-700">글로벌 경쟁력 인정</p>
         </div>
-        <div class="bg-white p-8 rounded-lg border border-slate-200 text-center">
-          <p class="text-3xl mb-3">🤝</p>
-          <h3 class="font-bold text-slate-900 mb-2">삼성전자 상생협력 금상</h3>
-          <p class="text-sm text-slate-600">파트너십 우수성</p>
+        <div class="bg-white p-8 rounded-lg border border-slate-200">
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">삼성전자 상생협력 금상</h3>
+          <p class="text-slate-700">파트너십 우수성</p>
         </div>
-        <div class="bg-white p-8 rounded-lg border border-slate-200 text-center">
-          <p class="text-3xl mb-3">💡</p>
-          <h3 class="font-bold text-slate-900 mb-2">LED 차세대 조명전시회 대상</h3>
-          <p class="text-sm text-slate-600">혁신 기술 인정</p>
+        <div class="bg-white p-8 rounded-lg border border-slate-200">
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">LED 차세대 조명전시회 대상</h3>
+          <p class="text-slate-700">혁신 기술 인정</p>
         </div>
       </div>
     </div>
