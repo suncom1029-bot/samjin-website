@@ -43,8 +43,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- 고객 만족 -->
         <div class="bg-white p-8 rounded-lg border-t-4 border-emerald-500 border border-slate-200 hover:shadow-lg transition">
-          <p class="text-4xl mb-4">🤝</p>
-          <h3 class="text-2xl font-bold text-slate-900 mb-3">고객 만족</h3>
+          <h3 class="text-xl font-bold text-emerald-600 mb-3">고객 만족</h3>
           <p class="text-slate-700 leading-relaxed">
             "고객에게 최고의 만족을 드릴 수 있는 품질을 만들자"
           </p>
@@ -52,8 +51,7 @@
 
         <!-- 공존공영 -->
         <div class="bg-white p-8 rounded-lg border-t-4 border-emerald-500 border border-slate-200 hover:shadow-lg transition">
-          <p class="text-4xl mb-4">🌱</p>
-          <h3 class="text-2xl font-bold text-slate-900 mb-3">공존공영</h3>
+          <h3 class="text-xl font-bold text-emerald-600 mb-3">공존공영</h3>
           <p class="text-slate-700 leading-relaxed">
             "서로를 신뢰하고 인격을 존중하며 상호간의 이익을 추구한다"
           </p>
@@ -61,8 +59,7 @@
 
         <!-- 창조와 도전 -->
         <div class="bg-white p-8 rounded-lg border-t-4 border-emerald-500 border border-slate-200 hover:shadow-lg transition">
-          <p class="text-4xl mb-4">🚀</p>
-          <h3 class="text-2xl font-bold text-slate-900 mb-3">창조와 도전</h3>
+          <h3 class="text-xl font-bold text-emerald-600 mb-3">창조와 도전</h3>
           <p class="text-slate-700 leading-relaxed">
             "끈질긴 자기개발로 신나는 일터를 만들자"
           </p>

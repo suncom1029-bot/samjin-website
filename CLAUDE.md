@@ -313,3 +313,6 @@ html, body {
   - `/company/greeting.php`: "삼진엘앤디의 약속" 섹션 이모티콘 제거 + 폰트 조정
   - `/company/overview.php`: "주요 사업 분야", "인증 및 수상" 이모티콘 제거 + 폰트 조정
   - `/company/overview.php`: "핵심 기술"을 박스 3열 레이아웃으로 개선
+  - `/management/philosophy.php`: "설립이념" 섹션 이모티콘 제거 + 폰트 조정
+  - **(다음 단계)** philosophy.php: "2026 비전" 섹션 제거, "정밀의 여정" 도형 짤림 수정
+  - **(다음 단계)** competency.php: "보유 인증" 이모티콘 제거
