@@ -291,6 +291,7 @@ html, body {
   - `.env.example`: API KEY 설정 템플릿
   - `IR_API_SETUP.md`: 완전한 API 설정 가이드
   - Graceful fallback: API 실패 시 mock 데이터 자동 사용
+  - (2026-06-09 버그 수정): get_cached_data()/set_cached_data() 함수 중복 선언 제거
 - **Mock Data Enhancement** (2026-06-08): IR 페이지용 고도화 목업 데이터
   - 분기별 실적: 2026 Q1 ~ 2025 Q4 (매출액, 영업이익, 순이익, 마진율)
   - 주요 재무 지표: ROA, ROE, 부채비율, 유동비율, 당좌비율

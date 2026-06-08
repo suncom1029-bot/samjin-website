@@ -20,38 +20,6 @@ if (!is_dir(API_CACHE_DIR)) {
     @mkdir(API_CACHE_DIR, 0755, true);
 }
 
-// ======================== 캐싱 함수 ========================
-/**
- * 캐시에서 데이터 가져오기
- */
-function get_cached_data($cache_key) {
-    $cache_file = API_CACHE_DIR . '/' . md5($cache_key) . '.cache';
-
-    if (file_exists($cache_file)) {
-        $data = unserialize(file_get_contents($cache_file));
-        $timestamp = $data['timestamp'] ?? 0;
-
-        // TTL 확인
-        if (time() - $timestamp < API_CACHE_TTL) {
-            return $data['value'];
-        }
-    }
-
-    return null;
-}
-
-/**
- * 데이터를 캐시에 저장
- */
-function set_cached_data($cache_key, $value) {
-    $cache_file = API_CACHE_DIR . '/' . md5($cache_key) . '.cache';
-    $data = [
-        'timestamp' => time(),
-        'value' => $value
-    ];
-
-    @file_put_contents($cache_file, serialize($data));
-}
 
 // ======================== Finnhub API 함수 ========================
 /**
