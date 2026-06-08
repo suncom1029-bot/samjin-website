@@ -328,4 +328,4 @@ html, body {
   - `includes/mock-data.php`: $stock_info 데이터 타입 교정 (문자열→정수) + 20개 신규 필드 추가 (2026-06-10) ✅
   - `/company/organization.php`: "우리의 조직 문화" 섹션 이모티콘 제거 + 폰트 조정 (text-xl→text-lg) (2026-06-08) ✅
   - `/company/facilities.php`: 이모티콘 제거 (국기·🏭·🎯·🌍·📍·☎️·🚗) + 폰트 조정 (2026-06-08) ✅
-  - `/company/facilities.php`: img_factory 이미지 크기 조정 (h-auto → h-full, 기본정보 길이에 맞춤) (2026-06-08) ✅
+  - `/company/facilities.php`: img_factory 이미지 크기 조정 (items-center → items-start, 기본정보~팩스 길이에 맞춤) (2026-06-08) ✅

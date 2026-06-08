@@ -59,10 +59,10 @@
         <p class="text-gray-500 text-lg">개발·기술·금형의 심장</p>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         <!-- 이미지 -->
-        <div class="rounded-lg overflow-hidden h-full">
-          <img src="/assets/img/img_factory.jpg" alt="본사 사업장" class="w-full h-full object-cover rounded-lg">
+        <div class="rounded-lg overflow-hidden">
+          <img src="/assets/img/img_factory.jpg" alt="본사 사업장" class="w-full h-auto object-cover rounded-lg">
         </div>
 
         <!-- 정보 -->
