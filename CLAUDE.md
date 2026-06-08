@@ -352,3 +352,4 @@ html, body {
 - **Footer Logo Updates** (2026-06-08): 푸터 로고 개선
   - `/assets/img/footer_logo.png`: 새 SAMJIN L&D 로고로 교체 (배경색 #0f172a로 통일)
   - `includes/footer.php`: 로고 높이 h-10 md:h-12 → h-32로 조정 (회사정보 텍스트 높이와 통일)
+  - `includes/footer.php`: 로고 폭 w-auto → max-w-xs로 제한 (320px 최대 폭)
