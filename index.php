@@ -159,7 +159,6 @@
         <!-- IR Info Cards -->
         <?php foreach ($ir_sections as $section): ?>
           <a href="<?php echo $section['link']; ?>" class="lg:col-span-1 bg-white rounded-lg p-6 shadow-lg flex flex-col items-center justify-center text-center border border-slate-100 transition-all duration-300 hover:shadow-lg hover:border-emerald-500 hover:-translate-y-1" data-aos="fade-up">
-            <div class="text-4xl mb-2"><?php echo $section['icon']; ?></div>
             <h3 class="font-semibold text-slate-900 text-lg"><?php echo $section['title']; ?></h3>
           </a>
         <?php endforeach; ?>
