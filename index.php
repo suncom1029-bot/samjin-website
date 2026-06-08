@@ -135,15 +135,6 @@
       <div class="mb-12">
         <h2 class="text-4xl font-bold mb-4">IR</h2>
         <p class="text-gray-500 text-lg"><?php echo $ir_data['subtitle']; ?></p>
-
-        <!-- 질적 전환 내러티브 -->
-        <div class="mt-8 p-6 bg-emerald-50 rounded-lg border border-emerald-200">
-          <p class="text-slate-700 text-base leading-relaxed">
-            <span class="font-semibold text-emerald-700">2022년 정점 이후</span> 디스플레이·OA 시장 성숙과 ESS용 부품 단가 조정으로 매출이 조정되었습니다.
-            이는 단순한 외형 축소가 아닌 <span class="font-semibold">수익성 중심의 질적 전환</span>입니다.
-            배터리, 수소탱크, AI 지능화 같은 고부가가치 사업으로 포트폴리오를 재편하며 글로벌 경쟁력을 강화하고 있습니다.
-          </p>
-        </div>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">

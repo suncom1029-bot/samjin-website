@@ -276,7 +276,7 @@ html, body {
   - Phase 2 ✅: 신규 페이지 3개 추가 (hydrogen-tank, automation, intelligence) + 네비게이션 통합
   - Phase 3 ✅: Battery Safety 강화 (products/battery.php에 LithiumPrevent™ 섹션)
   - Phase 4: Tier 1 고객사 포트폴리오 (제외 - 메인화면 정리)
-  - Phase 5 ✅: 기존 페이지 보완 (CEO/철학/역사 P·A·I 프레임 + IR 질적전환 내러티브)
+  - Phase 5 ✅: 기존 페이지 보완 (CEO/철학/역사 P·A·I 프레임)
   - Phase 6: 네비게이션 (이미 Phase 2에서 완료)
 - **IR Pages** (2026-06-08): 투자정보 3개 페이지 구축 (독립 페이지 방식)
   - `/ir/info.php`: IR 정보 (회사소개, 공지사항, 자료실, 경영진, 투자자 연락처)
@@ -303,3 +303,5 @@ html, body {
   - 주주구성: 개인/기관/외국인 비율 (스택 바)
   - 투자지표: EPS/PER/PBR 카드 (그라데이션 + 호버 애니메이션)
   - Mock 데이터: 평균 거래량, 주주 지분율, 가격 범위 추가
+- **IR Section Updates** (2026-06-08): 메인페이지 IR 섹션 정리
+  - "2022년 정점 이후" 질적 전환 내러티브 박스 제거 (메인화면 정리)
