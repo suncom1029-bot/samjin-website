@@ -321,6 +321,7 @@ html, body {
   - `/management/competency.php`: "보유 인증" 섹션 이모티콘 제거 + 폰트 조정 (2026-06-10) ✅
   - `/management/philosophy.php`: "정밀의 여정" 타임라인 배지 크기 확대 (w-12→w-16, text-lg→text-2xl) (2026-06-10) ✅
   - `/ir/info.php`: IR 자료실에서 '정관', 'IR Book' 항목 제거 (2026-06-10) ✅
+  - `/ir/info.php`: 경영진 소개 섹션 제거 (2026-06-10) ✅
   - **(다음 단계)** philosophy.php: "2026 비전" 섹션 제거
   - `/ir/stock.php`: Fatal error 수정 (number_format TypeError) + 주식정보 페이지 전면 재설계 (2026-06-10) ✅
     * 8개 섹션: 현재가+당일거래, 기본정보표, 52주범위+주주구성, 투자지표(6개), 주가추이차트, 수익률비교, 배당정보, 최근공시

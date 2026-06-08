@@ -159,47 +159,7 @@
     </div>
   </section>
 
-  <!-- 경영진 소개 -->
-  <section class="section-lg bg-slate-50">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12">
-      <div class="mb-16">
-        <h2 class="text-4xl font-bold mb-4">경영진</h2>
-        <p class="text-gray-600 text-lg">삼진엘앤디를 이끌어가는 리더십</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <!-- 대표이사 -->
-        <div class="bg-white p-8 rounded-lg border border-slate-200 shadow-lg">
-          <div class="mb-6">
-            <div class="w-32 h-32 bg-gradient-to-br from-emerald-100 to-emerald-50 rounded-lg flex items-center justify-center mx-auto mb-4">
-              <p class="text-5xl">👔</p>
-            </div>
-          </div>
-          <h3 class="text-2xl font-bold text-slate-900 text-center mb-2">대표이사</h3>
-          <p class="text-center text-slate-700 font-semibold mb-4">OOO</p>
-          <p class="text-center text-slate-600 text-sm">
-            1987년 삼진엘앤디 설립, 39년간 정밀금형 기술을 바탕으로 글로벌 경쟁력을 갖춘 기업으로 성장시킨 리더
-          </p>
-        </div>
-
-        <!-- 사업총괄 -->
-        <div class="bg-white p-8 rounded-lg border border-slate-200 shadow-lg">
-          <div class="mb-6">
-            <div class="w-32 h-32 bg-gradient-to-br from-blue-100 to-blue-50 rounded-lg flex items-center justify-center mx-auto mb-4">
-              <p class="text-5xl">💼</p>
-            </div>
-          </div>
-          <h3 class="text-2xl font-bold text-slate-900 text-center mb-2">COO</h3>
-          <p class="text-center text-slate-700 font-semibold mb-4">OOO</p>
-          <p class="text-center text-slate-600 text-sm">
-            전략 기획 및 사업 운영 총괄, 글로벌 거점 확대 및 신사업 개발 추진
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 투자자 연락처 -->
+<!-- 투자자 연락처 -->
   <section class="section-lg bg-white">
     <div class="max-w-7xl mx-auto px-6 lg:px-12">
       <div class="mb-16 text-center">
