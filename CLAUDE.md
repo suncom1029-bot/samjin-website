@@ -344,8 +344,8 @@ html, body {
   - `/company/organization.php`: "우리의 조직 문화" 섹션 이모티콘 제거 + 폰트 조정 (text-xl→text-lg) (2026-06-08) ✅
   - `/company/facilities.php`: 이모티콘 제거 (국기·🏭·🎯·🌍·📍·☎️·🚗) + 폰트 조정 (2026-06-08) ✅
   - `/company/facilities.php`: img_factory 이미지 크기 조정 (items-center → items-start, 기본정보~팩스 길이에 맞춤) (2026-06-08) ✅
-- **Footer Navigation Reorganization** (2026-06-08): 푸터 네비게이션 5칼럼 구조 재편
-  - `includes/footer.php`: grid-cols-2 → grid-cols-5로 변경
-  - 칼럼 구성: 회사 → 경영관리 → 투자정보 → 제품 → 수소탱크
-  - 수소탱크 칼럼에 자동화 솔루션, AI 지능화 제품 통합
+- **Footer Navigation Reorganization** (2026-06-08): 푸터 네비게이션 4칼럼 구조 재편
+  - `includes/footer.php`: grid-cols-2 → grid-cols-4로 변경
+  - 칼럼 구성: 회사 → 경영관리 → 투자정보 → 제품
+  - 제품 칼럼에 LGP 이후 수소탱크, 자동화 솔루션, AI 지능화 통합 (border-t 구분)
   - company/organization.php 링크 추가 (조직도)

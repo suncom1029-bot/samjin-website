@@ -22,7 +22,7 @@
       <!-- Sitemap -->
       <div>
         <h4 class="font-semibold mb-4">빠른 링크</h4>
-        <div class="grid grid-cols-5 gap-8 text-sm">
+        <div class="grid grid-cols-4 gap-8 text-sm">
           <!-- 회사 -->
           <div>
             <p class="font-semibold text-emerald-400 mb-2">회사</p>
@@ -65,16 +65,9 @@
               <li><a href="/products/new-materials.php" class="hover:text-emerald-400 transition">신소재 사업</a></li>
               <li><a href="/products/mold.php" class="hover:text-emerald-400 transition">금형 & 핫런너</a></li>
               <li><a href="/products/lgp.php" class="hover:text-emerald-400 transition">LGP</a></li>
-            </ul>
-          </div>
-
-          <!-- 수소 탱크 & 추가 -->
-          <div>
-            <p class="font-semibold text-emerald-400 mb-2">수소 탱크</p>
-            <ul class="space-y-1 text-gray-300">
-              <li><a href="/products/hydrogen-tank.php" class="hover:text-emerald-400 transition">수소 탱크</a></li>
-              <li><a href="/products/automation.php" class="hover:text-emerald-400 transition">자동화 솔루션</a></li>
-              <li><a href="/products/intelligence.php" class="hover:text-emerald-400 transition">AI 지능화</a></li>
+              <li class="pt-1 border-t border-slate-700"><a href="/products/hydrogen-tank.php" class="hover:text-emerald-400 transition text-sm">수소 탱크</a></li>
+              <li><a href="/products/automation.php" class="hover:text-emerald-400 transition text-sm">자동화 솔루션</a></li>
+              <li><a href="/products/intelligence.php" class="hover:text-emerald-400 transition text-sm">AI 지능화</a></li>
             </ul>
           </div>
         </div>
