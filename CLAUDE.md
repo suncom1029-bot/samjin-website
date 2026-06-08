@@ -383,3 +383,9 @@ html, body {
   - 모바일: 240px → 176px | 데스크톱: 304px → 208px
   - 26개 파일 적용: products(7), management(5), company(5), ir(3), support(2), recruit(2)
   - 전체 페이지 레이아웃 개선 및 과도한 공백 제거
+- **Footer Height Optimization** (2026-06-08): 푸터 높이 단축
+  - 상단/하단 패딩: `pt-12 pb-6` → `pt-8 pb-4` (25% 감소)
+  - 그리드 간격: `gap-8 mb-8` → `gap-6 mb-6` (간격 축소)
+  - 로고 하단 간격: `mb-6` → `mb-4`
+  - divider 하단 간격: `mb-6` → `mb-4`
+  - 전체 푸터 높이 약 20-30px 감소

@@ -1,11 +1,11 @@
 <!-- Footer -->
-<footer class="bg-slate-900 text-white pt-12 pb-6">
+<footer class="bg-slate-900 text-white pt-8 pb-4">
   <div class="max-w-7xl mx-auto px-6 lg:px-12">
     <!-- Footer Content -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
       <!-- Company Info -->
       <div>
-        <img src="/assets/img/footer_logo.png" alt="SAMJIN L&D" class="h-32 max-w-xs mb-6">
+        <img src="/assets/img/footer_logo.png" alt="SAMJIN L&D" class="h-32 max-w-xs mb-4">
         <div class="space-y-2 text-sm text-gray-300">
           <p class="font-semibold">경기도 화성시 동탄기흥로 64-17</p>
           <p>(주)삼진엘앤디</p>
@@ -75,7 +75,7 @@
     </div>
 
     <!-- Divider -->
-    <hr class="border-slate-700 mb-6">
+    <hr class="border-slate-700 mb-4">
 
     <!-- Copyright -->
     <div class="text-center text-sm text-gray-400">
