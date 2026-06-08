@@ -320,5 +320,7 @@ html, body {
   - `/management/awards.php`: "보유 인증" 섹션 이모티콘 제거 + 폰트 조정 (2026-06-10) ✅
   - `/management/competency.php`: "보유 인증" 섹션 이모티콘 제거 + 폰트 조정 (2026-06-10) ✅
   - `/management/philosophy.php`: "정밀의 여정" 타임라인 배지 크기 확대 (w-12→w-16, text-lg→text-2xl) (2026-06-10) ✅
-  - **(다음 단계)** philosophy.php: "2026 비전" 섹션 제거, "정밀의 여정" 도형 짤림 수정
-  - **(다음 단계)** ir/stock.php: Fatal error 수정 + 주식정보 페이지 전면 재설계
+  - **(다음 단계)** philosophy.php: "2026 비전" 섹션 제거
+  - `/ir/stock.php`: Fatal error 수정 (number_format TypeError) + 주식정보 페이지 전면 재설계 (2026-06-10) ✅
+    * 8개 섹션: 현재가+당일거래, 기본정보표, 52주범위+주주구성, 투자지표(6개), 주가추이차트, 수익률비교, 배당정보, 최근공시
+  - `includes/mock-data.php`: $stock_info 데이터 타입 교정 (문자열→정수) + 20개 신규 필드 추가 (2026-06-10) ✅

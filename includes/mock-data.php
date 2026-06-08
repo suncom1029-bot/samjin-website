@@ -173,11 +173,11 @@ $stock_info = [
     'current_price' => 1041,
     'price_change' => -22,
     'change_percent' => -2.07,
-    'market_cap' => '327,000',
+    'market_cap' => 327000,
     'listed_date' => '2023.08.04',
-    'trading_volume' => '1,234,567',
-    'trading_amount' => '1,283,234,567',
-    'avg_trading_volume' => '856,342',
+    'trading_volume' => 1234567,
+    'trading_amount' => 1283234567,
+    'avg_trading_volume' => 856342,
     'high_52w' => 1450,
     'low_52w' => 875,
     'eps' => 156.45,
@@ -193,6 +193,33 @@ $stock_info = [
         'high' => 1450,
         'low' => 875,
         'current' => 1041
+    ],
+    // 당일 거래 정보
+    'open_price' => 1065,
+    'high_price' => 1078,
+    'low_price' => 1035,
+    'prev_close' => 1063,
+    // 상장 기본정보
+    'listed_shares' => 31400000,
+    'par_value' => 500,
+    'foreign_limit' => 100,
+    // 추가 투자지표
+    'roe' => 10.5,
+    'roa' => 7.2,
+    'bps' => 1062,
+    // 대주주 정보
+    'major_shareholder' => '박재홍 외 특수관계인',
+    'major_share_ratio' => 42.1,
+    // 코스닥 대비 수익률
+    'return_1m' => -3.2,
+    'return_3m' => 8.5,
+    'return_ytd' => 12.3,
+    'kosdaq_return_ytd' => 5.1,
+    // 최근 공시
+    'disclosures' => [
+        ['date' => '2026.06.08', 'title' => '2026년 1분기 보고서', 'type' => '사업보고서'],
+        ['date' => '2026.05.15', 'title' => '제42기 정기주주총회 결과', 'type' => '주주총회'],
+        ['date' => '2026.04.20', 'title' => '배당금 지급 공시', 'type' => '배당']
     ]
 ];
 
