@@ -111,7 +111,8 @@ samjin-new/
 | `company/overview.php` | 회사개요 페이지 (회사 규모, 사업영역, 가치제안, 기술 현황) |
 | `company/history.php` | 회사연혁 페이지 (4시대 타임라인: 창업기/성장기/도약기/전환기) |
 | `company/facilities.php` | 사업장 페이지 (한국 본사 + 3개국 해외거점, 글로벌 전략) |
-| `management/philosophy.php` | 경영이념 및 비전 페이지 (설립이념 3가지, 2026 비전) |
+| `management/philosophy.php` | 경영이념 및 비전 페이지 (설립이념 3가지, 정밀의 여정 타임라인) |
+| `management/policy.php` | 품질/환경방침 페이지 (품질방침·환경방침·ISO인증) |
 | `management/competency.php` | 핵심역량 및 기술 페이지 (5가지 기술, 특허, 인증) |
 | `management/awards.php` | 수상 및 인증 페이지 (수상 타임라인, 4가지 국제 인증) |
 | `products/display.php` | Display 부품 페이지 (도광판·확산판·Mold Frame, Roll Stamp 기술) |
@@ -323,6 +324,13 @@ html, body {
   - `/ir/info.php`: IR 자료실에서 '정관', 'IR Book' 항목 제거 (2026-06-10) ✅
   - `/ir/info.php`: 경영진 소개 섹션 제거 (2026-06-10) ✅
   - `/management/philosophy.php`: "2026 비전" 섹션 제거 (2026-06-08) ✅
+  - `/management/policy.php`: 신규 페이지 제작 - 품질/환경방침 (심플 디자인, 이모티콘 제거) (2026-06-08) ✅
+    * 품질 방침 섹션: 고객만족·프로세스개선·국제기준·임직원교육
+    * 환경 방침 섹션: 법규준수·오염예방·에너지효율·지속가능경영
+    * ISO 인증 6가지: ISO9001·IATF16949·ISO14001·RoHS·현대SQ·삼성전자
+    * 방침 실행 약속: 경영진책임·전직원참여·지속개선·이해관계자소통
+  - `includes/header.php`: '경영관리' > '품질/환경방침' 링크 추가 (/management/policy.php) (2026-06-08) ✅
+  - `includes/footer.php`: 경영관리 섹션에 '품질/환경방침' 링크 추가 (2026-06-08) ✅
   - `/ir/stock.php`: Fatal error 수정 (number_format TypeError) + 주식정보 페이지 전면 재설계 (2026-06-10) ✅
     * 8개 섹션: 현재가+당일거래, 기본정보표, 52주범위+주주구성, 투자지표(6개), 주가추이차트, 수익률비교, 배당정보, 최근공시
   - `includes/mock-data.php`: $stock_info 데이터 타입 교정 (문자열→정수) + 20개 신규 필드 추가 (2026-06-10) ✅
