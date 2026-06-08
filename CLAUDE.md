@@ -259,3 +259,4 @@ html, body {
 - **Responsive**: Tailwind 기본 브레이크포인트 사용 (sm/md/lg/xl)
 - **Images**: 로컬 이미지 + Unsplash CDN 혼합 사용
 - **Tailwind CDN**: 빌드 과정 없음 (CDN 직접 로드). 커스텀 클래스는 `custom.css`에서 정의
+- **Recruitment Pages** (2026-06-08): `recruit/process.php` 다크 테마 + UX 개선 (호버 애니메이션, 상세 설명)

@@ -37,185 +37,158 @@
   </section>
 
   <!-- 채용 프로세스 -->
-  <section class="section-lg bg-white">
+  <section class="section-lg bg-slate-900 text-white">
     <div class="max-w-7xl mx-auto px-6 lg:px-12">
-      <div class="mb-16 text-center">
+      <div class="mb-20 text-center">
         <h2 class="text-4xl font-bold mb-4">채용 프로세스</h2>
-        <p class="text-gray-500 text-lg">5단계의 공정한 평가 과정</p>
+        <p class="text-gray-300 text-lg">투명하고 공정한 5단계 선발 과정</p>
       </div>
 
-      <!-- 프로세스 플로우 -->
-      <div class="relative">
-        <!-- 모바일 버전 -->
-        <div class="lg:hidden space-y-8">
-          <div class="flex gap-4">
-            <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-16 w-16 rounded-full bg-emerald-500 text-white font-bold text-2xl">1</div>
+      <!-- 데스크탑 버전: 가로 배치 -->
+      <div class="hidden lg:block">
+        <div class="relative">
+          <!-- 연결선 배경 -->
+          <div class="absolute top-7 left-0 right-0 h-0.5 bg-emerald-500 opacity-30 z-0"></div>
+
+          <!-- 5개 열 -->
+          <div class="grid grid-cols-5 gap-6">
+            <!-- STEP 1 -->
+            <div class="relative z-10">
+              <div class="flex justify-center mb-8">
+                <div class="w-14 h-14 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-xl">1</div>
+              </div>
+              <div class="bg-white text-slate-900 p-6 rounded-lg border-t-2 border-emerald-500 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                <p class="text-xs font-semibold text-emerald-400 tracking-widest uppercase mb-3">STEP 01</p>
+                <h3 class="text-lg font-bold mb-3">서류접수</h3>
+                <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+                  채용 공고 확인 후 이력서와 자기소개서를 제출합니다. 온라인 접수 가능합니다.
+                </p>
+                <div class="pt-3 border-t border-slate-200">
+                  <span class="inline-block bg-emerald-900 text-emerald-300 text-xs font-semibold rounded-full px-3 py-1">공고기간 내</span>
+                </div>
+              </div>
             </div>
-            <div class="flex-1">
-              <h3 class="text-xl font-bold text-slate-900 mb-2">서류접수</h3>
-              <p class="text-slate-700">이력서, 자기소개서 제출</p>
+
+            <!-- STEP 2 -->
+            <div class="relative z-10">
+              <div class="flex justify-center mb-8">
+                <div class="w-14 h-14 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-xl">2</div>
+              </div>
+              <div class="bg-white text-slate-900 p-6 rounded-lg border-t-2 border-emerald-500 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                <p class="text-xs font-semibold text-emerald-400 tracking-widest uppercase mb-3">STEP 02</p>
+                <h3 class="text-lg font-bold mb-3">서류심사</h3>
+                <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+                  지원 서류를 정량·정성 평가합니다. 합격자에게 면접 일정을 개별 통보합니다.
+                </p>
+                <div class="pt-3 border-t border-slate-200">
+                  <span class="inline-block bg-emerald-900 text-emerald-300 text-xs font-semibold rounded-full px-3 py-1">영업일 3~5일</span>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div class="h-8 border-l-2 border-emerald-500 ml-8"></div>
-
-          <div class="flex gap-4">
-            <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-16 w-16 rounded-full bg-emerald-500 text-white font-bold text-2xl">2</div>
+            <!-- STEP 3 -->
+            <div class="relative z-10">
+              <div class="flex justify-center mb-8">
+                <div class="w-14 h-14 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-xl">3</div>
+              </div>
+              <div class="bg-white text-slate-900 p-6 rounded-lg border-t-2 border-emerald-500 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                <p class="text-xs font-semibold text-emerald-400 tracking-widest uppercase mb-3">STEP 03</p>
+                <h3 class="text-lg font-bold mb-3">면접</h3>
+                <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+                  1차 직무역량 면접, 2차 임원 인성 면접을 진행합니다. 대면·화상 병행.
+                </p>
+                <div class="pt-3 border-t border-slate-200">
+                  <span class="inline-block bg-emerald-900 text-emerald-300 text-xs font-semibold rounded-full px-3 py-1">대면 / 화상</span>
+                </div>
+              </div>
             </div>
-            <div class="flex-1">
-              <h3 class="text-xl font-bold text-slate-900 mb-2">서류심사</h3>
-              <p class="text-slate-700">3~5일 내 결과 발표</p>
+
+            <!-- STEP 4 -->
+            <div class="relative z-10">
+              <div class="flex justify-center mb-8">
+                <div class="w-14 h-14 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-xl">4</div>
+              </div>
+              <div class="bg-white text-slate-900 p-6 rounded-lg border-t-2 border-emerald-500 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                <p class="text-xs font-semibold text-emerald-400 tracking-widest uppercase mb-3">STEP 04</p>
+                <h3 class="text-lg font-bold mb-3">최종합격</h3>
+                <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+                  전형위원회 최종 검토 후 합격 여부를 결정합니다. 이메일·전화로 개별 통보.
+                </p>
+                <div class="pt-3 border-t border-slate-200">
+                  <span class="inline-block bg-emerald-900 text-emerald-300 text-xs font-semibold rounded-full px-3 py-1">이메일 / 전화</span>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div class="h-8 border-l-2 border-emerald-500 ml-8"></div>
-
-          <div class="flex gap-4">
-            <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-16 w-16 rounded-full bg-emerald-500 text-white font-bold text-2xl">3</div>
+            <!-- STEP 5 -->
+            <div class="relative z-10">
+              <div class="flex justify-center mb-8">
+                <div class="w-14 h-14 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-xl">5</div>
+              </div>
+              <div class="bg-white text-slate-900 p-6 rounded-lg border-t-2 border-emerald-500 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                <p class="text-xs font-semibold text-emerald-400 tracking-widest uppercase mb-3">STEP 05</p>
+                <h3 class="text-lg font-bold mb-3">입사</h3>
+                <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+                  정해진 입사일에 신입사원 교육 후 배치 부서에 배정됩니다. 선배 멘토링 제공.
+                </p>
+                <div class="pt-3 border-t border-slate-200">
+                  <span class="inline-block bg-emerald-900 text-emerald-300 text-xs font-semibold rounded-full px-3 py-1">멘토링 지원</span>
+                </div>
+              </div>
             </div>
-            <div class="flex-1">
-              <h3 class="text-xl font-bold text-slate-900 mb-2">면접</h3>
-              <p class="text-slate-700">1차, 2차 면접 진행</p>
-            </div>
-          </div>
-
-          <div class="h-8 border-l-2 border-emerald-500 ml-8"></div>
-
-          <div class="flex gap-4">
-            <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-16 w-16 rounded-full bg-emerald-500 text-white font-bold text-2xl">4</div>
-            </div>
-            <div class="flex-1">
-              <h3 class="text-xl font-bold text-slate-900 mb-2">최종합격</h3>
-              <p class="text-slate-700">합격 통보</p>
-            </div>
-          </div>
-
-          <div class="h-8 border-l-2 border-emerald-500 ml-8"></div>
-
-          <div class="flex gap-4">
-            <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-16 w-16 rounded-full bg-emerald-500 text-white font-bold text-2xl">5</div>
-            </div>
-            <div class="flex-1">
-              <h3 class="text-xl font-bold text-slate-900 mb-2">입사</h3>
-              <p class="text-slate-700">정해진 입사일에 입사</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- 데스크탑 버전 -->
-        <div class="hidden lg:grid grid-cols-5 gap-4">
-          <!-- 단계 1 -->
-          <div class="text-center">
-            <div class="flex items-center justify-center h-24 w-24 rounded-full bg-emerald-500 text-white font-bold text-4xl mx-auto mb-4">1</div>
-            <h3 class="text-lg font-bold text-slate-900 mb-2">서류접수</h3>
-            <p class="text-sm text-slate-700">이력서, 자기소개서 제출</p>
-          </div>
-
-          <!-- 화살표 -->
-          <div class="flex items-center justify-center">
-            <div class="text-3xl text-emerald-500">→</div>
-          </div>
-
-          <!-- 단계 2 -->
-          <div class="text-center">
-            <div class="flex items-center justify-center h-24 w-24 rounded-full bg-emerald-500 text-white font-bold text-4xl mx-auto mb-4">2</div>
-            <h3 class="text-lg font-bold text-slate-900 mb-2">서류심사</h3>
-            <p class="text-sm text-slate-700">3~5일 내 결과 발표</p>
-          </div>
-
-          <!-- 화살표 -->
-          <div class="flex items-center justify-center">
-            <div class="text-3xl text-emerald-500">→</div>
-          </div>
-
-          <!-- 단계 3 -->
-          <div class="text-center">
-            <div class="flex items-center justify-center h-24 w-24 rounded-full bg-emerald-500 text-white font-bold text-4xl mx-auto mb-4">3</div>
-            <h3 class="text-lg font-bold text-slate-900 mb-2">면접</h3>
-            <p class="text-sm text-slate-700">1차, 2차 면접</p>
-          </div>
-
-          <!-- 화살표 -->
-          <div class="flex items-center justify-center col-span-1 -ml-2">
-            <div class="text-3xl text-emerald-500">→</div>
-          </div>
-        </div>
-
-        <div class="hidden lg:grid grid-cols-5 gap-4 mt-4">
-          <!-- 단계 4 -->
-          <div class="col-start-2 text-center">
-            <div class="flex items-center justify-center h-24 w-24 rounded-full bg-emerald-500 text-white font-bold text-4xl mx-auto mb-4">4</div>
-            <h3 class="text-lg font-bold text-slate-900 mb-2">최종합격</h3>
-            <p class="text-sm text-slate-700">합격 통보</p>
-          </div>
-
-          <!-- 화살표 -->
-          <div class="flex items-center justify-center">
-            <div class="text-3xl text-emerald-500">→</div>
-          </div>
-
-          <!-- 단계 5 -->
-          <div class="text-center">
-            <div class="flex items-center justify-center h-24 w-24 rounded-full bg-emerald-500 text-white font-bold text-4xl mx-auto mb-4">5</div>
-            <h3 class="text-lg font-bold text-slate-900 mb-2">입사</h3>
-            <p class="text-sm text-slate-700">입사일에 입사</p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- 상세 정보 -->
-  <section class="section-lg bg-slate-50">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12">
-      <div class="mb-16 text-center">
-        <h2 class="text-4xl font-bold mb-4">단계별 안내</h2>
-        <p class="text-gray-500 text-lg">각 단계에 대해 알아보세요</p>
-      </div>
-
-      <div class="space-y-8">
-        <div class="bg-white p-8 rounded-lg border border-slate-200">
-          <h3 class="text-2xl font-bold text-slate-900 mb-4">1단계: 서류접수</h3>
-          <p class="text-slate-700 mb-4">채용 공고를 확인한 후 이력서와 자기소개서를 제출합니다. 온라인 및 이메일 접수가 가능합니다.</p>
-          <div class="bg-emerald-50 p-4 rounded border border-emerald-200">
-            <p class="text-sm text-slate-700"><span class="font-semibold">기간:</span> 공고 기간 내</p>
+      <!-- 모바일 버전: 세로 타임라인 -->
+      <div class="lg:hidden space-y-6">
+        <div class="relative pl-8">
+          <div class="absolute left-0 top-0 w-8 h-8 rounded-full bg-emerald-500 flex items-center justify-center font-bold text-white text-sm">1</div>
+          <div class="bg-white text-slate-900 p-5 rounded-lg border-t-2 border-emerald-500">
+            <p class="text-xs font-semibold text-emerald-500 tracking-widest uppercase mb-2">STEP 01</p>
+            <h3 class="text-base font-bold mb-2">서류접수</h3>
+            <p class="text-sm text-slate-600 mb-3">채용 공고 확인 후 이력서와 자기소개서를 제출합니다. 온라인 접수 가능합니다.</p>
+            <span class="inline-block bg-emerald-100 text-emerald-700 text-xs font-semibold rounded-full px-2 py-0.5">공고기간 내</span>
           </div>
         </div>
 
-        <div class="bg-white p-8 rounded-lg border border-slate-200">
-          <h3 class="text-2xl font-bold text-slate-900 mb-4">2단계: 서류심사</h3>
-          <p class="text-slate-700 mb-4">전형 팀에서 제출된 서류를 정량적, 정성적으로 평가합니다. 합격자에게는 면접 일정을 통보합니다.</p>
-          <div class="bg-emerald-50 p-4 rounded border border-emerald-200">
-            <p class="text-sm text-slate-700"><span class="font-semibold">기간:</span> 3~5일 (공휴일 제외)</p>
+        <div class="relative pl-8">
+          <div class="absolute left-0 top-0 w-8 h-8 rounded-full bg-emerald-500 flex items-center justify-center font-bold text-white text-sm">2</div>
+          <div class="bg-white text-slate-900 p-5 rounded-lg border-t-2 border-emerald-500">
+            <p class="text-xs font-semibold text-emerald-500 tracking-widest uppercase mb-2">STEP 02</p>
+            <h3 class="text-base font-bold mb-2">서류심사</h3>
+            <p class="text-sm text-slate-600 mb-3">지원 서류를 정량·정성 평가합니다. 합격자에게 면접 일정을 개별 통보합니다.</p>
+            <span class="inline-block bg-emerald-100 text-emerald-700 text-xs font-semibold rounded-full px-2 py-0.5">영업일 3~5일</span>
           </div>
         </div>
 
-        <div class="bg-white p-8 rounded-lg border border-slate-200">
-          <h3 class="text-2xl font-bold text-slate-900 mb-4">3단계: 면접</h3>
-          <p class="text-slate-700 mb-4">1차 기술면접에서는 직무 역량을, 2차 인성면접에서는 회사 문화 적응도를 평가합니다.</p>
-          <div class="bg-emerald-50 p-4 rounded border border-emerald-200">
-            <p class="text-sm text-slate-700"><span class="font-semibold">방식:</span> 대면 및 화상 면접 병행</p>
+        <div class="relative pl-8">
+          <div class="absolute left-0 top-0 w-8 h-8 rounded-full bg-emerald-500 flex items-center justify-center font-bold text-white text-sm">3</div>
+          <div class="bg-white text-slate-900 p-5 rounded-lg border-t-2 border-emerald-500">
+            <p class="text-xs font-semibold text-emerald-500 tracking-widest uppercase mb-2">STEP 03</p>
+            <h3 class="text-base font-bold mb-2">면접</h3>
+            <p class="text-sm text-slate-600 mb-3">1차 직무역량 면접, 2차 임원 인성 면접을 진행합니다. 대면·화상 병행.</p>
+            <span class="inline-block bg-emerald-100 text-emerald-700 text-xs font-semibold rounded-full px-2 py-0.5">대면 / 화상</span>
           </div>
         </div>
 
-        <div class="bg-white p-8 rounded-lg border border-slate-200">
-          <h3 class="text-2xl font-bold text-slate-900 mb-4">4단계: 최종합격</h3>
-          <p class="text-slate-700 mb-4">전형 위원회의 최종 검토를 거쳐 합격 여부를 결정합니다. 합격 통보 후 입사일을 협의합니다.</p>
-          <div class="bg-emerald-50 p-4 rounded border border-emerald-200">
-            <p class="text-sm text-slate-700"><span class="font-semibold">공지:</span> 이메일 및 전화로 통보</p>
+        <div class="relative pl-8">
+          <div class="absolute left-0 top-0 w-8 h-8 rounded-full bg-emerald-500 flex items-center justify-center font-bold text-white text-sm">4</div>
+          <div class="bg-white text-slate-900 p-5 rounded-lg border-t-2 border-emerald-500">
+            <p class="text-xs font-semibold text-emerald-500 tracking-widest uppercase mb-2">STEP 04</p>
+            <h3 class="text-base font-bold mb-2">최종합격</h3>
+            <p class="text-sm text-slate-600 mb-3">전형위원회 최종 검토 후 합격 여부를 결정합니다. 이메일·전화로 개별 통보.</p>
+            <span class="inline-block bg-emerald-100 text-emerald-700 text-xs font-semibold rounded-full px-2 py-0.5">이메일 / 전화</span>
           </div>
         </div>
 
-        <div class="bg-white p-8 rounded-lg border border-slate-200">
-          <h3 class="text-2xl font-bold text-slate-900 mb-4">5단계: 입사</h3>
-          <p class="text-slate-700 mb-4">정해진 입사일에 신입사원 교육을 받고 배치 부서에 배정됩니다. 선배들의 멘토링을 통해 빠르게 적응할 수 있습니다.</p>
-          <div class="bg-emerald-50 p-4 rounded border border-emerald-200">
-            <p class="text-sm text-slate-700"><span class="font-semibold">교육:</span> 신입사원 안내 & 부서별 교육</p>
+        <div class="relative pl-8">
+          <div class="absolute left-0 top-0 w-8 h-8 rounded-full bg-emerald-500 flex items-center justify-center font-bold text-white text-sm">5</div>
+          <div class="bg-white text-slate-900 p-5 rounded-lg border-t-2 border-emerald-500">
+            <p class="text-xs font-semibold text-emerald-500 tracking-widest uppercase mb-2">STEP 05</p>
+            <h3 class="text-base font-bold mb-2">입사</h3>
+            <p class="text-sm text-slate-600 mb-3">정해진 입사일에 신입사원 교육 후 배치 부서에 배정됩니다. 선배 멘토링 제공.</p>
+            <span class="inline-block bg-emerald-100 text-emerald-700 text-xs font-semibold rounded-full px-2 py-0.5">멘토링 지원</span>
           </div>
         </div>
       </div>
