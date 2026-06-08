@@ -84,44 +84,106 @@
         <!-- 거래량/고저가 -->
         <div class="lg:col-span-2 space-y-6">
           <!-- 거래량 카드 -->
-          <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-lg">
-            <h3 class="text-xl font-bold text-slate-900 mb-4">거래 정보</h3>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <div class="text-center">
-                <p class="text-sm text-slate-600 mb-2">거래량</p>
-                <p class="text-lg font-bold text-slate-900"><?php echo number_format($stock_info['trading_volume']); ?></p>
-                <p class="text-xs text-gray-500">주</p>
+          <div class="bg-white p-8 rounded-lg border border-slate-200 shadow-lg">
+            <h3 class="text-xl font-bold text-slate-900 mb-6">거래 정보</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+              <!-- 거래량 -->
+              <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-4 rounded-lg text-center">
+                <p class="text-3xl mb-2">📊</p>
+                <p class="text-sm text-slate-600 font-semibold mb-2">거래량</p>
+                <p class="text-2xl font-bold text-blue-600"><?php echo number_format($stock_info['trading_volume']); ?></p>
+                <p class="text-xs text-gray-500 mt-1">주</p>
               </div>
-              <div class="text-center border-l border-slate-200">
-                <p class="text-sm text-slate-600 mb-2">거래대금</p>
-                <p class="text-lg font-bold text-slate-900"><?php echo number_format(intval($stock_info['trading_amount'] / 1000000)); ?></p>
-                <p class="text-xs text-gray-500">백만원</p>
+
+              <!-- 거래대금 -->
+              <div class="bg-gradient-to-br from-emerald-50 to-emerald-100 p-4 rounded-lg text-center">
+                <p class="text-3xl mb-2">💰</p>
+                <p class="text-sm text-slate-600 font-semibold mb-2">거래대금</p>
+                <p class="text-2xl font-bold text-emerald-600"><?php echo number_format(intval($stock_info['trading_amount'] / 1000000)); ?></p>
+                <p class="text-xs text-gray-500 mt-1">백만원</p>
               </div>
-              <div class="text-center border-l border-slate-200">
-                <p class="text-sm text-slate-600 mb-2">52주 고가</p>
-                <p class="text-lg font-bold text-slate-900"><?php echo number_format($stock_info['high_52w']); ?></p>
-                <p class="text-xs text-gray-500">원</p>
+
+              <!-- 52주 고가 -->
+              <div class="bg-gradient-to-br from-red-50 to-red-100 p-4 rounded-lg text-center">
+                <p class="text-3xl mb-2">📈</p>
+                <p class="text-sm text-slate-600 font-semibold mb-2">52주 고가</p>
+                <p class="text-2xl font-bold text-red-600"><?php echo number_format($stock_info['high_52w']); ?></p>
+                <p class="text-xs text-gray-500 mt-1">원</p>
               </div>
-              <div class="text-center border-l border-slate-200">
-                <p class="text-sm text-slate-600 mb-2">52주 저가</p>
-                <p class="text-lg font-bold text-slate-900"><?php echo number_format($stock_info['low_52w']); ?></p>
-                <p class="text-xs text-gray-500">원</p>
+
+              <!-- 52주 저가 -->
+              <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-4 rounded-lg text-center">
+                <p class="text-3xl mb-2">📉</p>
+                <p class="text-sm text-slate-600 font-semibold mb-2">52주 저가</p>
+                <p class="text-2xl font-bold text-purple-600"><?php echo number_format($stock_info['low_52w']); ?></p>
+                <p class="text-xs text-gray-500 mt-1">원</p>
               </div>
+            </div>
+
+            <!-- 52주 가격대 표시 -->
+            <div class="mt-8 pt-8 border-t border-slate-200">
+              <p class="text-sm font-semibold text-slate-700 mb-4">52주 가격 범위</p>
+              <div class="flex items-center gap-4">
+                <span class="text-sm text-slate-600 font-semibold"><?php echo number_format($stock_info['low_52w']); ?></span>
+                <div class="flex-1 bg-slate-200 rounded-full h-3 overflow-hidden">
+                  <div class="bg-gradient-to-r from-emerald-400 to-emerald-600 h-full" style="width: <?php echo (($stock_info['current_price'] - $stock_info['low_52w']) / ($stock_info['high_52w'] - $stock_info['low_52w']) * 100); ?>%"></div>
+                </div>
+                <span class="text-sm text-slate-600 font-semibold"><?php echo number_format($stock_info['high_52w']); ?></span>
+              </div>
+              <p class="text-center text-sm text-emerald-600 font-semibold mt-3">현재가: <?php echo number_format($stock_info['current_price']); ?>원</p>
             </div>
           </div>
 
-          <!-- 시가총액 카드 -->
-          <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg border border-blue-200 shadow-lg">
-            <div class="grid grid-cols-2 gap-6">
-              <div>
-                <p class="text-sm text-blue-700 font-semibold uppercase mb-2">시가총액</p>
-                <p class="text-3xl font-bold text-slate-900"><?php echo number_format($stock_info['market_cap']); ?></p>
-                <p class="text-sm text-blue-700">백만원</p>
+          <!-- 시가총액 & 주주구성 카드 -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- 시가총액 -->
+            <div class="bg-gradient-to-br from-blue-600 to-blue-700 text-white p-8 rounded-lg shadow-lg">
+              <div class="flex items-center justify-between mb-4">
+                <h4 class="text-lg font-bold">시가총액</h4>
+                <span class="text-3xl">💹</span>
               </div>
-              <div>
-                <p class="text-sm text-blue-700 font-semibold uppercase mb-2">상장일</p>
-                <p class="text-2xl font-bold text-slate-900"><?php echo $stock_info['listed_date']; ?></p>
-                <p class="text-sm text-blue-700">코스닥</p>
+              <p class="text-4xl font-black mb-2"><?php echo number_format($stock_info['market_cap']); ?></p>
+              <p class="text-blue-100 text-sm">백만원</p>
+              <div class="mt-6 pt-6 border-t border-blue-400">
+                <p class="text-sm text-blue-100 mb-1">상장일</p>
+                <p class="text-2xl font-bold"><?php echo $stock_info['listed_date']; ?></p>
+                <p class="text-sm text-blue-100 mt-1">코스닥</p>
+              </div>
+            </div>
+
+            <!-- 주주구성 -->
+            <div class="bg-gradient-to-br from-slate-100 to-slate-50 p-8 rounded-lg border-2 border-slate-200 shadow-lg">
+              <h4 class="text-lg font-bold text-slate-900 mb-6">주주구성</h4>
+              <div class="space-y-4">
+                <div>
+                  <div class="flex justify-between mb-2">
+                    <span class="text-sm font-semibold text-slate-700">개인주주</span>
+                    <span class="text-sm font-bold text-emerald-600"><?php echo $stock_info['individual_ownership']; ?>%</span>
+                  </div>
+                  <div class="w-full bg-slate-300 rounded-full h-2 overflow-hidden">
+                    <div class="bg-emerald-500 h-full" style="width: <?php echo $stock_info['individual_ownership']; ?>%"></div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="flex justify-between mb-2">
+                    <span class="text-sm font-semibold text-slate-700">기관투자자</span>
+                    <span class="text-sm font-bold text-blue-600"><?php echo $stock_info['institutional_ownership']; ?>%</span>
+                  </div>
+                  <div class="w-full bg-slate-300 rounded-full h-2 overflow-hidden">
+                    <div class="bg-blue-500 h-full" style="width: <?php echo $stock_info['institutional_ownership']; ?>%"></div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="flex justify-between mb-2">
+                    <span class="text-sm font-semibold text-slate-700">외국인</span>
+                    <span class="text-sm font-bold text-purple-600"><?php echo $stock_info['foreign_ownership']; ?>%</span>
+                  </div>
+                  <div class="w-full bg-slate-300 rounded-full h-2 overflow-hidden">
+                    <div class="bg-purple-500 h-full" style="width: <?php echo $stock_info['foreign_ownership']; ?>%"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -140,36 +202,43 @@
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- EPS -->
-        <div class="bg-white p-8 rounded-lg border border-slate-200 shadow-lg hover:shadow-xl transition">
-          <div class="flex items-center justify-between mb-4">
+        <div class="bg-gradient-to-br from-emerald-50 to-emerald-100 p-8 rounded-lg border-2 border-emerald-400 shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1">
+          <div class="flex items-center justify-between mb-6">
             <h3 class="text-xl font-bold text-slate-900">EPS</h3>
-            <span class="text-3xl">📊</span>
+            <span class="text-4xl">📊</span>
           </div>
-          <p class="text-4xl font-bold text-emerald-600 mb-2"><?php echo number_format($stock_info['eps'], 2); ?></p>
-          <p class="text-sm text-gray-600">주당순이익 (원)</p>
-          <p class="text-xs text-gray-500 mt-2">최근 4분기 누적</p>
+          <p class="text-5xl font-black text-emerald-600 mb-3"><?php echo number_format($stock_info['eps'], 0); ?></p>
+          <p class="text-sm font-semibold text-slate-700 mb-2">주당순이익</p>
+          <p class="text-xs text-slate-600 bg-white bg-opacity-60 px-3 py-1 rounded inline-block">최근 4분기 누적</p>
         </div>
 
         <!-- PER -->
-        <div class="bg-white p-8 rounded-lg border border-slate-200 shadow-lg hover:shadow-xl transition">
-          <div class="flex items-center justify-between mb-4">
+        <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-2 border-blue-400 shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1">
+          <div class="flex items-center justify-between mb-6">
             <h3 class="text-xl font-bold text-slate-900">PER</h3>
-            <span class="text-3xl">📈</span>
+            <span class="text-4xl">📈</span>
           </div>
-          <p class="text-4xl font-bold text-blue-600 mb-2"><?php echo number_format($stock_info['per'], 2); ?>배</p>
-          <p class="text-sm text-gray-600">주가수익비율</p>
-          <p class="text-xs text-gray-500 mt-2">낮을수록 저평가</p>
+          <p class="text-5xl font-black text-blue-600 mb-3"><?php echo number_format($stock_info['per'], 2); ?><span class="text-2xl">배</span></p>
+          <p class="text-sm font-semibold text-slate-700 mb-2">주가수익비율</p>
+          <div class="flex items-center gap-2">
+            <div class="flex-1 bg-white rounded-full h-2">
+              <div class="bg-blue-500 rounded-full h-2" style="width: <?php echo min(($stock_info['per'] / 15 * 100), 100); ?>%"></div>
+            </div>
+            <p class="text-xs text-slate-600 font-semibold">저평가</p>
+          </div>
         </div>
 
         <!-- PBR -->
-        <div class="bg-white p-8 rounded-lg border border-slate-200 shadow-lg hover:shadow-xl transition">
-          <div class="flex items-center justify-between mb-4">
+        <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-lg border-2 border-purple-400 shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1">
+          <div class="flex items-center justify-between mb-6">
             <h3 class="text-xl font-bold text-slate-900">PBR</h3>
-            <span class="text-3xl">💰</span>
+            <span class="text-4xl">💰</span>
           </div>
-          <p class="text-4xl font-bold text-purple-600 mb-2"><?php echo number_format($stock_info['pbr'], 2); ?>배</p>
-          <p class="text-sm text-gray-600">주가순자산비율</p>
-          <p class="text-xs text-gray-500 mt-2">1배 이하 저평가</p>
+          <p class="text-5xl font-black text-purple-600 mb-3"><?php echo number_format($stock_info['pbr'], 2); ?><span class="text-2xl">배</span></p>
+          <p class="text-sm font-semibold text-slate-700 mb-2">주가순자산비율</p>
+          <div class="inline-block bg-purple-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+            <?php echo $stock_info['pbr'] < 1 ? '✓ 저평가' : '가치평가'; ?>
+          </div>
         </div>
       </div>
     </div>

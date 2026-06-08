@@ -173,13 +173,24 @@ $stock_info = [
     'listed_date' => '2023.08.04',
     'trading_volume' => '1,234,567',
     'trading_amount' => '1,283,234,567',
+    'avg_trading_volume' => '856,342',
     'high_52w' => 1450,
     'low_52w' => 875,
+    'current_price' => 1041,
     'eps' => 156.45,
     'per' => 6.65,
     'pbr' => 0.98,
     'dividend_per_share' => 120,
-    'dividend_yield' => 11.53
+    'dividend_yield' => 11.53,
+    'volume_trend' => 'up',
+    'foreign_ownership' => 15.3,
+    'institutional_ownership' => 28.5,
+    'individual_ownership' => 56.2,
+    'price_range_52w' => [
+        'high' => 1450,
+        'low' => 875,
+        'current' => 1041
+    ]
 ];
 
 // ======================== IR 재무 정보 ========================
