@@ -93,7 +93,8 @@ samjin-new/
 ├── includes/
 │   ├── header.php            # Sticky 헤더 + GNB (text-lg)
 │   ├── footer.php            # 푸터 + 사이트맵
-│   └── mock-data.php         # PHP 배열 기반 목업 데이터
+│   ├── mock-data.php         # PHP 배열 기반 목업 데이터
+│   └── api-helpers.php       # Finnhub/DART API 헬퍼 + 캐싱 (실시간 주가·재무정보)
 └── assets/
     ├── css/custom.css        # Tailwind 보완 + 커스텀 스타일 + Paperlogy @font-face
     ├── fonts/                # Paperlogy 폰트 파일 (9 weights: 100~900)
@@ -279,8 +280,14 @@ html, body {
   - Phase 6: 네비게이션 (이미 Phase 2에서 완료)
 - **IR Pages** (2026-06-08): 투자정보 3개 페이지 구축 (독립 페이지 방식)
   - `/ir/info.php`: IR 정보 (회사소개, 공지사항, 자료실, 경영진, 투자자 연락처)
-  - `/ir/stock.php`: 주식 정보 (실시간 주가 mock, 거래량, 투자지표, 12개월 차트)
-  - `/ir/financial.php`: 재무 정보 (2024~2026 재무제표, 분기별 실적, 배당 내역)
+  - `/ir/stock.php`: 주식 정보 (Finnhub 실시간 주가 + Mock 폴백, 거래량, 투자지표, 12개월 차트)
+  - `/ir/financial.php`: 재무 정보 (DART API 또는 Mock: 2024~2026 재무제표, 배당 내역)
   - Mock 데이터: `includes/mock-data.php`에 stock_info, financial_data, dividend_history 추가
   - Header/Footer: 투자정보 드롭다운 메뉴 + 빠른 링크에 3개 페이지 연결
-  - 향후 주가 API 연동 가능하도록 구조 설계
+- **API Integration** (2026-06-08): Phase 1-2 진행중
+  - Finnhub API: 실시간 주가, 거래량, PER/PBR 지표 (5분 캐싱)
+  - DART API: 재무정보, 배당내역, 공시정보 (24시간 캐싱)
+  - `includes/api-helpers.php`: Finnhub 4개 함수 + DART 3개 함수 + 캐싱 시스템
+  - `.env.example`: API KEY 설정 템플릿
+  - `IR_API_SETUP.md`: 완전한 API 설정 가이드
+  - Graceful fallback: API 실패 시 mock 데이터 자동 사용

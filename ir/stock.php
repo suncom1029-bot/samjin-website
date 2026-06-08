@@ -39,29 +39,44 @@
     </div>
   </section>
 
-  <?php include '../includes/mock-data.php'; ?>
+  <?php
+    include '../includes/mock-data.php';
+    include '../includes/api-helpers.php';
+
+    // 실시간 주가 데이터 조회 (API 또는 Mock)
+    $live_stock = get_merged_stock_data('SAMJIN.KS', $stock_info);
+
+    // 타임스탬프 포맷
+    $timestamp = isset($live_stock['timestamp']) ? $live_stock['timestamp'] : date('Y-m-d H:i:s');
+    $data_source = isset($live_stock['source']) ? $live_stock['source'] : 'mock_data';
+  ?>
 
   <!-- 실시간 주가 섹션 -->
   <section class="section-lg bg-white">
     <div class="max-w-7xl mx-auto px-6 lg:px-12">
       <div class="mb-16">
         <h2 class="text-4xl font-bold mb-2">실시간 주가 정보</h2>
-        <p class="text-gray-500 text-lg">기준시간: 2026.06.08 15:30 KRX</p>
+        <p class="text-gray-500 text-lg">
+          기준시간: <?php echo $timestamp; ?>
+          <span class="text-xs ml-2 px-2 py-1 bg-<?php echo $data_source === 'finnhub_api' ? 'emerald' : 'slate'; ?>-100 text-<?php echo $data_source === 'finnhub_api' ? 'emerald' : 'slate'; ?>-700 rounded">
+            <?php echo $data_source === 'finnhub_api' ? '실시간 API' : 'Mock 데이터'; ?>
+          </span>
+        </p>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <!-- 주가 카드 -->
         <div class="lg:col-span-1 bg-gradient-to-br from-emerald-50 to-emerald-100 p-8 rounded-lg border-2 border-emerald-500 shadow-lg">
           <p class="text-sm text-emerald-700 font-semibold uppercase mb-4">현재가</p>
-          <p class="text-5xl lg:text-6xl font-black text-slate-900 mb-6"><?php echo number_format($ir_data['stock_price']); ?><span class="text-3xl">원</span></p>
+          <p class="text-5xl lg:text-6xl font-black text-slate-900 mb-6"><?php echo number_format($live_stock['stock_price']); ?><span class="text-3xl">원</span></p>
           <div class="space-y-4">
             <div class="flex justify-between items-center pb-4 border-b border-emerald-300">
               <span class="text-slate-700 font-semibold">전일대비</span>
-              <span class="<?php echo ($ir_data['price_change'] < 0 ? 'text-blue-500' : 'text-red-500'); ?> font-bold text-xl"><?php echo ($ir_data['price_change'] < 0 ? '▼' : '▲'); ?> <?php echo number_format(abs($ir_data['price_change'])); ?></span>
+              <span class="<?php echo ($live_stock['price_change'] < 0 ? 'text-blue-500' : 'text-red-500'); ?> font-bold text-xl"><?php echo ($live_stock['price_change'] < 0 ? '▼' : '▲'); ?> <?php echo number_format(abs($live_stock['price_change'])); ?></span>
             </div>
             <div class="flex justify-between items-center">
               <span class="text-slate-700 font-semibold">등락률</span>
-              <span class="<?php echo ($ir_data['change_percent'] < 0 ? 'text-blue-500' : 'text-red-500'); ?> font-bold text-xl"><?php echo $ir_data['change_percent']; ?>%</span>
+              <span class="<?php echo ($live_stock['change_percent'] < 0 ? 'text-blue-500' : 'text-red-500'); ?> font-bold text-xl"><?php echo $live_stock['change_percent']; ?>%</span>
             </div>
           </div>
         </div>
