@@ -41,14 +41,16 @@
 
   <?php
     include '../includes/mock-data.php';
-    include '../includes/api-helpers.php';
 
-    // 실시간 주가 데이터 조회 (API 또는 Mock)
-    $live_stock = get_merged_stock_data('SAMJIN.KS', $stock_info);
+    // Mock 데이터 사용 (API 연동은 향후)
+    $live_stock = array_merge([
+        'timestamp' => date('Y-m-d H:i:s'),
+        'source' => 'mock_data'
+    ], $stock_info);
 
     // 타임스탬프 포맷
-    $timestamp = isset($live_stock['timestamp']) ? $live_stock['timestamp'] : date('Y-m-d H:i:s');
-    $data_source = isset($live_stock['source']) ? $live_stock['source'] : 'mock_data';
+    $timestamp = $live_stock['timestamp'];
+    $data_source = 'mock_data';
   ?>
 
   <!-- 실시간 주가 섹션 (네이버 금융 스타일) -->
