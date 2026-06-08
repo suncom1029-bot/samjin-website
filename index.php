@@ -33,7 +33,12 @@
         <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=800&fit=crop');">
           <div class="hero-content">
             <h2 class="hero-title">세상을 바꾸는 기술,<br>삼진엘앤디</h2>
-            <p class="hero-subtitle">1987년부터 38년, 정밀금형에서 AI 배터리 부품까지</p>
+            <p class="hero-subtitle">1987년부터 39년, 정밀금형에서 AI 배터리 부품까지</p>
+            <div class="flex gap-2 mt-4 justify-center">
+              <span class="px-4 py-2 bg-emerald-500 text-white text-sm font-semibold rounded-full">PRECISION</span>
+              <span class="px-4 py-2 bg-emerald-500 text-white text-sm font-semibold rounded-full">AUTOMATION</span>
+              <span class="px-4 py-2 bg-emerald-500 text-white text-sm font-semibold rounded-full">INTELLIGENCE</span>
+            </div>
           </div>
         </div>
         <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1200&h=800&fit=crop');">
@@ -44,8 +49,8 @@
         </div>
         <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=800&fit=crop');">
           <div class="hero-content">
-            <h2 class="hero-title">4개국 글로벌 제조 거점<br>800명 임직원</h2>
-            <p class="hero-subtitle">한국·미국·멕시코·베트남, 세계 시장과 함께 성장</p>
+            <h2 class="hero-title">6개 해외 종속법인<br>720명 글로벌 임직원</h2>
+            <p class="hero-subtitle">한국·미국·멕시코·베트남 및 글로벌 거점, 세계 시장과 함께 성장</p>
           </div>
         </div>
         <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=1200&h=800&fit=crop');">
@@ -110,7 +115,7 @@
     <div class="max-w-7xl mx-auto px-6 lg:px-12">
       <div class="mb-16">
         <h2 class="text-4xl font-bold mb-4">HIGHLIGHTS</h2>
-        <p class="text-gray-500 text-lg">38년 정밀 제조 기술로 써 내려간 삼진엘앤디의 성장</p>
+        <p class="text-gray-500 text-lg">39년 정밀 제조 기술로 써 내려간 삼진엘앤디의 성장</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <?php foreach ($stats as $stat): ?>

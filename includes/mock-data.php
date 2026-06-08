@@ -75,24 +75,24 @@ $news = [
 
 $stats = [
     [
-        'value' => '1987',
-        'label' => '설립 연도',
-        'description' => '38년, 정밀금형 기술의 여정'
+        'value' => '39',
+        'label' => '년 정밀 제조 업력',
+        'description' => '1987년 설립 이후 정밀금형 기술의 여정'
     ],
     [
-        'value' => '4',
-        'label' => '글로벌 거점',
-        'description' => '한국·미국·멕시코·베트남'
+        'value' => '720',
+        'label' => '명 글로벌 임직원',
+        'description' => '한국·미국·멕시코·베트남 및 해외거점'
     ],
     [
-        'value' => '1360',
-        'label' => '매출액(억원)',
-        'description' => '2025년 연결기준'
+        'value' => '44',
+        'label' => '건 국내 특허',
+        'description' => '특허청 등록·출원 포트폴리오'
     ],
     [
-        'value' => '800',
-        'label' => '글로벌 임직원',
-        'description' => '전 세계 임직원 수'
+        'value' => '6',
+        'label' => '개 해외 종속법인',
+        'description' => '글로벌 제조·영업 거점'
     ]
 ];
 

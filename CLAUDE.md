@@ -77,7 +77,10 @@ samjin-new/
 │   ├── oa.php                 # OA 제품 페이지 (Finisher·정렬시스템)
 │   ├── new-materials.php      # 신소재 사업 페이지 (탄소복합재·고기능성 플라스틱·바이오 소재)
 │   ├── mold.php               # 금형 & 핫런너 페이지 (Hot Runner 특허 5건)
-│   └── lgp.php                # LGP 도광판 페이지 (7"~85" Roll Stamp 기술)
+│   ├── lgp.php                # LGP 도광판 페이지 (7"~85" Roll Stamp 기술)
+│   ├── hydrogen-tank.php      # 수소 탱크 페이지 (경량화, 2026-06 TPED/ADR 인증)
+│   ├── automation.php         # 자동화 솔루션 페이지 (Plug & Play, 70% 자동화)
+│   └── intelligence.php       # AI 지능화 페이지 (Zero Defect, ±0.01mm 정밀도)
 ├── support/
 │   └── inquiry.php            # 고객문의 페이지 (부서별 연락처 테이블·문의카테고리·FAQ)
 ├── recruit/
@@ -112,9 +115,12 @@ samjin-new/
 | `products/new-materials.php` | 신소재 사업 페이지 (탄소복합재, 고기능성 플라스틱, 바이오 소재) |
 | `products/mold.php` | 금형 & 핫런너 페이지 (Hot Runner 특허 5건, 초정밀 기술) |
 | `products/lgp.php` | LGP 도광판 페이지 (7"~85" Roll Stamp 공법, 광효율 향상) |
+| `products/hydrogen-tank.php` | 수소 탱크 페이지 (초경량 플라스틱 라이너, 2026-06 인증 목표) |
+| `products/automation.php` | 자동화 솔루션 페이지 (Plug & Play 표준화, 70% 자동화율) |
+| `products/intelligence.php` | AI 지능화 페이지 (Zero Defect 스마트팩토리, ±0.01mm 초정밀) |
 | `support/inquiry.php` | 고객문의 페이지 (부서별 연락처 테이블·문의카테고리·FAQ) |
-| `includes/header.php` | Sticky 네비게이션, 로고, 드롭다운 메뉴 (GNB) - 6개 제품 메뉴 항목 포함 |
-| `includes/footer.php` | 푸터 콘텐츠, 빠른 링크 (회사/경영관리/제품 6개), 회사 정보 |
+| `includes/header.php` | Sticky 네비게이션, 로고, 드롭다운 메뉴 (GNB) - 기존 6개 + 신규 3개 제품 메뉴 항목 |
+| `includes/footer.php` | 푸터 콘텐츠, 빠른 링크 (회사/경영관리/제품 9개), 회사 정보 |
 | `includes/mock-data.php` | 뉴스, 제품, 통계, CTA 배너 목업 데이터 |
 | `assets/css/custom.css` | 색상 시스템, 컴포넌트 스타일 (stat-card, product-card, feature-card, etc) |
 | `assets/js/main.js` | 슬라이더 초기화, 카운터 애니메이션, 스크롤 이벤트, 모바일 메뉴 |
@@ -260,3 +266,8 @@ html, body {
 - **Images**: 로컬 이미지 + Unsplash CDN 혼합 사용
 - **Tailwind CDN**: 빌드 과정 없음 (CDN 직접 로드). 커스텀 클래스는 `custom.css`에서 정의
 - **Recruitment Pages** (2026-06-08): `recruit/process.php` 다크 테마 + UX 개선 (호버 애니메이션, 상세 설명)
+- **Communication Strategy** (2026-06-08): 공식 커뮤니케이션 전략 문서 반영
+  - Phase 1 완료: 브랜드 키워드 (Precision · Automation · Intelligence) 적용
+  - Stats 수치 업데이트: 39년 업력, 720명 임직원, 44건 특허, 6개 해외법인
+  - Phase 2 완료: 신규 페이지 3개 추가 (hydrogen-tank, automation, intelligence) + 네비게이션 통합
+  - Phase 3~6 진행 예정: Battery Safety 강화 + Tier 1 고객사 + 기존 페이지 보완

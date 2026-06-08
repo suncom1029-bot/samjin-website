@@ -43,13 +43,19 @@
           제품소개
           <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-emerald-500 group-hover:w-full transition-all duration-300"></span>
         </button>
-        <div class="absolute left-0 mt-0 w-40 bg-white rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pt-2">
+        <div class="absolute left-0 mt-0 w-56 bg-white rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pt-2">
+          <p class="px-4 py-2 text-xs font-semibold text-emerald-600 uppercase tracking-wider">기존 제품</p>
           <a href="/products/display.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">Display 부품</a>
           <a href="/products/battery.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">2차전지</a>
           <a href="/products/oa.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">OA 제품</a>
           <a href="/products/new-materials.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">신소재 사업</a>
           <a href="/products/mold.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">금형 & 핫런너</a>
           <a href="/products/lgp.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">LGP</a>
+          <hr class="border-slate-200 my-1">
+          <p class="px-4 py-2 text-xs font-semibold text-emerald-600 uppercase tracking-wider">미래 기술</p>
+          <a href="/products/hydrogen-tank.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">수소 탱크</a>
+          <a href="/products/automation.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">자동화 솔루션</a>
+          <a href="/products/intelligence.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">AI 지능화</a>
         </div>
       </div>
 

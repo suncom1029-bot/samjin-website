@@ -51,6 +51,9 @@
                 <li><a href="/products/new-materials.php" class="hover:text-emerald-400 transition">신소재 사업</a></li>
                 <li><a href="/products/mold.php" class="hover:text-emerald-400 transition">금형 & 핫런너</a></li>
                 <li><a href="/products/lgp.php" class="hover:text-emerald-400 transition">LGP</a></li>
+                <li class="pt-1 border-t border-slate-700"><a href="/products/hydrogen-tank.php" class="hover:text-emerald-400 transition text-sm">수소 탱크</a></li>
+                <li><a href="/products/automation.php" class="hover:text-emerald-400 transition text-sm">자동화 솔루션</a></li>
+                <li><a href="/products/intelligence.php" class="hover:text-emerald-400 transition text-sm">AI 지능화</a></li>
               </ul>
             </div>
           </div>
@@ -60,6 +63,11 @@
 
     <!-- Divider -->
     <hr class="border-slate-700 mb-8">
+
+    <!-- Brand Tagline -->
+    <div class="text-center mb-8">
+      <p class="text-xs tracking-widest text-gray-400">PRECISION · AUTOMATION · INTELLIGENCE</p>
+    </div>
 
     <!-- Copyright -->
     <div class="text-center text-sm text-gray-400">
