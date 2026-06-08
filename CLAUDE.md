@@ -349,3 +349,6 @@ html, body {
   - 칼럼 구성: 회사 → 경영관리 → 투자정보 → 제품
   - 제품 칼럼에 LGP 이후 수소탱크, 자동화 솔루션, AI 지능화 통합 (border-t 구분)
   - company/organization.php 링크 추가 (조직도)
+- **Footer Logo Updates** (2026-06-08): 푸터 로고 개선
+  - `/assets/img/footer_logo.png`: 새 SAMJIN L&D 로고로 교체 (배경색 #0f172a로 통일)
+  - `includes/footer.php`: 로고 높이 h-10 md:h-12 → h-32로 조정 (회사정보 텍스트 높이와 통일)
