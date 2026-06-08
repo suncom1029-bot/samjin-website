@@ -158,45 +158,6 @@
     </div>
   </section>
 
-  <!-- 2026 비전 -->
-  <section class="section-lg bg-white">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12">
-      <div class="mb-16 text-center">
-        <h2 class="text-4xl font-bold mb-4">2026 비전</h2>
-        <p class="text-gray-500 text-lg">미래를 향한 도전과 혁신</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- 비전 1: AI 데이터센터 -->
-        <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border border-blue-200">
-          <p class="text-3xl mb-4">🤖</p>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">AI 데이터센터 부품</h3>
-          <p class="text-slate-700">
-            차세대 AI 시대를 리드하는 고부가가치 부품 공급으로 글로벌 경쟁력 강화
-          </p>
-        </div>
-
-        <!-- 비전 2: 글로벌 제조 -->
-        <div class="bg-gradient-to-br from-emerald-50 to-emerald-100 p-8 rounded-lg border border-emerald-200">
-          <p class="text-3xl mb-4">🌍</p>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">글로벌 4개국 제조</h3>
-          <p class="text-slate-700">
-            한국·미국·멕시코·베트남의 통합 제조 네트워크로 세계 시장 선도
-          </p>
-        </div>
-
-        <!-- 비전 3: 스마트팩토리 -->
-        <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-lg border border-purple-200">
-          <p class="text-3xl mb-4">🏭</p>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">스마트팩토리</h3>
-          <p class="text-slate-700">
-            AI 비전, 자동화, IoT 기술을 통한 차세대 스마트 생산 시스템 구축
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <?php include '../includes/footer.php'; ?>
   <script src="/assets/js/main.js"></script>
 </body>
