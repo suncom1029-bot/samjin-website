@@ -310,9 +310,13 @@ html, body {
   - "2022년 정점 이후" 질적 전환 내러티브 박스 제거
   - IR 정보/주식 정보/재무 정보 카드의 이모티콘 제거
 - **Company Pages Design Updates** (2026-06-09): 회사소개 페이지 이모티콘 제거 및 디자인 통일
-  - `/company/greeting.php`: "삼진엘앤디의 약속" 섹션 이모티콘 제거 + 폰트 조정
-  - `/company/overview.php`: "주요 사업 분야", "인증 및 수상" 이모티콘 제거 + 폰트 조정
-  - `/company/overview.php`: "핵심 기술"을 박스 3열 레이아웃으로 개선
-  - `/management/philosophy.php`: "설립이념" 섹션 이모티콘 제거 + 폰트 조정
+  - `/company/greeting.php`: "삼진엘앤디의 약속" 섹션 이모티콘 제거 + 폰트 조정 ✅
+  - `/company/greeting.php`: "글로벌 확장" 카드 이모티콘 제거 (2026-06-10) ✅
+  - `/company/overview.php`: "주요 사업 분야", "인증 및 수상" 이모티콘 제거 + 폰트 조정 ✅
+  - `/company/overview.php`: "핵심 기술"을 박스 3열 레이아웃으로 개선 ✅
+  - `/company/overview.php`: "글로벌 거점" 섹션 국기 이모티콘 제거 + 디자인 통일 (2026-06-10) ✅
+  - `/management/philosophy.php`: "설립이념" 섹션 이모티콘 제거 + 폰트 조정 ✅
+  - `/management/awards.php`: 수상 타임라인을 3칼럼 카드 형식으로 재디자인 (1991, 2014, 2023+) (2026-06-10) ✅
+  - `/management/awards.php`: "보유 인증" 섹션 이모티콘 제거 + 폰트 조정 (2026-06-10) ✅
+  - `/management/competency.php`: "보유 인증" 섹션 이모티콘 제거 + 폰트 조정 (2026-06-10) ✅
   - **(다음 단계)** philosophy.php: "2026 비전" 섹션 제거, "정밀의 여정" 도형 짤림 수정
-  - **(다음 단계)** competency.php: "보유 인증" 이모티콘 제거

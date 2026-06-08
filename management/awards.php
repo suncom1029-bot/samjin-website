@@ -37,94 +37,70 @@
     <div class="max-w-7xl mx-auto px-6 lg:px-12">
       <div class="mb-16 text-center">
         <h2 class="text-4xl font-bold mb-4">수상 타임라인</h2>
-        <p class="text-gray-500 text-lg">1991년부터 2023년까지 축적된 신뢰의 증명</p>
+        <p class="text-gray-500 text-lg">신뢰를 인정받은 성장의 여정</p>
       </div>
 
-      <div class="relative">
-        <!-- 타임라인 라인 -->
-        <div class="absolute left-6 lg:left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-emerald-500 to-slate-300 transform lg:-translate-x-1/2"></div>
-
-        <!-- 타임라인 항목들 -->
-        <div class="space-y-12">
-          <!-- 1991 -->
-          <div class="relative pl-20 lg:pl-0 lg:pr-1/2 lg:text-right">
-            <div class="absolute left-0 top-2 w-12 h-12 bg-emerald-500 rounded-full flex items-center justify-center text-white font-bold lg:left-1/2 lg:transform lg:-translate-x-1/2">
-              1991
-            </div>
-            <div class="bg-emerald-50 p-6 rounded-lg border border-emerald-200">
-              <p class="font-bold text-slate-900">100만불 수출탑</p>
-              <p class="text-sm text-slate-600 mt-1">한국 수출입은행</p>
-            </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- 초기 성장기: 1991-2009 -->
+        <div class="relative">
+          <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-12 h-12 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-lg">
+            1991
           </div>
-
-          <!-- 2008 -->
-          <div class="relative pl-20 lg:pl-1/2 lg:text-left">
-            <div class="absolute left-0 top-2 w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold lg:left-1/2 lg:transform lg:-translate-x-1/2">
-              2008
-            </div>
-            <div class="bg-blue-50 p-6 rounded-lg border border-blue-200">
-              <p class="font-bold text-slate-900">노사문화 우수기업</p>
-              <p class="text-sm text-slate-600 mt-1">노동부 선정</p>
-            </div>
+          <div class="bg-gradient-to-br from-slate-50 to-slate-100 p-8 rounded-lg border-2 border-slate-300 mt-8">
+            <p class="text-sm font-semibold text-slate-600 uppercase tracking-widest mb-3">초기 성장기</p>
+            <h3 class="text-2xl font-bold text-slate-900 mb-3">신뢰의 기초</h3>
+            <p class="text-slate-700 mb-4 leading-relaxed">
+              정밀금형 기술로 첫발을 내딛고, 초기 수출 성공으로 글로벌 기반을 마련했습니다.
+            </p>
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li>✓ 100만불 수출탑 (1991)</li>
+              <li>✓ 노사문화 우수기업 (2008)</li>
+              <li>✓ 삼성전자 상생협력 금상 (2009)</li>
+            </ul>
           </div>
+        </div>
 
-          <!-- 2009 -->
-          <div class="relative pl-20 lg:pl-0 lg:pr-1/2 lg:text-right">
-            <div class="absolute left-0 top-2 w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold lg:left-1/2 lg:transform lg:-translate-x-1/2">
-              2009
-            </div>
-            <div class="bg-purple-50 p-6 rounded-lg border border-purple-200">
-              <p class="font-bold text-slate-900">삼성전자 상생협력 금상</p>
-              <p class="text-sm text-slate-600 mt-1">삼성전자 선정</p>
-            </div>
+        <!-- 중기 도약기: 2013-2014 -->
+        <div class="relative">
+          <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-12 h-12 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-lg">
+            2014
           </div>
-
-          <!-- 2013 -->
-          <div class="relative pl-20 lg:pl-1/2 lg:text-left">
-            <div class="absolute left-0 top-2 w-12 h-12 bg-amber-500 rounded-full flex items-center justify-center text-white font-bold lg:left-1/2 lg:transform lg:-translate-x-1/2">
-              2013
-            </div>
-            <div class="bg-amber-50 p-6 rounded-lg border border-amber-200">
-              <div>
-                <p class="font-bold text-slate-900">LED 차세대 조명전시회 대상</p>
-                <p class="text-sm text-slate-600 mt-1">산업통상자원부 선정</p>
-              </div>
-              <div class="mt-3 pt-3 border-t border-amber-200">
-                <p class="font-bold text-slate-900">7,000만불 수출탑</p>
-                <p class="text-sm text-slate-600 mt-1">무역의 날 선정</p>
-              </div>
-            </div>
+          <div class="bg-gradient-to-br from-emerald-50 to-emerald-100 p-8 rounded-lg border-2 border-emerald-400 mt-8 ring-2 ring-emerald-200">
+            <p class="text-sm font-semibold text-emerald-700 uppercase tracking-widest mb-3">중기 도약기</p>
+            <h3 class="text-2xl font-bold text-slate-900 mb-3">혁신의 인증</h3>
+            <p class="text-slate-700 mb-4 leading-relaxed">
+              정밀 기술의 우수성을 국가적 상으로 인정받고, 글로벌 경쟁력을 입증했습니다.
+            </p>
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li>✓ LED 차세대 조명전시회 대상 (2013)</li>
+              <li>✓ 뿌리기술 명가 대통령상 (2014)</li>
+              <li>✓ World Class 300 선정 (2014)</li>
+            </ul>
           </div>
+        </div>
 
-          <!-- 2014 -->
-          <div class="relative pl-20 lg:pl-0 lg:pr-1/2 lg:text-right">
-            <div class="absolute left-0 top-2 w-12 h-12 bg-red-500 rounded-full flex items-center justify-center text-white font-bold lg:left-1/2 lg:transform lg:-translate-x-1/2">
-              2014
-            </div>
-            <div class="bg-red-50 p-6 rounded-lg border border-red-200">
-              <div>
-                <p class="font-bold text-slate-900">뿌리기술 명가 대통령상</p>
-                <p class="text-sm text-slate-600 mt-1">중소벤처기업부 선정</p>
-              </div>
-              <div class="mt-3 pt-3 border-t border-red-200">
-                <p class="font-bold text-slate-900">World Class 300 선정</p>
-                <p class="text-sm text-slate-600 mt-1">산업통상자원부 선정</p>
-              </div>
-            </div>
+        <!-- 현재 고도화: 2023+ -->
+        <div class="relative">
+          <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-12 h-12 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-lg">
+            2023+
           </div>
-
-          <!-- 2023 -->
-          <div class="relative pl-20 lg:pl-1/2 lg:text-left">
-            <div class="absolute left-0 top-2 w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center text-white font-bold lg:left-1/2 lg:transform lg:-translate-x-1/2">
-              2023
-            </div>
-            <div class="bg-teal-50 p-6 rounded-lg border border-teal-200">
-              <p class="font-bold text-slate-900">품질경쟁력 우수기업</p>
-              <p class="text-sm text-slate-600 mt-1">산업통상자원부 선정</p>
-            </div>
+          <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-2 border-blue-400 mt-8">
+            <p class="text-sm font-semibold text-blue-700 uppercase tracking-widest mb-3">현재 고도화</p>
+            <h3 class="text-2xl font-bold text-slate-900 mb-3">지속의 약속</h3>
+            <p class="text-slate-700 mb-4 leading-relaxed">
+              품질과 신뢰를 지속적으로 증명하며, 차세대 기술 분야로 확장하고 있습니다.
+            </p>
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li>✓ 품질경쟁력 우수기업 (2023)</li>
+              <li>✓ IATF16949 인증 획득</li>
+              <li>✓ 글로벌 4개국 제조 거점 운영</li>
+            </ul>
           </div>
         </div>
       </div>
+
+      <!-- 연결선 -->
+      <div class="mt-12 h-1 bg-gradient-to-r from-slate-300 via-emerald-400 to-blue-400 rounded-full"></div>
     </div>
   </section>
 
@@ -139,8 +115,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- IATF16949 -->
         <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
-          <p class="text-4xl mb-4">🏢</p>
-          <h3 class="text-2xl font-bold text-slate-900 mb-3">IATF16949</h3>
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">IATF16949</h3>
           <p class="text-slate-700 leading-relaxed">
             자동차산업 품질경영 국제표준 인증. 세계 자동차 업계에서 요구하는 최고 수준의 품질 관리 기준 달성
           </p>
@@ -148,8 +123,7 @@
 
         <!-- 현대차 SQ -->
         <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
-          <p class="text-4xl mb-4">🚗</p>
-          <h3 class="text-2xl font-bold text-slate-900 mb-3">현대차 SQ</h3>
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">현대차 SQ</h3>
           <p class="text-slate-700 leading-relaxed">
             배터리 부품 최고 품질 기준 인증. 현대자동차의 까다로운 공급처 자격 평가를 통과한 우수 협력사
           </p>
@@ -157,8 +131,7 @@
 
         <!-- ISO 인증 다수 -->
         <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
-          <p class="text-4xl mb-4">📋</p>
-          <h3 class="text-2xl font-bold text-slate-900 mb-3">ISO 인증 다수</h3>
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">ISO 인증 다수</h3>
           <p class="text-slate-700 leading-relaxed">
             ISO 9001, ISO 14001 등 국제 표준 인증. 품질, 환경, 안전 분야의 국제 표준을 충족하는 경영 시스템 운영
           </p>
@@ -166,8 +139,7 @@
 
         <!-- 노사문화 우수기업 -->
         <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
-          <p class="text-4xl mb-4">👥</p>
-          <h3 class="text-2xl font-bold text-slate-900 mb-3">노사문화 우수기업</h3>
+          <h3 class="text-lg font-bold text-emerald-600 mb-3">노사문화 우수기업</h3>
           <p class="text-slate-700 leading-relaxed">
             노동부 선정 우수기업. 근로자와 경영진 간 신뢰와 상호 존중을 바탕으로 한 건전한 노사 관계 구축
           </p>

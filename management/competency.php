@@ -211,36 +211,32 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <!-- IATF16949 -->
-        <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border border-blue-200">
-          <p class="text-3xl mb-4">🏆</p>
-          <h3 class="text-lg font-bold text-slate-900 mb-2">IATF16949</h3>
+        <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
+          <h3 class="text-lg font-bold text-emerald-600 mb-2">IATF16949</h3>
           <p class="text-sm text-slate-700">
             자동차산업 품질경영 국제표준
           </p>
         </div>
 
         <!-- 현대차 SQ -->
-        <div class="bg-gradient-to-br from-emerald-50 to-emerald-100 p-8 rounded-lg border border-emerald-200">
-          <p class="text-3xl mb-4">✅</p>
-          <h3 class="text-lg font-bold text-slate-900 mb-2">현대차 SQ</h3>
+        <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
+          <h3 class="text-lg font-bold text-emerald-600 mb-2">현대차 SQ</h3>
           <p class="text-sm text-slate-700">
             배터리 부품 최고 품질 기준
           </p>
         </div>
 
         <!-- ISO 인증 -->
-        <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-lg border border-purple-200">
-          <p class="text-3xl mb-4">📋</p>
-          <h3 class="text-lg font-bold text-slate-900 mb-2">ISO 인증</h3>
+        <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
+          <h3 class="text-lg font-bold text-emerald-600 mb-2">ISO 인증</h3>
           <p class="text-sm text-slate-700">
             국제 표준 품질 관리
           </p>
         </div>
 
         <!-- 품질경쟁력 -->
-        <div class="bg-gradient-to-br from-amber-50 to-amber-100 p-8 rounded-lg border border-amber-200">
-          <p class="text-3xl mb-4">⭐</p>
-          <h3 class="text-lg font-bold text-slate-900 mb-2">품질경쟁력</h3>
+        <div class="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition">
+          <h3 class="text-lg font-bold text-emerald-600 mb-2">품질경쟁력</h3>
           <p class="text-sm text-slate-700">
             2023 우수기업 선정
           </p>

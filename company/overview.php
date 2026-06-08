@@ -99,23 +99,23 @@
         <p class="text-gray-500 text-lg">세계 4개 지역에서 함께 성장</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-8 border border-blue-200">
-          <h3 class="text-xl font-bold text-slate-900 mb-2">🇰🇷 한국</h3>
+        <div class="bg-white rounded-lg p-8 border border-slate-200 hover:shadow-lg transition">
+          <h3 class="text-lg font-bold text-emerald-600 mb-2">한국</h3>
           <p class="text-slate-700 mb-1"><span class="font-semibold">SAMJIN LND</span></p>
           <p class="text-sm text-slate-600">본사 & 개발</p>
         </div>
-        <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-8 border border-green-200">
-          <h3 class="text-xl font-bold text-slate-900 mb-2">🇺🇸 미국</h3>
+        <div class="bg-white rounded-lg p-8 border border-slate-200 hover:shadow-lg transition">
+          <h3 class="text-lg font-bold text-emerald-600 mb-2">미국</h3>
           <p class="text-slate-700 mb-1"><span class="font-semibold">ELEMEK, INC</span></p>
           <p class="text-sm text-slate-600">영업 거점</p>
         </div>
-        <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-lg p-8 border border-yellow-200">
-          <h3 class="text-xl font-bold text-slate-900 mb-2">🇲🇽 멕시코</h3>
+        <div class="bg-white rounded-lg p-8 border border-slate-200 hover:shadow-lg transition">
+          <h3 class="text-lg font-bold text-emerald-600 mb-2">멕시코</h3>
           <p class="text-slate-700 mb-1"><span class="font-semibold">COMEX PLATECH</span></p>
           <p class="text-sm text-slate-600">제조 & 판매</p>
         </div>
-        <div class="bg-gradient-to-br from-pink-50 to-pink-100 rounded-lg p-8 border border-pink-200">
-          <h3 class="text-xl font-bold text-slate-900 mb-2">🇻🇳 베트남</h3>
+        <div class="bg-white rounded-lg p-8 border border-slate-200 hover:shadow-lg transition">
+          <h3 class="text-lg font-bold text-emerald-600 mb-2">베트남</h3>
           <p class="text-slate-700 mb-1"><span class="font-semibold">SAMJIN LND VINA</span></p>
           <p class="text-sm text-slate-600">배터리 부품 제조</p>
         </div>

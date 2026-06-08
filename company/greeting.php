@@ -152,8 +152,7 @@
 
         <!-- 카드 3: 글로벌 확장 -->
         <div class="feature-card fade-in-up" data-aos="fade-up">
-          <p class="text-3xl mb-4">🌏</p>
-          <h3 class="text-2xl font-bold mb-3">글로벌 확장</h3>
+          <h3 class="text-xl font-bold mb-3 text-emerald-600">글로벌 확장</h3>
           <p class="feature-description">
             4개국(한국·미국·멕시코·베트남) 거점에서
             삼성SDI, 현대자동차와 협력.
