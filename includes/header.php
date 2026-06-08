@@ -65,9 +65,9 @@
           <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-emerald-500 group-hover:w-full transition-all duration-300"></span>
         </button>
         <div class="absolute left-0 mt-0 w-40 bg-white rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pt-2">
-          <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">주가정보</a>
-          <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">공시정보</a>
-          <a href="#" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">IR 정보</a>
+          <a href="/ir/info.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">IR 정보</a>
+          <a href="/ir/stock.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">주식 정보</a>
+          <a href="/ir/financial.php" class="block px-4 py-2 text-base text-slate-700 hover:text-emerald-500">재무 정보</a>
         </div>
       </div>
 

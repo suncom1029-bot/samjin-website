@@ -86,6 +86,10 @@ samjin-new/
 ├── recruit/
 │   ├── jobs.php               # 채용공고 페이지 (채용정보 목록·복리후생)
 │   └── process.php            # 채용절차 페이지 (5단계 프로세스)
+├── ir/
+│   ├── info.php               # IR 정보 페이지 (회사소개·공지사항·자료실)
+│   ├── stock.php              # 주식 정보 페이지 (실시간 주가·투자지표·차트)
+│   └── financial.php          # 재무 정보 페이지 (재무제표·배당·실적)
 ├── includes/
 │   ├── header.php            # Sticky 헤더 + GNB (text-lg)
 │   ├── footer.php            # 푸터 + 사이트맵
@@ -273,3 +277,10 @@ html, body {
   - Phase 4 ✅: Tier 1 고객사 포트폴리오 (index.php에 글로벌 파트너 섹션)
   - Phase 5 ✅: 기존 페이지 보완 (CEO/철학/역사 P·A·I 프레임 + IR 질적전환 내러티브)
   - Phase 6: 네비게이션 (이미 Phase 2에서 완료)
+- **IR Pages** (2026-06-08): 투자정보 3개 페이지 구축 (독립 페이지 방식)
+  - `/ir/info.php`: IR 정보 (회사소개, 공지사항, 자료실, 경영진, 투자자 연락처)
+  - `/ir/stock.php`: 주식 정보 (실시간 주가 mock, 거래량, 투자지표, 12개월 차트)
+  - `/ir/financial.php`: 재무 정보 (2024~2026 재무제표, 분기별 실적, 배당 내역)
+  - Mock 데이터: `includes/mock-data.php`에 stock_info, financial_data, dividend_history 추가
+  - Header/Footer: 투자정보 드롭다운 메뉴 + 빠른 링크에 3개 페이지 연결
+  - 향후 주가 API 연동 가능하도록 구조 설계

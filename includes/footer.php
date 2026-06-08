@@ -43,6 +43,14 @@
               </ul>
             </div>
             <div class="mt-4">
+              <p class="font-semibold text-emerald-400 mb-2">투자정보</p>
+              <ul class="space-y-1 text-gray-300">
+                <li><a href="/ir/info.php" class="hover:text-emerald-400 transition">IR 정보</a></li>
+                <li><a href="/ir/stock.php" class="hover:text-emerald-400 transition">주식 정보</a></li>
+                <li><a href="/ir/financial.php" class="hover:text-emerald-400 transition">재무 정보</a></li>
+              </ul>
+            </div>
+            <div class="mt-4">
               <p class="font-semibold text-emerald-400 mb-2">제품</p>
               <ul class="space-y-1 text-gray-300">
                 <li><a href="/products/display.php" class="hover:text-emerald-400 transition">Display 부품</a></li>

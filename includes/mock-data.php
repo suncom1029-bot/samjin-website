@@ -151,15 +151,108 @@ $ir_data = [
 $ir_sections = [
     [
         'title' => 'IR 정보',
-        'icon' => ''
+        'icon' => '📊',
+        'link' => '/ir/info.php'
     ],
     [
         'title' => '주식 정보',
-        'icon' => ''
+        'icon' => '📈',
+        'link' => '/ir/stock.php'
     ],
     [
         'title' => '재무 정보',
-        'icon' => ''
+        'icon' => '💹',
+        'link' => '/ir/financial.php'
+    ]
+];
+
+// ======================== IR 주식 정보 ========================
+$stock_info = [
+    'market_cap' => '327,000',
+    'listed_date' => '2023.08.04',
+    'trading_volume' => '1,234,567',
+    'trading_amount' => '1,283,234,567',
+    'high_52w' => 1450,
+    'low_52w' => 875,
+    'eps' => 156.45,
+    'per' => 6.65,
+    'pbr' => 0.98,
+    'dividend_per_share' => 120,
+    'dividend_yield' => 11.53
+];
+
+// ======================== IR 재무 정보 ========================
+$financial_data = [
+    '2024' => [
+        'revenue' => 847200,
+        'operating_profit' => 68340,
+        'net_income' => 54180,
+        'assets' => 892450,
+        'equity' => 667890
+    ],
+    '2025' => [
+        'revenue' => 923500,
+        'operating_profit' => 82450,
+        'net_income' => 68970,
+        'assets' => 956340,
+        'equity' => 721450
+    ],
+    '2026_estimate' => [
+        'revenue' => 1015600,
+        'operating_profit' => 97340,
+        'net_income' => 81250,
+        'assets' => 1035890,
+        'equity' => 789650
+    ]
+];
+
+// ======================== 배당 정보 ========================
+$dividend_history = [
+    [
+        'year' => '2025',
+        'per_share' => 120,
+        'payout_ratio' => 39.5,
+        'dividend_yield' => 11.53,
+        'ex_date' => '2026.03.15',
+        'payment_date' => '2026.04.10'
+    ],
+    [
+        'year' => '2024',
+        'per_share' => 95,
+        'payout_ratio' => 35.2,
+        'dividend_yield' => 9.12,
+        'ex_date' => '2025.03.10',
+        'payment_date' => '2025.04.05'
+    ],
+    [
+        'year' => '2023',
+        'per_share' => 78,
+        'payout_ratio' => 32.1,
+        'dividend_yield' => 8.95,
+        'ex_date' => '2024.03.12',
+        'payment_date' => '2024.04.08'
+    ]
+];
+
+// ======================== IR 공지사항 ========================
+$ir_notices = [
+    [
+        'date' => '2026.06.08',
+        'title' => '2026년 상반기 실적발표 안내',
+        'content' => '삼진엘앤디는 2026년 상반기 경영실적을 발표합니다.',
+        'link' => '#'
+    ],
+    [
+        'date' => '2026.05.15',
+        'title' => '제42기 정기주주총회 안내',
+        'content' => '2026년 정기주주총회 개최 일정 및 권리내용을 안내합니다.',
+        'link' => '#'
+    ],
+    [
+        'date' => '2026.04.20',
+        'title' => '2025년 배당금 지급 안내',
+        'content' => '2025년 기말배당금 지급 일정을 안내합니다.',
+        'link' => '#'
     ]
 ];
 ?>
