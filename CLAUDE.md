@@ -275,7 +275,7 @@ html, body {
   - Phase 1 ✅: 브랜드 키워드 (Precision · Automation · Intelligence) 적용
   - Phase 2 ✅: 신규 페이지 3개 추가 (hydrogen-tank, automation, intelligence) + 네비게이션 통합
   - Phase 3 ✅: Battery Safety 강화 (products/battery.php에 LithiumPrevent™ 섹션)
-  - Phase 4 ✅: Tier 1 고객사 포트폴리오 (index.php에 글로벌 파트너 섹션)
+  - Phase 4: Tier 1 고객사 포트폴리오 (제외 - 메인화면 정리)
   - Phase 5 ✅: 기존 페이지 보완 (CEO/철학/역사 P·A·I 프레임 + IR 질적전환 내러티브)
   - Phase 6: 네비게이션 (이미 Phase 2에서 완료)
 - **IR Pages** (2026-06-08): 투자정보 3개 페이지 구축 (독립 페이지 방식)
