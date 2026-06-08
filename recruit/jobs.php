@@ -113,7 +113,7 @@
             <p class="text-gray-600 leading-relaxed text-lg mb-4"><?php echo $job['summary']; ?></p>
             <div class="text-right">
               <a href="#" class="inline-block text-emerald-500 font-semibold hover:text-emerald-600 transition">
-                지원하기 →
+                세부내역 →
               </a>
             </div>
           </article>
