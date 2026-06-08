@@ -22,49 +22,60 @@
       <!-- Sitemap -->
       <div>
         <h4 class="font-semibold mb-4">빠른 링크</h4>
-        <div class="grid grid-cols-2 gap-4 text-sm">
+        <div class="grid grid-cols-5 gap-8 text-sm">
+          <!-- 회사 -->
           <div>
             <p class="font-semibold text-emerald-400 mb-2">회사</p>
             <ul class="space-y-1 text-gray-300">
               <li><a href="/company/greeting.php" class="hover:text-emerald-400 transition">CEO 인사말</a></li>
               <li><a href="/company/overview.php" class="hover:text-emerald-400 transition">회사개요</a></li>
-              <li><a href="/company/history.php" class="hover:text-emerald-400 transition">회사연혁</a></li>
-              <li><a href="#" class="hover:text-emerald-400 transition">조직도</a></li>
+              <li><a href="/company/organization.php" class="hover:text-emerald-400 transition">조직도</a></li>
               <li><a href="/company/facilities.php" class="hover:text-emerald-400 transition">사업장</a></li>
             </ul>
           </div>
+
+          <!-- 경영관리 -->
           <div>
-            <div>
-              <p class="font-semibold text-emerald-400 mb-2">경영관리</p>
-              <ul class="space-y-1 text-gray-300">
-                <li><a href="/management/philosophy.php" class="hover:text-emerald-400 transition">경영이념 및 비전</a></li>
-                <li><a href="/management/competency.php" class="hover:text-emerald-400 transition">핵심역량 및 기술</a></li>
-                <li><a href="/management/policy.php" class="hover:text-emerald-400 transition">품질/환경방침</a></li>
-                <li><a href="/management/awards.php" class="hover:text-emerald-400 transition">수상 및 인증</a></li>
-              </ul>
-            </div>
-            <div class="mt-4">
-              <p class="font-semibold text-emerald-400 mb-2">투자정보</p>
-              <ul class="space-y-1 text-gray-300">
-                <li><a href="/ir/info.php" class="hover:text-emerald-400 transition">IR 정보</a></li>
-                <li><a href="/ir/stock.php" class="hover:text-emerald-400 transition">주식 정보</a></li>
-                <li><a href="/ir/financial.php" class="hover:text-emerald-400 transition">재무 정보</a></li>
-              </ul>
-            </div>
-            <div class="mt-4">
-              <p class="font-semibold text-emerald-400 mb-2">제품</p>
-              <ul class="space-y-1 text-gray-300">
-                <li><a href="/products/display.php" class="hover:text-emerald-400 transition">Display 부품</a></li>
-                <li><a href="/products/battery.php" class="hover:text-emerald-400 transition">2차전지</a></li>
-                <li><a href="/products/oa.php" class="hover:text-emerald-400 transition">OA 제품</a></li>
-                <li><a href="/products/new-materials.php" class="hover:text-emerald-400 transition">신소재 사업</a></li>
-                <li><a href="/products/mold.php" class="hover:text-emerald-400 transition">금형 & 핫런너</a></li>
-                <li><a href="/products/lgp.php" class="hover:text-emerald-400 transition">LGP</a></li>
-                <li class="pt-1 border-t border-slate-700"><a href="/products/hydrogen-tank.php" class="hover:text-emerald-400 transition text-sm">수소 탱크</a></li>
-                <li><a href="/products/automation.php" class="hover:text-emerald-400 transition text-sm">자동화 솔루션</a></li>
-                <li><a href="/products/intelligence.php" class="hover:text-emerald-400 transition text-sm">AI 지능화</a></li>
-              </ul>
-            </div>
+            <p class="font-semibold text-emerald-400 mb-2">경영관리</p>
+            <ul class="space-y-1 text-gray-300">
+              <li><a href="/management/philosophy.php" class="hover:text-emerald-400 transition">경영이념 및 비전</a></li>
+              <li><a href="/management/competency.php" class="hover:text-emerald-400 transition">핵심역량 및 기술</a></li>
+              <li><a href="/management/policy.php" class="hover:text-emerald-400 transition">품질/환경방침</a></li>
+              <li><a href="/management/awards.php" class="hover:text-emerald-400 transition">수상 및 인증</a></li>
+            </ul>
+          </div>
+
+          <!-- 투자정보 -->
+          <div>
+            <p class="font-semibold text-emerald-400 mb-2">투자정보</p>
+            <ul class="space-y-1 text-gray-300">
+              <li><a href="/ir/info.php" class="hover:text-emerald-400 transition">IR 정보</a></li>
+              <li><a href="/ir/stock.php" class="hover:text-emerald-400 transition">주식 정보</a></li>
+              <li><a href="/ir/financial.php" class="hover:text-emerald-400 transition">재무 정보</a></li>
+            </ul>
+          </div>
+
+          <!-- 제품 -->
+          <div>
+            <p class="font-semibold text-emerald-400 mb-2">제품</p>
+            <ul class="space-y-1 text-gray-300">
+              <li><a href="/products/display.php" class="hover:text-emerald-400 transition">Display 부품</a></li>
+              <li><a href="/products/battery.php" class="hover:text-emerald-400 transition">2차전지</a></li>
+              <li><a href="/products/oa.php" class="hover:text-emerald-400 transition">OA 제품</a></li>
+              <li><a href="/products/new-materials.php" class="hover:text-emerald-400 transition">신소재 사업</a></li>
+              <li><a href="/products/mold.php" class="hover:text-emerald-400 transition">금형 & 핫런너</a></li>
+              <li><a href="/products/lgp.php" class="hover:text-emerald-400 transition">LGP</a></li>
+            </ul>
+          </div>
+
+          <!-- 수소 탱크 & 추가 -->
+          <div>
+            <p class="font-semibold text-emerald-400 mb-2">수소 탱크</p>
+            <ul class="space-y-1 text-gray-300">
+              <li><a href="/products/hydrogen-tank.php" class="hover:text-emerald-400 transition">수소 탱크</a></li>
+              <li><a href="/products/automation.php" class="hover:text-emerald-400 transition">자동화 솔루션</a></li>
+              <li><a href="/products/intelligence.php" class="hover:text-emerald-400 transition">AI 지능화</a></li>
+            </ul>
           </div>
         </div>
       </div>
